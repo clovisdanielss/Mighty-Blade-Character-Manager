@@ -18,7 +18,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "graca_divina"
+        ],
         "outros": [
           "graca_divina_requisito_caminhada_magica"
         ],
@@ -54,7 +56,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "abencoar_aliados_1"
+        ],
         "outros": [],
         "texto": "Nível 5, Abençoar Aliados 1"
       },
@@ -168,6 +172,10 @@
         {
           "tipo": "classe",
           "id": "patrulheiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
         }
       ],
       "descricao": "Você sempre rola +1d6 em seus testes de equilíbrio, salto, piruetas e coisas semelhantes. Além disso, você sofre apenas metade dos danos por queda.",
@@ -212,6 +220,40 @@
       }
     },
     {
+      "id": "agilidade_heroica",
+      "nome": "Agilidade Heróica",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você possui uma agilidade e flexibilidade que já lhe salvaram em muitas ocasiões. Você tem Agilidade +1.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
       "id": "anular_golpe",
       "nome": "Anular Golpe",
       "categoria": "tecnica",
@@ -228,7 +270,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "defesa_agressiva"
+        ],
         "outros": [
           "defesa_agressiva_ataques_desarmados",
           "adiciona_2_nos"
@@ -306,7 +350,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "detectar_magia"
+        ],
         "outros": [],
         "texto": "Detectar Magia"
       },
@@ -322,6 +368,10 @@
         {
           "tipo": "classe",
           "id": "sacerdote"
+        },
+        {
+          "tipo": "classe",
+          "id": "druida"
         }
       ],
       "descricao": "Sempre que for alvo de uma magia que cause dano ou perda de vida, você pode reduzir aquele dano ou perda de vida pela metade. Essa Habilidade não afeta quaisquer outros efeitos da magia além de dano ou perda de vida.",
@@ -348,7 +398,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "mente_disciplinada"
+        ],
         "outros": [
           "mente_disciplinada"
         ],
@@ -406,6 +458,77 @@
       }
     },
     {
+      "id": "arco_voltaico",
+      "nome": "Arco Voltaico",
+      "categoria": "magia",
+      "acao": "reacao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 15
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 12
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "relampago_1",
+          "teleporte_1"
+        ],
+        "outros": [],
+        "texto": "Relâmpago 1, Teleporte 1"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        }
+      ],
+      "descricao": "Você aprendeu a usar sua capacidade de teleporte na velocidade de um raio! Desenhando uma Runa Arcana sobre si mesmo, você sempre pode ativá-la se for alvo de um ataque ou magia que cause dano (mas não perda de vida ou outros efeitos que não causem dano). Quando fizer isso, você se teleporta para algum lugar que você possa ver e que esteja a um número de metros igual à sua Inteligência de onde você está, evitando a ação completamente. Essa Runa Arcana dura uma quantidade de horas igual à sua Vontade, mas se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 96
+      }
+    },
+    {
+      "id": "arma_elemental",
+      "nome": "Arma Elemental",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 5
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Quando sacar uma arma que tenha sua Runa Pessoal desenhada sobre ela você pode fazer com que a arma irrompa em energia elemental, causando uma quantidade de dano extra igual à sua Inteligência - este dano deve ser por Eletricidade, Fogo ou Frio. A escolha do tipo de energia é feito quando você saca a arma, e o efeito só se dissipa quando você soltar (ou embainhar) a arma.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 127
+      }
+    },
+    {
       "id": "arma_fiel",
       "nome": "Arma Fiel",
       "categoria": "magia",
@@ -421,7 +544,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "enfeiticar_arma_1"
+        ],
         "outros": [
           "enfeiticar_arma_1_mal_da_arma",
           "mais_um_dano_adicional_igual_a"
@@ -571,6 +696,10 @@
         {
           "tipo": "classe",
           "id": "patrulheiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
         }
       ],
       "descricao": "Se encontrar armadilhas, você pode fazer testes de Inteligência para desarmá-las. Além disso, se tiver os materiais e o tempo necessários, você pode armar uma armadilha. Faça um teste de Inteligência: O resultado do teste será a dificuldade para a armadilha ser percebida e desarmada.",
@@ -582,91 +711,40 @@
       }
     },
     {
-      "id": "armas_1",
-      "nome": "Armas 1",
-      "categoria": "tecnica",
-      "acao": "suporte",
+      "id": "armadura_fiel",
+      "nome": "Armadura Fiel",
+      "categoria": "magia",
+      "acao": "acao",
       "nivel": "basica",
       "mana": {
-        "tipo": "nenhum",
-        "valor": null
+        "tipo": "fixo",
+        "valor": 30
       },
       "dificuldade_magia": {
-        "tipo": "nenhum",
-        "valor": null
+        "tipo": "fixo",
+        "valor": 12
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
-        "outros": []
+        "habilidades": [
+          "enfeiticar_armadura",
+          "arma_fiel"
+        ],
+        "outros": [],
+        "texto": "Arma Fiel, Enfeitiçar Armadura"
       },
       "origens": [
         {
           "tipo": "classe",
-          "id": "espadachim"
-        },
-        {
-          "tipo": "classe",
-          "id": "guerreiro"
-        },
-        {
-          "tipo": "classe",
-          "id": "ladino"
-        },
-        {
-          "tipo": "classe",
-          "id": "xama"
+          "id": "runico"
         }
       ],
-      "descricao": "Você treinou para usar duas armas em combate de forma eficiente. Você pode fazer até dois ataques corporais, cada ele com uma arma diferente (incuindo ataques desarmados) desde que pelo menos uma das armas tenha uma FN igual à metade (ou menos) do que a Força do personagem.",
-      "efeitos_estruturados": [],
-      "especial": "Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques - mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.",
-      "fonte": {
-        "livro": "guia_basico_3e",
-        "pagina": 91
-      }
-    },
-    {
-      "id": "armas_2",
-      "nome": "Armas 2",
-      "categoria": "tecnica",
-      "acao": "suporte",
-      "nivel": "avancada",
-      "mana": {
-        "tipo": "nenhum",
-        "valor": null
-      },
-      "dificuldade_magia": {
-        "tipo": "nenhum",
-        "valor": null
-      },
-      "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [],
-        "outros": [
-          "combate_com_duas"
-        ]
-      },
-      "origens": [
-        {
-          "tipo": "classe",
-          "id": "espadachim"
-        },
-        {
-          "tipo": "classe",
-          "id": "guerreiro"
-        },
-        {
-          "tipo": "classe",
-          "id": "ladino"
-        }
-      ],
-      "descricao": "Você possui uma bravura Habilidade (Técnica) - Suporte petulante e uma confiança inabalável nas suas Requisito: Nível 5, Combate com Duas próprias habilidades. Enquanto não estiver Armas 1. usando armadura, você recebe +1 na Defesa Descrição: Como Combate com Duas para cada 2 pontos de Vontade. Armas 1, mas você pode usar duas armas com Esse é um bônus de Esquiva. a mesma FN. Classes 93 Coração da Batalha Retalhar Habilidade (Característica) - Reação Habilidade (técnica) - Suporte Requisito: Nível 5 Requisito: Nível 5, Corte Arterial Descrição: Quando sofrer algum dano Descrição: Sempre que você rolar um",
+      "descricao": "Você pode fazer uma vestimenta vir até você desenhando uma Runa Arcana no ar entre você e ela. O item precisa estar em sua linha de visão, e irá desaparecer de onde está e aparecer vestido no seu corpo. Essa magia só funciona com itens que possam ser vestidos, como armaduras, roupas, mochilas ou cintos e o item precisa estar marcado com sua Runa pessoal. Além disso, você precisa ter espaço para que o item seja vestido para que essa magia funcione - é impossível trazer uma mochila se você já estiver usando alguma coisa nas costas, ou trazer uma armadura se você já estiver usando uma.",
       "efeitos_estruturados": [],
       "especial": null,
       "fonte": {
         "livro": "guia_basico_3e",
-        "pagina": 92
+        "pagina": 125
       }
     },
     {
@@ -823,7 +901,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "caminhada_magica"
+        ],
         "outros": [
           "volva_flores",
           "frutas_ou_raizes"
@@ -834,6 +914,10 @@
         {
           "tipo": "classe",
           "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
         }
       ],
       "descricao": "Desenhando um Selo Místico sobre uma criatura viva, você faz surgir em suas costas um grande par de asas. O alvo ganha a Habilidade Asas Pesadas. Esse Selo Místico dura por 1 Hora.",
@@ -949,6 +1033,40 @@
       }
     },
     {
+      "id": "astuto",
+      "nome": "Astuto",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "tailox"
+        }
+      ],
+      "descricao": "Você é mais astuto que a maioria dos indivíduos da sua raça. Você tem Inteligência +1 e recebe +2 em todos os testes de Inteligência e Agilidade que envolvam percepção, mover-se em silêncio, camuflagem furtar bolsos, e teste semelhantes.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 75
+      }
+    },
+    {
       "id": "ataque_aleijador",
       "nome": "Ataque Aleijador",
       "categoria": "tecnica",
@@ -1005,7 +1123,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "arma_relampejante"
+        ],
         "outros": [],
         "texto": "Nível 5, Arma Relampejante"
       },
@@ -1181,7 +1301,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "arma_incandescente"
+        ],
         "outros": [
           "habilidade_tecnica_acao"
         ],
@@ -1241,6 +1363,50 @@
       }
     },
     {
+      "id": "ataque_redirecionado",
+      "nome": "Ataque Redirecionado",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "evasao"
+        ],
+        "outros": [],
+        "texto": "Evasão"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        },
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
+        }
+      ],
+      "descricao": "Quando um oponente errar um ataque corporal contra você, você pode direcionar o ataque dele para outro alvo. O novo alvo precisa estar adjacente a você ou ao oponente que errou o ataque. Esse ataque acerta automaticamente - sem chance de errar ou de ser um sucesso decisivo. Esta Habilidade só pode ser usada uma vez por rodada. Combate com Duas",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 78
+      }
+    },
+    {
       "id": "ataque_simultaneo",
       "nome": "Ataque Simultâneo",
       "categoria": "tecnica",
@@ -1256,7 +1422,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "combate_em_grupo"
+        ],
         "outros": [
           "combate_em_grupo"
         ],
@@ -1277,6 +1445,40 @@
       }
     },
     {
+      "id": "atletismo",
+      "nome": "Atletismo",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você treinou exercícios físicos durante muito tempo - seja por vontade própria ou por necessidade - e é muito bom nisso. Você recebe +2 em testes para correr, escalar, nadar, se equilibrar, prender o fôlego ou qualquer outra atividade que exija força física e coordenação motora. Esse bônus também se aplica em testes para evitar ser derrubado.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
       "id": "atropelar",
       "nome": "Atropelar",
       "categoria": "tecnica",
@@ -1292,7 +1494,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "ataque_do_bufalo"
+        ],
         "outros": [
           "ataque_do_bufalo_pode_cancelar_o_efeito_quando_quiser",
           "recebem"
@@ -1366,7 +1570,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "curar_ferimentos_1"
+        ],
         "outros": [
           "curar_ferimentos_1_requisito_dogma"
         ],
@@ -1420,6 +1626,76 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 132
+      }
+    },
+    {
+      "id": "austeridade",
+      "nome": "Austeridade",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Código da Honestidade"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Sua integridade e retidão são tão inabaláveis que é impossível para outros influenciarem suas decisões. Você é imune a efeitos mentais (mas não Ilusões ou efeitos de Medo) e tentativas de influenciar sua opinião com persuasão e manipulação.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 113
+      }
+    },
+    {
+      "id": "banir",
+      "nome": "Banir",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 30
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "codigo_da_justica"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Código da Justiça"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Sua crença na ordem natural das coisas é tão arrebatadora que você é capaz de purgar criaturas geradas do caos. Tocando uma criatura do tipo morto-vivo, infernal ou espírito, você pode destruí-las (no caso de mortos-vivos e espíritos) ou bani-las de volta aos seus planos de origem (no caso de infernais) a menos que passem em um teste de Vontade (Dificuldade igual à sua Determinação). Criaturas desses tipos com Mente Vazia não podem resistir a esse efeito e são automaticamente destruídas ou banidas.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 115
       }
     },
     {
@@ -1484,6 +1760,10 @@
         {
           "tipo": "classe",
           "id": "xama"
+        },
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
         }
       ],
       "descricao": "Você é capaz de se comunicar com qualquer Besta do tipo Mamífero Ave, Réptil ou Peixe. Essa comunicação é rudimentar, baseada nas capacidades da criatura em questão. Além disso, você receber +2 em todas as rolagens envolvendo essas criaturas e poder alterar o temperamento delas em 1 passo (Furioso ou Cruel para Agressivo, Agressivo para Sobrevivente, Sobrevivente para Pacífico e Pacífico para Covarde ou vice-versa) com um teste de Vontade (Dificuldade igual à Determinação do alvo) - esse efeito não funciona em animais com temperamento Servo ou Protetor Animais selvagens só irão aceitar “conversar” se tiverem temperamento pacífico ou sobrevivente, a menos que estejam aprisionados ou encurralados de alguma forma.",
@@ -1638,6 +1918,42 @@
       }
     },
     {
+      "id": "bons_frutos",
+      "nome": "Bons Frutos",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 0
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "sabedoria_selvagem"
+        ],
+        "outros": [],
+        "texto": "Sabedoria Selvagem"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        }
+      ],
+      "descricao": "Desenhando um Selo Místico sobre uma planta você faz com que ela desenvolva flores, frutas ou raízes. Uma planta só vai gerar flores ou frutos se ela normalmente for capaz disso. Utilizando essa magia sobre uma planta comestível, é possível alimentar um número de pessoas igual à sua Vontade. Um personagem que consuma uma dessas plantas recupera o dobro de Pontos de vida e Mana por descanso durante as próximas 6 horas. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 84
+      }
+    },
+    {
       "id": "bravura_selvagem_1",
       "nome": "Bravura Selvagem 1",
       "categoria": "caracteristica",
@@ -1694,7 +2010,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "bravura_selvagem_1"
+        ],
         "outros": [],
         "texto": "Nível 5, Bravura Selvagem 1"
       },
@@ -1710,6 +2028,78 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 44
+      }
+    },
+    {
+      "id": "bracos_extras",
+      "nome": "Braços Extras",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "mahok"
+        }
+      ],
+      "descricao": "Você possui um par de braços a mais. Estes braços podem ser utilizados para segurar itens - incluindo escudos e armas, permitindo que você utilize duas armas com a característica Duas Mãos ao mesmo tempo - e auxiliam em tentativas de segurar e agarrar com firmeza, oferecendo um bônus de +1 em seus testes de agarrar, apertar e escalar. Além disso, quando apertar um alvo você causa 2 pontos de dano adicionais. Esses bônus se acumulam com os bônus de Abraço de Pedra.",
+      "efeitos_estruturados": [],
+      "especial": "Você só pode selecionar essa Habilidade durante a criação do personagem.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 72
+      }
+    },
+    {
+      "id": "brigao",
+      "nome": "Brigão",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Você está acostumado à combater desarmado. Você rola +1 em seus ataques desarmados e adiciona +2 nos danos desses ataques. Além disso, quando estiver realizando apenas ataques desarmados em um turno, você pode realizar 2 ataques sem incorrer nas regras de Inaptidão.",
+      "efeitos_estruturados": [],
+      "especial": "Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques desarmados - mas você ainda pode fazer um segundo ataque desarmado normal no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 103
       }
     },
     {
@@ -1761,7 +2151,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "comunhao_com_espiritos"
+        ],
         "outros": [
           "comunhao_com_espiritos"
         ],
@@ -1907,7 +2299,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "eloquente"
+        ],
         "outros": [
           "eloquente_fervoroso_que_motiva_todos_seus_aliados_eles"
         ],
@@ -1928,6 +2322,78 @@
       }
     },
     {
+      "id": "cancao_desconcentrante",
+      "nome": "Canção Desconcentrante",
+      "categoria": "musica",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "melodia_do_enjoo"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Melodia do Enjoo"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        }
+      ],
+      "descricao": "Você canta uma canção com tom jocoso e com uma melodia irritante que prende a atenção dos ouvintes e não permite que eles se concentrem. Todos que estiverem a até 10 metros de você e puderem ouvir a canção rolam um confronto de Vontade contra você a cada turno enquanto você continuar cantando. Alvos que tenham um resultado menor do que o seu são considerados Distraídos até o final do seu próximo turno. Este é um efeito mental.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 81
+      }
+    },
+    {
+      "id": "cancao_desesperadora",
+      "nome": "Canção Desesperadora",
+      "categoria": "musica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 30
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "cancao_da_provocacao"
+        ],
+        "outros": [],
+        "texto": "Canção da Provocação"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        }
+      ],
+      "descricao": "Você canta uma música que fala sobre a morte, destruição e derrotas dos seus adversários, instilando medo em seus corações. Escolha uma profissão, raça, cultura ou classe social. Todas as criaturas do grupo escolhido que puderem entendê-lo e ouvirem sua música por pelo menos 2 turnos rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado menor que o seu precisam usar sua ação de movimento para tentar se afastar de você enquanto você continuar a tocar essa Música. Este é um efeito de medo.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 78
+      }
+    },
+    {
       "id": "cancao_do_requiem",
       "nome": "Canção do Réquiem",
       "categoria": "musica",
@@ -1944,7 +2410,8 @@
       "requisitos": {
         "nivel_minimo": 10,
         "habilidades": [
-          "virtuoso"
+          "virtuoso",
+          "cancao_desesperadora"
         ],
         "outros": [
           "can"
@@ -2017,7 +2484,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "melodia_do_repouso"
+        ],
         "outros": [],
         "texto": "Melodia do Repouso"
       },
@@ -2100,6 +2569,44 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 56
+      }
+    },
+    {
+      "id": "cavaleiro_experiente",
+      "nome": "Cavaleiro Experiente",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "fira"
+        },
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Você passou muito tempo com animais de montaria e conhece seus hábitos, características e como lidar com eles. Você recebe +2 em todas as suas rolagens referentes à criaturas com as Habilidades Montaria e Paquiderme e recebe +2 em seus testes de ataque enquanto estiver montando uma dessas criaturas.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 60
       }
     },
     {
@@ -2190,7 +2697,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "bencao_de_ellenis"
+        ],
         "outros": [
           "bencao_de_ellenis_cura_espiritual"
         ],
@@ -2320,6 +2829,42 @@
       }
     },
     {
+      "id": "chuva_de_flechas_2",
+      "nome": "Chuva de Flechas 2",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 40
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "chuva_de_flechas"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Chuva de Flechas"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        }
+      ],
+      "descricao": "Você pode atirar até 6 flechas em um só ataque. Faça uma rolagem para cada flecha, que podem ter alvos diferentes.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 121
+      }
+    },
+    {
       "id": "comando_heroico",
       "nome": "Comando Heroico",
       "categoria": "tecnica",
@@ -2356,6 +2901,126 @@
       }
     },
     {
+      "id": "combate_com_duas_armas_1",
+      "nome": "Combate com Duas Armas 1",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        },
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Você treinou para usar duas armas em combate de forma eficiente. Você pode fazer até dois ataques corporais, cada ele com uma arma diferente (incluindo ataques desarmados) desde que pelo menos uma das armas tenha uma FN igual à metade (ou menos) do que a Força do personagem.",
+      "efeitos_estruturados": [],
+      "especial": "Se você utilizar uma Habilidade de Ação, seus efeitos se aplicam a apenas um dos seus ataques - mas você ainda pode fazer um ataque normal com a outra arma no mesmo turno, antes ou depois de utilizar a Habilidade de Ação.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 92
+      }
+    },
+    {
+      "id": "combate_com_duas_armas_2",
+      "nome": "Combate com Duas Armas 2",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "combate_com_duas_armas_1"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Combate com Duas Armas 1."
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        },
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
+        }
+      ],
+      "descricao": "Como em Combate com Duas Armas 1, mas você pode usar duas armas com a mesma FN.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 93
+      }
+    },
+    {
+      "id": "combate_em_grupo",
+      "nome": "Combate em Grupo",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        }
+      ],
+      "descricao": "Você ganha +1 nos testes de ataques corporais para cada aliado que esteja em combate corporal com o alvo.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 103
+      }
+    },
+    {
       "id": "combate_pesado",
       "nome": "Combate Pesado",
       "categoria": "tecnica",
@@ -2371,7 +3036,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "combate_tatico"
+        ],
         "outros": [
           "combate_tatico_librio"
         ],
@@ -2443,6 +3110,213 @@
       }
     },
     {
+      "id": "companheiro_animal_1",
+      "nome": "Companheiro Animal 1",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Você possui uma ligação de fidelidade com um animal. Escolha uma Besta dos tipos Mamífero, Ave, Réptil ou Peixe com Ameaça 0 que exista na região em que você está. O animal escolhido será atraído para você e lhe será fiel até a morte (ele passa a ter o temperamento Protetor). Você pode liberar o animal à qualquer momento, e ele irá retornar à natureza, voltando a ter seu temperamento normal (mas retendo benefícios que tenha recebido por suas Habilidades de Companheiro Animal). Se você liberar o animal ou se o animal morrer, você pode atrair outro animal - que não precisa ser do mesmo tipo escolhido anteriormente. Você pode atrair um novo Companheiro Animal 1 vez a cada dia, e só pode atrair 1 animal de cada vez.",
+      "efeitos_estruturados": [],
+      "especial": "Se essa Habilidade for escolhida durante a criação do personagem, o animal já estará com você, independente de onde você esteja e onde seja o habitat normal do animal.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 85
+      }
+    },
+    {
+      "id": "companheiro_animal_2",
+      "nome": "Companheiro Animal 2",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "companheiro_animal_1"
+        ],
+        "outros": [],
+        "texto": "Companheiro Animal 1"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Seu companheiro Animal recebe +1 em 2 Atributos à sua escolha, +5 Pontos de vida e +5 Pontos de Mana. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 85
+      }
+    },
+    {
+      "id": "companheiro_animal_3",
+      "nome": "Companheiro Animal 3",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "companheiro_animal_2"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Companheiro animal 2"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Seu Companheiro Animal recebe +1 em todos os seus Atributos e +10 Pontos de Vida ou +10 Pontos de Mana à sua escolha. Além disso, seu Companheiro Animal recebe uma Habilidade do tipo Técnica à sua escolha (desde que faça sentido; o Mestre tem a palavra final sobre o assunto).",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 87
+      }
+    },
+    {
+      "id": "companheiro_espiritual",
+      "nome": "Companheiro Espiritual",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "invocar_espirito_animal",
+          "espirito_animal"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Invocar Espírito Animal"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Seus Espíritos Animais conjurados duram permanentemente (mas você ainda pode cancelar o efeito quando quiser) e recebem +20 PV, ou +20 PM, ou +10 PV e +10 PM à sua escolha quando você os conjura. No entanto, enquanto esses Espíritos Animais estiverem conjurados, você não pode recuperar os Pontos de Mana gastos para conjurá-los. Depois que eles forem dissipados (ou destruídos) você pode recuperar esses Pontos de Mana normalmente.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 140
+      }
+    },
+    {
+      "id": "comunhao_com_espiritos",
+      "nome": "Comunhão com Espíritos",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "contato_com_espiritos"
+        ],
+        "outros": [],
+        "texto": "Contato com Espíritos"
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "levent"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Enquanto estiver utilizando Contato com Espíritos, você pode tocar outro personagem que será capaz de ouvir e ver qualquer espírito num raio de 20 metros por 10 minutos. Um personagem sob esse efeito pode gastar 10 Pontos de Mana para ser capaz de tocar espíritos por 1 minuto.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 69
+      }
+    },
+    {
       "id": "congelar",
       "nome": "Congelar",
       "categoria": "magia",
@@ -2497,7 +3371,11 @@
       "origens": [
         {
           "tipo": "classe",
-          "id": null
+          "id": "feiticeiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "runico"
         }
       ],
       "descricao": "Você é capaz de decifrar e canalizar os fenômenos do sobrenatural. Você pode ler e utilizar tomos mágicos e desenhar Runas Arcanas (veja a página 36 para regras de magia). Você também é capaz de canalizar sua energia para a conjuração de fenômenos mágicos com eficiência. Sempre que usar uma Habilidade do tipo Magia, você pode gastar Pontos de Vida ao invés de Pontos de Mana para pagar seu custo. Nesse caso, cada 2 Pontos de Vida equivalem a 1 Ponto de Mana.",
@@ -2505,7 +3383,7 @@
       "especial": null,
       "fonte": {
         "livro": "guia_basico_3e",
-        "pagina": null
+        "pagina": 95
       }
     },
     {
@@ -2530,15 +3408,19 @@
       "origens": [
         {
           "tipo": "classe",
-          "id": null
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
         }
       ],
-      "descricao": "Você está ligado as energias místicas provenientes de forças superiores e consegue comungar com elas. Você pode ler e utilizar tomos mágicos e desenhar Selos Místicos (veja a página 36 para regras de magia). Você também pode entrar em um estado de transe se concentrando por 1 minuto. Enquanto continuar meditando dessa forma, você recupera uma quantidade de Pontos de Mana igual à sua Vontade a cada 10 minutos.",
+      "descricao": "Você está ligado às energias místicas provenientes de forças superiores e consegue comungar com elas. Você pode ler e utilizar tomos mágicos e desenhar Selos Místicos (veja a página 36 para regras de magia). Você também pode entrar em um estado de transe se concentrando por 1 minuto. Enquanto continuar meditando dessa forma, você recupera uma quantidade de Pontos de Mana igual à sua Vontade a cada 10 minutos.",
       "efeitos_estruturados": [],
       "especial": null,
       "fonte": {
         "livro": "guia_basico_3e",
-        "pagina": null
+        "pagina": 83
       }
     },
     {
@@ -2579,6 +3461,42 @@
       }
     },
     {
+      "id": "conjurar_arma_dos_deuses",
+      "nome": "Conjurar Arma dos Deuses",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "dogma"
+        ],
+        "outros": [],
+        "texto": "Dogma"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Você desenha um Selo Místico no ar que se materializa na forma da arma favorecida pela sua divindade (consulte a lista de Dogmas na página 143 para ver a arma de sua divindade). O Selo Místico que conjura a arma se dissipa após 1 minuto, mas se você soltar a arma ele se dissipa imediatamente. Conjurar Broquel Mís-",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 131
+      }
+    },
+    {
       "id": "conjurar_escudo",
       "nome": "Conjurar Escudo",
       "categoria": "magia",
@@ -2612,6 +3530,78 @@
       }
     },
     {
+      "id": "conjurar_falange_do_destino",
+      "nome": "Conjurar Falange do Destino",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 60
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 12
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "conjurar_lanca_do_destino"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Conjurar Lança do Destino"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Você desenha um Selo Místico no ar que se transforma em um conjunto de lanças de luz igual à metade da sua Vontade que arremetem imediatamente na direção de seus inimigos. Cada lança causa dano igual a 10/Perfuração. Se o alvo for um infernal, morto-vivo ou espírito, a lança causa o triplo de dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à Determinação do conjurador) ou fica Distraído por 1 turno. Infernais, mortos-vivos e espíritos não tem direito ao teste para evitarem ficar Distraídos. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": "Você pode atingir o mesmo alvo com várias lanças, ou um alvo com cada lança.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 133
+      }
+    },
+    {
+      "id": "conjurar_lanca_do_destino",
+      "nome": "Conjurar Lança do Destino",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 15
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "exorcismo"
+        ],
+        "outros": [],
+        "texto": "Exorcismo"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Você desenha um Selo Místico no ar que assume a forma de uma lança de luz. A lança arremete na direção de um alvo que você possa ver e causa dano igual a 10/Perfuração. Se a criatura for um infernal, morto-vivo ou espírito a lança causa o dobro do dano. Após atingir o alvo a lança se dissipa em uma explosão de luz, e o alvo precisa fazer um teste de Vontade (dificuldade igual à sua Determinação) ou fica Distraído por 1 turno (ver Condições, pág. 169). Infernais, mortos-vivos ou espíritos não têm direito ao teste para evitar ficarem Distraídos. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 131
+      }
+    },
+    {
       "id": "constituicao_feerica",
       "nome": "Constituição Feérica",
       "categoria": "caracteristica",
@@ -2642,6 +3632,44 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 51
+      }
+    },
+    {
+      "id": "contato_com_espiritos",
+      "nome": "Contato com Espíritos",
+      "categoria": "caracteristica",
+      "acao": "acao",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 5
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "levent"
+        },
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Você pode se comunicar com os espíritos que estejam próximos. Você é capaz de ouvir e ver qualquer espírito num raio de 20 metros. Esse efeito dura 10 minutos. Você pode gastar 10 Pontos de Mana enquanto estiver sob o efeito dessa Habilidade para ser capaz de tocar espíritos por 1 minuto.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 69
       }
     },
     {
@@ -2726,7 +3754,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "bencao_de_ellenis"
+        ],
         "outros": [
           "bencao_de_ellenis_teja_com_os_pes_no_chao",
           "reduzindo_seu_des"
@@ -2823,6 +3853,40 @@
       }
     },
     {
+      "id": "coracao_da_montanha_2",
+      "nome": "Coração da Montanha 2",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "anao"
+        }
+      ],
+      "descricao": "Você é ainda mais vigoroso e resistente que a maioria dos Anões. Você tem +5 Pontos de Vida e é imune a todas as doenças de origem natural ou mágica e rola +1d6 em testes para resistir a quaisquer efeitos de fadiga ou outros efeitos físicos. Esse bônus se acumua com o bônus de Coração da Montanha 1.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 48
+      }
+    },
+    {
       "id": "corpo_fechado",
       "nome": "Corpo Fechado",
       "categoria": "magia",
@@ -2838,7 +3902,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "protecao_mistica"
+        ],
         "outros": [
           "protecao_mistica_fazendo_com_que_eles_imediatamente_percam"
         ],
@@ -2907,7 +3973,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "ataque_aleijador"
+        ],
         "outros": [
           "ataque_aleijador_voce_pode_escolher_com_qual_dos_resul"
         ],
@@ -2947,7 +4015,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "cariatide"
+        ],
         "outros": [
           "cariatide_manter_golem"
         ],
@@ -2968,6 +4038,74 @@
       }
     },
     {
+      "id": "cura_espiritual",
+      "nome": "Cura Espiritual",
+      "categoria": "tacnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Com seu toque você pode recuperar as energias de um espírito. Você pode curar até 40 Pontos de Vida de uma criatura com Corpo Intangível, além de remover quaisquer efeitos Mentais, de medo, Selos Místicos e Runas Arcanas que a estiverem afetando.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 138
+      }
+    },
+    {
+      "id": "curar_ferimentos_1",
+      "nome": "Curar Ferimentos 1",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 5
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Desenhando um Selo Místico sobre uma criatura viva que recupera imediatamente 10 Pontos de Vida. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 132
+      }
+    },
+    {
       "id": "curar_ferimentos_2",
       "nome": "Curar Ferimentos 2",
       "categoria": "magia",
@@ -2983,7 +4121,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "curar_ferimentos_1"
+        ],
         "outros": [
           "curar_ferimentos_1_co_no_ar",
           "ele_se_torna_uma_passagem_com_o_ta"
@@ -3020,7 +4160,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "exorcismo"
+        ],
         "outros": [
           "conjurar_broquel"
         ],
@@ -3098,7 +4240,7 @@
           "id": "paladino"
         }
       ],
-      "descricao": "Você se porta de maneira cortês e exala uma aura de autoconfiança e nobreza que inspira aqueles ao seu redor. Você sempre trata os nobres com o respeito que eles merecem e os seus inferiores com a cortesia devida. Você recebe Vontade +1, todos os seus aliados num raio de 1 metro por ponto de Vontade que você tiver também recebem +1 na Vontade. Código da Honestidade Habilidade (Característica) - Suporte Descrição: Você sempre cumpre suas promessas, não importa quão difícil isso seja, e preza a verdade acima de tudo, emanando uma aura de honestidade que deixa desconfortáveis aqueles que escondem a verdade. Você sempre saberá quando alguém estiver mentindo. Nem sempre omitir é mentir, depende das intenções da pessoa que está omitindo. Mentir é passar informações erradas propositalmente.",
+      "descricao": "Você se porta de maneira cortês e exala uma aura de autoconfiança e nobreza que inspira aqueles ao seu redor. Você sempre trata os nobres com o respeito que eles merecem e os seus inferiores com a cortesia devida. Você recebe Vontade +1, todos os seus aliados num raio de 1 metro por ponto de Vontade que você tiver também recebem +1 na Vontade.",
       "efeitos_estruturados": [],
       "especial": null,
       "fonte": {
@@ -3155,7 +4297,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "cavaleiro_experiente"
+        ],
         "outros": [],
         "texto": "Cavaleiro Experiente"
       },
@@ -3165,12 +4309,46 @@
           "id": "paladino"
         }
       ],
-      "descricao": "Você nunca ataca um combatente que já está derrotado, nem luta ou permite que outros lutem de forma injusta ou com deslealdade, e jamais trai ou permite que outros traiam aqueles que confiam em você. Você recupera o dobro de Pontos de Vida (por descanso, através de poções, magias, etc.) e é imune a venenos e doenças naturais ou mágicas. Combate Montado Habilidade (Técnica) - Suporte Requisito: Cavaleiro Experiente Descrição: Sempre que fizer um ataque corporal enquanto estiver sobre uma montaria (uma criatura com a Habilidade Montaria ou Paquiderme), acrescente +6 em seus danos.",
+      "descricao": "Você nunca ataca um combatente que já está derrotado, nem luta ou permite que outros lutem de forma injusta ou com deslealdade, e jamais trai ou permite que outros traiam aqueles que confiam em você. Você recupera o dobro de Pontos de Vida (por descanso, através de poções, magias, etc.) e é imune a venenos e doenças naturais ou mágicas.",
       "efeitos_estruturados": [],
       "especial": null,
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 113
+      }
+    },
+    {
+      "id": "danca_das_espadas_1",
+      "nome": "Dança das Espadas 1",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 30
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        }
+      ],
+      "descricao": "Você pode entrar em um fluxo incessante de movimentos fluidos e vigorosos. Enquanto estiver neste estado você recebe Agilidade +2 e recebe +1d6 em seus testes de dança. Este efeito dura até 5 minutos ou até que você pare, ou seja alvo de um efeito que o impeça da continuar se movendo continuamente (Constringido, Derrubado, amedrontado, etc.).",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 92
       }
     },
     {
@@ -3189,7 +4367,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "danca_das_espadas_1"
+        ],
         "outros": [
           "danca_das_espadas_1_habilidade_tecnica_reacao"
         ],
@@ -3207,6 +4387,76 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 93
+      }
+    },
+    {
+      "id": "dancarino_do_ar",
+      "nome": "Dançarino do Ar",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Agilidade 5."
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "levent"
+        }
+      ],
+      "descricao": "Você praticou voo com um entusiasmo incomum e aperfeiçoou enormemente suas perícias aéreas. Enquanto estiver voando, você recebe um bônus de +2 em testes de acrobacia, tentativas de realizar um encontrão, testes de movimento e qualquer outra manobra aérea. Este bônus também estende-se a sua Defesa (este é considerado um bônus de Esquiva).",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 69
+      }
+    },
+    {
+      "id": "defesa_agressiva",
+      "nome": "Defesa Agressiva",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "defletor"
+        ],
+        "outros": [],
+        "texto": "Defletor"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        }
+      ],
+      "descricao": "Você entende que a melhor defesa é um ataque eficiente. Quando estiver empunhando uma arma corporal de duas mãos, duas armas corporais ou um escudo, você recebe +1 em seus testes de ataque corporal e +1 na sua Defesa. Esse bônus de Defesa é considerado um bônus de Bloqueio.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 104
       }
     },
     {
@@ -3247,6 +4497,42 @@
       }
     },
     {
+      "id": "desarmar_oponente",
+      "nome": "Desarmar Oponente",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "ataque_redirecionado"
+        ],
+        "outros": [],
+        "texto": "Ataque Redirecionado"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        }
+      ],
+      "descricao": "Você pode usar a sua arma para tirar a arma do seu oponente. Faça um teste resistido de Agilidade contra Força ou Agilidade do adversário (dependendo do que ele usar para combater), somando a FN das armas (a sua e a do seu adversário) nas suas respectivas rolagens. Se você estiver desarmado, use apenas Agilidade. Se o seu adversário tiver um sucesso igual ou menor do que o seu, a arma dele cairá no chão entre você e ele.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 92
+      }
+    },
+    {
       "id": "desativar_item",
       "nome": "Desativar Item",
       "categoria": "magia",
@@ -3284,6 +4570,43 @@
       }
     },
     {
+      "id": "despertar_a_flora",
+      "nome": "Despertar a Flora",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "variavel",
+        "valor": null,
+        "texto": "Varia"
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 13
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "entrelacar"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Entrelaçar"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        }
+      ],
+      "descricao": "Você desenha um Selo Místico sobre uma planta, imbuindo ela com percepção e fala de uma criatura inteligente além de capacidade de movimentação. Um rosto se cria no caule ou tronco da planta e pode interagir com qualquer um. Nenhuma planta gosta de ser incomodada e elas tendem a não ser muito amistosas. O custo em Mana da Magia depende do tamanho da planta: 10 Pontos de Mana para afetar uma planta pequena, 20 Pontos de Mana para afetar uma planta média, 40 Pontos de Mana para afetar uma planta grande e 80 Pontos de Mana para afetar uma planta gigante. Trate uma planta sob efeito dessa magia como um Golem de madeira do tamanho apropriado, exceto o Tipo que será Esfinge e o Temperamento que será Pacífico. O Selo Místico dura 1 minuto por ponto de Vontade do conjurador.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 88
+      }
+    },
+    {
       "id": "destemor",
       "nome": "Destemor",
       "categoria": "caracteristica",
@@ -3299,7 +4622,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "codigo_da_coragem"
+        ],
         "outros": [
           "codigo_da_coragem_habilidade_tecnica_suporte"
         ],
@@ -3320,6 +4645,124 @@
       }
     },
     {
+      "id": "destruicao_elemental",
+      "nome": "Destruição Elemental",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 10,
+        "habilidades": [
+          "arma_incandescente",
+          "arma_relampejante",
+          "arma_gelida"
+        ],
+        "outros": [],
+        "texto": "Nível 10, Arma Incandescente, Arma Gélida e Arma Relampejante"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Você se tornou extremamente hábil no controle das energias elementais. Sempre que usar uma técnica ou magia que causa dano por Fogo, Frio ou Eletricidade, esse dano é dobrado.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 128
+      }
+    },
+    {
+      "id": "detectar_magia",
+      "nome": "Detectar Magia",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 0
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 8
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "runico"
+        },
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Concentrando-se nos fluxos de energias mágicas, você pode enxergar a aura de objetos mágicos, Runas Arcanas e Selos Místicos. Você pode analisar a aura mágica de um Selo, Runa ou objeto para entender suas propriedades observando-a por 1 minuto.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 85
+      }
+    },
+    {
+      "id": "disparo_certeiro",
+      "nome": "Disparo Certeiro",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        }
+      ],
+      "descricao": "Você realiza um ataque à distância rolando +1d6.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 120
+      }
+    },
+    {
       "id": "disparo_forte",
       "nome": "Disparo Forte",
       "categoria": "tecnica",
@@ -3335,7 +4778,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "retesar_eficiente"
+        ],
         "outros": [
           "retesar_eficiente_furtivo"
         ],
@@ -3353,6 +4798,56 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 119
+      }
+    },
+    {
+      "id": "dissipar_magia",
+      "nome": "Dissipar Magia",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "variavel",
+        "valor": null,
+        "texto": "Variável"
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "aparar_magia",
+          "aparar"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Aparar Magia"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "runico"
+        },
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Você dissipa todas as Runas Arcanas ou Selos Místicos de uma criatura, objeto ou estrutura com seu toque. Essa Habilidade não tem efeito em Runas ou Selos com efeitos instantâneos (como Curar Ferimentos, Rajada de Espinhos ou Teleporte) nem reverte efeitos permanentes de magia (como restaurar os Pontos de Vida perdidos devido a uma Bola de Fogo, dissipar água criada por Princípio Natural ou reverter água afetada por Raio Gélido de volta ao estado líquido). Você pode também escolher quais Runas ou Selos dissipar e quais não, caso o alvo tenha mais de um Selo ou Runa afetando-o. O custo para dissipar um Selo ou Runa é gual ao custo usado para conjurá-los.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 88
       }
     },
     {
@@ -3498,6 +4993,84 @@
       }
     },
     {
+      "id": "eletrosfera",
+      "nome": "Eletrosfera",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 40
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 13
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "relampago_2"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Relâmpago 2"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        }
+      ],
+      "descricao": "Você desenha uma Runa Arcana sobre si mesmo, fazendo um turbilhão de raios elétricos emanarem a partir dela. No final do seu turno, tudo e todos que estiver a uma quantidade de metros igual à sua Inteligência ao seu redor sofrem uma quantidade de dano igual a 20/Eletricidade. Alvos usando armaduras com a Característica Pesada que sofram esse dano também ficam Atordoadas por 1 turno. Essa Runa Arcana dura uma quantidade de turnos igual à sua Vontade.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 100
+      }
+    },
+    {
+      "id": "eloquente",
+      "nome": "Eloquente",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        },
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
+        }
+      ],
+      "descricao": "Você tem um talento de convencer ou comover outras pessoas apenas falando do jeito certo. Você recebe +1d6 em todos os seus testes para persuadir, mentir, perceber mentiras, intimidar ou em qualquer outra interação social.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 79
+      }
+    },
+    {
       "id": "emboscar",
       "nome": "Emboscar",
       "categoria": "tecnica",
@@ -3538,6 +5111,113 @@
       }
     },
     {
+      "id": "empalar",
+      "nome": "Empalar",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "ataque_aleijador",
+          "disparo_certeiro"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Ataque Aleijador, Disparo Certeiro"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        }
+      ],
+      "descricao": "Se você rolar um Sucesso Crítico em um ataque à distância (incluindo arremessos) usando uma arma que cause dano por Perfuração, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 121
+      }
+    },
+    {
+      "id": "en_passant",
+      "nome": "En Passant",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "flanquear"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Flanquear"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "ladino"
+        }
+      ],
+      "descricao": "Se um alvo que está adjacente a você tentar se afastar ou se levantar, você pode imediatamente fazer uma ação normal",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 110
+      }
+    },
+    {
+      "id": "enfeiticar_arma_1",
+      "nome": "Enfeitiçar Arma 1",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Desenhando uma Runa Arcana sobre uma arma, você confere um bônus de +1 nas rolagens de ataque e nos danos dessa arma. Essa Runa Arcana dura 1 minuto.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 125
+      }
+    },
+    {
       "id": "enfeiticar_arma_2",
       "nome": "Enfeitiçar Arma 2",
       "categoria": "magia",
@@ -3571,6 +5251,40 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 127
+      }
+    },
+    {
+      "id": "enfeiticar_armadura",
+      "nome": "Enfeitiçar Armadura",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Desenhando uma Runa Arcana sobre uma armadura ou vestimenta, você aumenta o bônus de defesa do item em +1 (ou confere +1 de Armadura para uma peça de roupa comum). Essa Runa Arcana dura 1 minuto.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 125
       }
     },
     {
@@ -3636,6 +5350,14 @@
         {
           "tipo": "classe",
           "id": "xama"
+        },
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
         }
       ],
       "descricao": "Seu espírito possui a forma de um animal. Escolha um Espírito Animal para ser seu guia. Essa escolha é permanente. Espírito Animal: Cobra Descrição: Seu espírito possui a forma de uma cobra. Você ganha +1 na Defesa (este é um bônus de Esquiva ou Bloqueio, à sua escolha; essa escolha deve ser feita no momento em que essa Habilidade é selecionada e não pode ser mudada mais tarde). Você também é capaz de uma comunicação rudimentar - dentro das capacidades do animal - com qualquer criatura do tipo Réptil, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Réptil. Espírito Animal: Coruja Descrição: Seu espírito possui a forma de uma coruja. Você rola +1d6 em todos os testes para lembrar, pesquisar ou compreender qualquer tipo de conhecimento teórico. Você também é capaz de uma comunicação rudimentar - dentro das capacidades do animal - com qualquer criatura do tipo Ave, e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à qualquer Besta do tipo Ave. Espírito Animal: Golfinho Descrição: Seu espírito possui a forma de um golfinho. Você consegue respirar e se movimentar tanto sob quanto sobre a água normalmente. Você também é capaz de uma comunicação rudimentar - dentro das capacidades do animal - com qualquer Besta do tipo Peixe ou do tipo Mamífero cujo Habitat seja Rio ou Mar e rola +1d6 em todas as rolagens (atacar, perceber, treinar, etc.) com relação à essas criaturas. Espírito Animal: Lobo Descrição: Seu espírito possui a forma de um lobo. Você ganha +1 nas rolagens de ataque corporal. Você também é capaz de uma comunicação rudimentar - dentro das capa-",
@@ -3707,7 +5429,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "brigao"
+        ],
         "outros": [
           "brigao"
         ],
@@ -3790,7 +5514,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "evocar_temporal"
+        ],
         "outros": [
           "evocar_temporal_turbilhao_de_vento_em_uma_area_com_um_dia"
         ],
@@ -3826,7 +5552,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "principio_natural"
+        ],
         "outros": [
           "principio_natural_mover_terra"
         ],
@@ -3897,7 +5625,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "flanquear"
+        ],
         "outros": [
           "flanquear_habilidade_caracteristica_suporte"
         ],
@@ -3989,6 +5719,42 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 74
+      }
+    },
+    {
+      "id": "fintar",
+      "nome": "Fintar",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 25
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "lingua_afiada"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Língua Afiada"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        }
+      ],
+      "descricao": "Você é muito bom em ludibriar seus oponentes, abrindo sua guarda. Como uma Ação de Movimento, faça um confronto de Vontade contra o alvo. Se você vencer o confronto, seus ataques corporais contra o alvo são realizados com +1d6 neste turno.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 94
       }
     },
     {
@@ -4340,6 +6106,76 @@
       }
     },
     {
+      "id": "forca_heroica",
+      "nome": "Força Heróica",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você possui uma força e resistência forjadas na batalha. Você tem Força +1.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
+      "id": "fruto_revigorante",
+      "nome": "Fruto Revigorante",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "bons_frutos"
+        ],
+        "outros": [],
+        "texto": "Bons Frutos"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        }
+      ],
+      "descricao": "Desenhando um Selo Místico sobre uma planta frutífera - mesmo morta - você faz com que ela desenvolva um único fruto grande e suculento capaz de restaurar 30 Pontos de Vida de quem o ingerir. Se não for ingerida, a fruta perde sua capacidade de cura após 1 minuto. O Selo Místico se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 86
+      }
+    },
+    {
       "id": "fulgurante",
       "nome": "Fulgurante",
       "categoria": "caracteristica",
@@ -4451,6 +6287,40 @@
       }
     },
     {
+      "id": "furia_de_batalha",
+      "nome": "Fúria de Batalha",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 30
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Quando você é ferido você é tomado por uma irrefreável fúria destrutiva, ficando neste estado até o final do combate - ou até ficar dois turnos sem atacar. Você precisa sofrer pelo menos 1 ponto de dano de qualquer fonte - inclusive auto-infligido - para que essa Habilidade possa ser ativada. Enquanto estiver em Fúria, você recebe Força +2 e fica imune a efeitos de Medo.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
       "id": "garras",
       "nome": "Garras",
       "categoria": "caracteristica",
@@ -4533,7 +6403,8 @@
       "requisitos": {
         "nivel_minimo": 5,
         "habilidades": [
-          "entrelacar"
+          "entrelacar",
+          "rajada_de_espinhos"
         ],
         "outros": [
           "rajada"
@@ -4605,7 +6476,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "nocautear"
+        ],
         "outros": [
           "nocautear"
         ],
@@ -4677,7 +6550,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "enfeiticar_arma_1"
+        ],
         "outros": [
           "enfeiticar_arma_1"
         ],
@@ -4798,6 +6673,10 @@
         {
           "tipo": "raca",
           "id": "mahok"
+        },
+        {
+          "tipo": "classe",
+          "id": "bardo"
         }
       ],
       "descricao": "Você consegue compreender muito rapidamente as estruturas sociais de uma cultura e seus indivíduos e é capaz de fazer amigos em qualquer lugar. Depois de cinco minutos de conversa, a pessoa com quem você esteja interagindo - e que não seja obviamente hostil a você, como um captor ou um inimigo jurado - torna-se propensa a ajudá-lo. Essa Habilidade geralmente serve para colher informações gerais (apesar de segredos não serem possíveis de conseguir) ou pequenos favores - como ser apresentado a alguém ou conseguir uma cerveja de graça. Você também recebe +2 em testes de seduzir, mentir, detectar mentiras ou qualquer outra interação social.",
@@ -5005,6 +6884,42 @@
       }
     },
     {
+      "id": "guardiao_da_natureza",
+      "nome": "Guardião da Natureza",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 10,
+        "habilidades": [
+          "forma_animal_2"
+        ],
+        "outros": [],
+        "texto": "Nível 10, Forma Animal 2"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Sua capacidade de assumir a forma de um animal permite que você controle sua transformação com muito mais eficiência. O custo de Mana de suas Habilidades de transformação (Forma Animal e Vantagem Animal) é reduzido à metade - e podem durar indefinidamente. Além disso, quando ficar sem Pontos de Vida enquanto estiver em uma Forma Animal, você imediatamente retorna a sua forma natural e recupera uma quantidade de Pontos de Vida igual à sua Determinação. Dogma e EspÍrito Animal Dogma é uma Habilidade da Classe Sacerdote, que serve de pré-requisitos para outras Habilidades da Classe. O Dogma de um sacerdote define sua crença e a divindade cujos dogmas ele segue. Espirito Animal está presente em três Classes (Druida, Patrulheiro e Xamã). Essas Classes têm uma profunda ligação e respeito à natureza. Essa Habilidade representa a essência espiritual do personagem. O personagem pode ter nascido com uma profunda ligação com o seu animal espiritual ou desenvolveu essa ligação ao longo da vida, mas é necessário escolher a Habilidade para que ela se manifeste. Lista de Dogmas Dogma: Discípulo da Forja Descrição: Você segue os ensinamentos de Hou, o Fogo. Você nunca pode quebrar um juramento, faltar com a palavra ou desistir de uma tarefa que se prontificou a levar a cabo - mesmo que isso ameace sua vida. Suas magias de Conjuração, Cariátide e Golens têm seu custo de Mana reduzido em 5 enquanto seguir este Dogma. Se em qualquer momento você quebrar um juramento ou uma promessa ou desistir de uma tarefa que se prontificou a terminar, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. Arma dos Deuses: Martelo de Guerra flamejante. Além do dano normal, esse martelo causa um dano extra igual a 10/Fogo. Dogma: Discípulo da Guerra Descrição: Você segue os ensinamentos de Hadorn Braço de Ferro. Você nunca pode fugir de uma luta (a menos que seja uma morte certa) e deve sempre honrar a morte de quem morreu lutando. Você tem Força +1 enquanto seguir este dogma. Se em qualquer momento você fugir de uma luta ou desonrar os mortos, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. Arma dos Deuses: Machado Pesado de bronze. Esta arma é extremamente afiada e causa o dobro do dano normal. Dogma: Discípulo da Justiça Descrição: Você é um devoto de Mirah, a Justiça ou de Ahogr Ruge-Mundos. Você deve seguir as leis e jamais pode permitir que alguém seja prejudicado injustamente se você puder evitar. Você tem Vontade +1 enquanto seguir este dogma. Se você quebrar uma lei ou permitir que alguém o faça de modo proposital sem exigir punição imediata, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. Arma dos Deuses: Espada Longa cintiante. Além do dano normal, essa espada causa um dano extra igual a 10/Eletricidade. Dogma: Discípulo da Liberdade Descrição: Você segue os ensinamentos de Taranis Asas-de-Nuvens. Você nunca pode aprisionar, submeter ou forçar alguém a uma situação, condição ou ideia. Você tem Agilidade +1 enquanto seguir este dogma. Se em qualquer momento você aprisionar alguém de qualquer forma ou permitir que alguém seja preso contra sua vontade, você perderá esta Habilidade, e nunca mais poderá adquiri-la novamente. Arma dos Deuses: Azagaia de gelo. Além do dano normal, se for arremessada essa arma causa um dano extra igual a 10/Frio, e se",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 141
+      }
+    },
+    {
       "id": "guerreiro_de_aco_1",
       "nome": "Guerreiro de Aço 1",
       "categoria": "caracteristica",
@@ -5061,7 +6976,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "guerreiro_de_aco_1"
+        ],
         "outros": [],
         "texto": "Nível 5, Guerreiro de Aço 1"
       },
@@ -5208,7 +7125,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "sabedoria_selvagem"
+        ],
         "outros": [],
         "texto": "Sabedoria Selvagem"
       },
@@ -5250,7 +7169,11 @@
       },
       "requisitos": {
         "nivel_minimo": 10,
-        "habilidades": [],
+        "habilidades": [
+          "companheiro_animal_1",
+          "sabedoria_selvagem",
+          "principio_natural"
+        ],
         "outros": [
           "principio_na"
         ],
@@ -5324,7 +7247,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "sem_escapatoria"
+        ],
         "outros": [
           "sem_escapatoria_vida",
           "5_pontos_de_mana"
@@ -5413,7 +7338,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "comunhao_com_espiritos"
+        ],
         "outros": [
           "comunhao_com_es_pode_cancela_lo_a_qualquer_momento"
         ],
@@ -5449,7 +7376,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "inferno"
+        ],
         "outros": [
           "inferno_invocar_elemental_3"
         ],
@@ -5555,7 +7484,10 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "detectar_magia",
+          "inflamar"
+        ],
         "outros": [
           "detectar_magia"
         ],
@@ -5647,6 +7579,40 @@
       }
     },
     {
+      "id": "inteligencia_heroica",
+      "nome": "Inteligência Heroica",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você possui uma percepção e uma capacidade de raciocínio extremamente afiadas. Você tem Inteligência +1.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
       "id": "investida_forte",
       "nome": "Investida Forte",
       "categoria": "geral",
@@ -5707,6 +7673,10 @@
         {
           "tipo": "classe",
           "id": "guerreiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "espadachim"
         }
       ],
       "descricao": "Faça uma manobra de encontrão contra um alvo. Se acertar, esse ataque causa +10 de dano e deixa o alvo Atordoado (veja Condições na página 169) por 1 turno.",
@@ -5795,6 +7765,42 @@
       }
     },
     {
+      "id": "invocar_elemental_2",
+      "nome": "Invocar Elemental 2",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 30
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 11
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "invocar_elemental_1"
+        ],
+        "outros": [],
+        "texto": "Invocar Elemental 1"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        }
+      ],
+      "descricao": "Você conjura um Elemental Médio de Fogo ou do Gelo desenhando uma Runa arcana no ar. O Elemental obedecerá todos os seus comandos e agirá a partir do turno seguinte, logo depois de você. A runa que mantém o Elemental coeso se dissipa depois de 10 minutos. Veja os dados dos Elementais no Monstrum Codex para mais detalhes.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 98
+      }
+    },
+    {
       "id": "invocar_elemental_3",
       "nome": "Invocar Elemental 3",
       "categoria": "magia",
@@ -5810,7 +7816,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "invocar_elemental_2"
+        ],
         "outros": [
           "invocar_elemental_2"
         ],
@@ -5828,6 +7836,77 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 99
+      }
+    },
+    {
+      "id": "invocar_espirito_animal",
+      "nome": "Invocar Espírito Animal",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "contato_com_espiritos",
+          "espirito_animal"
+        ],
+        "outros": [],
+        "texto": "Espírito Animal, Contato com Espíritos"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Você invoca um espírito animal espectral para protegê-lo. Esse espectro tem a forma do seu Espírito Animal, mas os Atributos dele serão todos iguais à sua Vontade. Além das Habilidades normais do animal, todos os Espíritos Animais terão Mente Bloqueada e Corpo Intangível. Seus ataques causam dano igual à Força +2 por Corte, Perfuração ou Contusão - o que for mais apropriado, de acordo com os ataques do animal - e recebem os bônus referentes ao seu Espírito Animal. Espíritos Animais têm 30 Pontos de Vida e 30 Pontos de Mana. Espíritos Animais são sempre Bestas do tipo Espírito com o temperamento Servo. Espíritos Animais invocados por esta Habilidade se dissipam após um minuto ou assim que forem destruídos.",
+      "efeitos_estruturados": [],
+      "especial": "Águias Espectrais invocadas por essa magia recebem +1 em seus ataques corporais ao invés do bônus normal.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 139
+      }
+    },
+    {
+      "id": "isnuu",
+      "nome": "Isnuu",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "faen"
+        }
+      ],
+      "descricao": "Você nasceu com uma grande afinidade com a magia. Sua pele e seus cabelos são de tons esverdeados, e você pode selecionar Habilidades da lista do Feiticeiro como se fossem da sua Classe - desde que preencha os requisitos. Além disso, as dificuldades de todas as Magia são diminuídas em 1 para você.",
+      "efeitos_estruturados": [],
+      "especial": "Você só pode selecionar essa Habilidade durante a criação do personagem.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 54
       }
     },
     {
@@ -5882,7 +7961,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "justica_final_1"
+        ],
         "outros": [
           "habilidade_tecnica_acao"
         ],
@@ -5918,7 +7999,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "telecinesia"
+        ],
         "outros": [
           "telecinesia_vida_ao_inves_de_sofrer_dano_ela_pode_supor"
         ],
@@ -5994,7 +8077,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "eloquente"
+        ],
         "outros": [
           "eloquente_mana_20"
         ],
@@ -6016,6 +8101,43 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 79
+      }
+    },
+    {
+      "id": "maestria_elemental",
+      "nome": "Maestria Elemental",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 10,
+        "habilidades": [
+          "resistencia_elemental",
+          "aptidao_elemental"
+        ],
+        "outros": [],
+        "texto": "Nível 10, Resistência Elemental, Aptidão Elemental"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        }
+      ],
+      "descricao": "Você possui um profundo conhecimento sobre a essência elemental da magia. Sempre que você for alvo de uma magia ou efeito que o deixa Resistente ao Frio, Fogo ou Eletricidade, você fica Imune aquele elemento. Se você já for Resistente a um elemento e receber Resistência a ele através de uma magia, você passa a absorver o elemento (recuperando uma quantidade de Pontos de Vida iguais a qualquer quantidade de dano que sofreria daquele elemento). Além disso, todas as magias e técnicas que você conjura e que causem dano por fogo, frio ou eletricidade causam 5 pontos de dano a mais (esse bônus se acumula com o bônus de Aptidão Elemental).",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 101
       }
     },
     {
@@ -6056,6 +8178,42 @@
       }
     },
     {
+      "id": "manter_golem",
+      "nome": "Manter Golem",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 12
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "criar_golem"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Criar Golem"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Você desenha um Selo Místico sobre um Golem que você tenha criado, com o objetivo de fortalecer sua coesão. Cada vez que você desenhar este Selo Místico sobre o Golem, a duração do Selo que o mantém ativo será duplicada. Você pode desenhar quantos selos desses quiser sobre um Golem, e seus efeitos são cumulativos.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 134
+      }
+    },
+    {
       "id": "manto_crepitante",
       "nome": "Manto Crepitante",
       "categoria": "magia",
@@ -6092,6 +8250,40 @@
       }
     },
     {
+      "id": "marrada",
+      "nome": "Marrada",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "fauno"
+        }
+      ],
+      "descricao": "Você pode desferir um poderoso golpe com seus chifres. Este é um ataque desarmado que causa dano igual à Força +2/Contusão. Caso use esse ataque com uma ação de Encontrão, o alvo precisa vencer um teste de Força (Dificuldade igual à sua Determinação +2) ou será derrubado.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 57
+      }
+    },
+    {
       "id": "matador_de_criatura",
       "nome": "Matador de [Criatura]",
       "categoria": "tecnica",
@@ -6107,7 +8299,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "cacador_de_criatura"
+        ],
         "outros": [
           "cacador_de_criatura_vamente_1_dos_dados"
         ],
@@ -6143,7 +8337,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "melodia_dancante"
+        ],
         "outros": [
           "melodia_dancante_musica"
         ],
@@ -6161,6 +8357,74 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 81
+      }
+    },
+    {
+      "id": "melodia_dancante",
+      "nome": "Melodia Dançante",
+      "categoria": "musica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        }
+      ],
+      "descricao": "Você toca ritmos empolgantes que fazem com que todos que escutarem esta música sintam uma vontade incontrolável de dançar. Todos os Humanoides que estiverem escutando sua música rolam um confronto de Vontade contra você. Aqueles que tiverem um resultado mais baixo que o seu começarão a dançar incontrolavelmente, realizando todos os seus testes baseados em Agilidade como se fosse Inábil e ficando com Defesa -1 enquanto você continuar a tocar essa Melodia. Este é um efeito mental.",
+      "efeitos_estruturados": [],
+      "especial": "Personagens usando Dança das Espadas são imunes a esse efeito.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 80
+      }
+    },
+    {
+      "id": "melodia_do_enjoo",
+      "nome": "Melodia do Enjoo",
+      "categoria": "musica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        }
+      ],
+      "descricao": "Sua melodia é perfeitamente desconexa e perturbadora. Todas as criaturas vivas que puderem lhe escutar rolam um confronto de Vontade contra você a cada turno em que você continuar tocando. Aqueles que tiverem um resultado mais baixo do que você ficam enjoados, sofrendo um redutor de -1 em sua Defesa e testes de ataque até o final do turno. Qualquer um que obtenha 3 resultados mais baixos que os seus em confrontos para resistir a esse efeito durante um mesmo combate ficarão tão enjoados que vomitarão, ficando Paralisados durante 1 turno.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 80
       }
     },
     {
@@ -6197,6 +8461,42 @@
       }
     },
     {
+      "id": "melodia_dos_animais",
+      "nome": "Melodia dos Animais",
+      "categoria": "musica",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "cancao_da_sereia"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Canção da Sereia"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "bardo"
+        }
+      ],
+      "descricao": "Escolha um tipo de Besta (mamífero, réptil ou ave). Todas as criaturas do tipo escolhido que puderem escutar sua música ficarão fascinadas com ela e o seguirão enquanto você continuar a tocar. Os alvos não irão realizar qualquer ação além de seguir você para onde for enquanto você continuar a tocar. Esse efeito é cancelado se o alvo sofrer algum dano enquanto estiver sob efeito dessa Música, mas se você continuar a tocar essa Música o alvo será afetado novamente no começo do seu próximo turno. Este é um efeito mental.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 82
+      }
+    },
+    {
       "id": "melodia_sonifera",
       "nome": "Melodia Sonífera",
       "categoria": "musica",
@@ -6230,6 +8530,44 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 79
+      }
+    },
+    {
+      "id": "mente_disciplinada",
+      "nome": "Mente Disciplinada",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Você possui uma vontade extremamente organizada, acostumada a se concentrar em tarefas complexas. Você tem Determinação +2 e as dificuldades de todas as magias que você realiza são reduzidas em 1.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 98
       }
     },
     {
@@ -6362,7 +8700,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "mestre_das_adagas_2"
+        ],
         "outros": [
           "mestre_das_adagas_2_aquela_acao_ao_inves_disso"
         ],
@@ -6374,7 +8714,7 @@
           "id": "ladino"
         }
       ],
-      "descricao": "Você é um mestre da técnica de arremessar pequenos objetos! Você pode arremessar até 6 armas com a característica Arremesso e FN 1. Passo Leve Habilidade (Técnica) Reação Requisito: Nível 5, Furtivo Mana: 10 Descrição: Sempre que você fizer um teste para mover-se em silencio, se esconder ou camuflar ou bater carteiras você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Esta Habilidade só pode ser usada uma vez por turno.",
+      "descricao": "Você é um mestre da técnica de arremessar pequenos objetos! Você pode arremessar até 6 armas com a característica Arremesso e FN 1.",
       "efeitos_estruturados": [],
       "especial": null,
       "fonte": {
@@ -6515,7 +8855,8 @@
       "requisitos": {
         "nivel_minimo": 10,
         "habilidades": [
-          "mestre_de_armas_2"
+          "mestre_de_armas_2",
+          "combate_com_duas_armas_2"
         ],
         "outros": [],
         "texto": "Nível 10, Mestre de Armas 2"
@@ -6535,6 +8876,74 @@
       }
     },
     {
+      "id": "mestre_domador",
+      "nome": "Mestre Domador",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "xama"
+        }
+      ],
+      "descricao": "Você é capaz de domar animais com extrema facilidade. Quando você captura uma criatura do tipo Besta, o teste para ganhar a confiança do animal e para reduzir seu Temperamento pode ser feito em uma quantidade de dias igual à Vontade do animal, ao invés de sua Determinação - e se você tiver um sucesso decisivo no teste de doma, você reduz o tempo para o próximo teste para 1 dia. Além disso, se você tiver uma falha crítica nos testes para ganhar a confiança do animal ou para reduzir seu Temperamento, o resultado é considerado uma falha normal. Você pode ter, simultaneamente, uma quantidade de criaturas com o comportamento Protetor em relação à você igual à metade da sua Vontade (arredondada para baixo). Você pode ter outros animais domados, mas eles terão o comportamento Covarde até que você possa concluir seu treinamento (seja vendendo ou dando um de seus animais domados, seja aumentando sua Vontade).",
+      "efeitos_estruturados": [],
+      "especial": "Estas regras são uma revisão da Habilidade Mestre Domador (Guia Básico página 141 e Guia do Herói página 33) e portanto tem precedência sobre aquelas versões.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 141
+      }
+    },
+    {
+      "id": "mestre_especialista",
+      "nome": "Mestre Especialista",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 10,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 10"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "ladino"
+        }
+      ],
+      "descricao": "Sempre que uma Habilidade oferecer um bônus de +1d6 em uma determinada ação, você recebe +2d6 para aquela ação ao invés disso.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 111
+      }
+    },
+    {
       "id": "montaria_especial_1",
       "nome": "Montaria Especial 1",
       "categoria": "geral",
@@ -6550,7 +8959,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "codigo_da_cortesia"
+        ],
         "outros": [
           "codigo_da_cortesia_mana_10"
         ],
@@ -6588,7 +8999,8 @@
         "nivel_minimo": 5,
         "habilidades": [
           "montaria_especial_1",
-          "codigo_da_justica"
+          "codigo_da_justica",
+          "codigo_da_coragem"
         ],
         "outros": [
           "codigo_requisito"
@@ -6607,6 +9019,42 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 114
+      }
+    },
+    {
+      "id": "montaria_especial_3",
+      "nome": "Montaria Especial 3",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "montaria_especial_2"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Montaria Especial 2, Código da Honestidade"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Sua montaria desenvolveu um vínculo profundo com você, permitindo que você veja pelos olhos dela apenas se concentrando. Ela também recebe +1 em Força e +1 em Vontade e é capaz de enxergar criaturas nvisíveis.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 116
       }
     },
     {
@@ -6658,7 +9106,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "codigo_da_lealdade"
+        ],
         "outros": [],
         "texto": "Código da Lealdade"
       },
@@ -6728,7 +9178,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "dancarino_do_ar"
+        ],
         "outros": [
           "dancarino_do_ar"
         ],
@@ -6749,6 +9201,226 @@
       }
     },
     {
+      "id": "movimentos_evasivos",
+      "nome": "Movimentos Evasivos",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "acrobata"
+        ],
+        "outros": [],
+        "texto": "Acrobata"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
+        }
+      ],
+      "descricao": "Você ganha +1 na sua defesa para cada 2 pontos que tiver em Agilidade. Esta habilidade só funciona se você estiver sem armadura. Esse é um bônus de Esquiva.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 93
+      }
+    },
+    {
+      "id": "nanismo",
+      "nome": "Nanismo",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você é menor do que a média de sua raça - em média entre 1 e 1,2 metros de altura. Você pode rolar +1d6 quando fizer testes para se esconder, se mover em silêncio ou passar despercebido de qualquer forma. Além disso, seu bônus automático de Defesa é 6 ao invés de 5. No entanto, armas corporais que requerem duas mãos são grandes demais para que você possa usá-las com eficiência, e você precisa usar ambas as mãos para usar qualquer arma corporal com FN 5 ou mais.",
+      "efeitos_estruturados": [],
+      "especial": "Você só pode selecionar essa Habilidade durante a criação do personagem.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
+      "id": "nascido_nas_montanhas",
+      "nome": "Nascido nas Montanhas",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "anao"
+        },
+        {
+          "tipo": "raca",
+          "id": "mahok"
+        }
+      ],
+      "descricao": "Você nasceu ou passou grande parte da sua vida em ambientes montanhosos. Você recebe +2 em seus testes ligados à locais rochosos e montanhosos - como escalar rocha (nua ou trabalhada), percepção e sobrevivência em áreas montanhosas, identificar animais dessas regiões, avaliar formações rochosas e pedras brutas ou trabalhadas (incluindo construções de pedra e pedras preciosas) e para trabalhar em pedra - seja artesanato, alvenaria ou joalheria.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 48
+      }
+    },
+    {
+      "id": "nervos_de_aco",
+      "nome": "Nervos de Aço",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você tem um autocontrole nvejável e é capaz de se concentrar mesmo quando outros entrariam em desespero. Você em +20 Pontos de Mana. Recursos Habilidade - Especial Raças: Todas, exceto Hamelins Descrição: Você possui (ou possuía) um pequeno negócio ou vem de uma família nobre. Você começa o jogo com o dobro das moedas nicias.",
+      "efeitos_estruturados": [],
+      "especial": "Esta habilidade só pode ser escolhida durante a criação do Personagem.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
+      }
+    },
+    {
+      "id": "nocautear",
+      "nome": "Nocautear",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Faça um ataque corporal que cause dano por Contusão. Se acertar, além de sofrer o dano normal do ataque, o alvo fica Paralisado (veja Condições na página 169) por 1 turno.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 105
+      }
+    },
+    {
+      "id": "o_dobro_ou_nada",
+      "nome": "O Dobro ou Nada",
+      "categoria": "caracteristica",
+      "acao": "reacao",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "sorte"
+        ],
+        "outros": [],
+        "texto": "Sorte"
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "humano"
+        }
+      ],
+      "descricao": "Você está acostumado à dar chance para sua sorte - às vezes, além do que seria considerado saudável. Quando falhar em um teste, você pode fazer o teste novamente, ignorando completamente o primeiro resultado. No caso de sucesso, além de passar no teste, qualquer efeito numérico proveniente do sucesso (dano causado por um ataque, duração de uma magia, PVs curados com uso de primeiros socorros, etc.) é dobrado. Mas se o teste for uma falha, ela deve ser considerada como uma falha crítica, com todos os seus possíveis efeitos numéricos dobrados. No caso de uma falha crítica nesse teste, o Mestre deve considerar que o fracasso foi uma falha crítica particularmente desastrosa - com efeitos limitados apenas pela sua imaginação sádica. Você só pode usar essa Habilidade uma vez por turno.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 63
+      }
+    },
+    {
       "id": "olho_da_aguia",
       "nome": "Olho da Águia",
       "categoria": "tecnica",
@@ -6764,7 +9436,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "disparo_certeiro"
+        ],
         "outros": [],
         "texto": "Nível 5, Disparo Certeiro"
       },
@@ -6774,12 +9448,48 @@
           "id": "patrulheiro"
         }
       ],
-      "descricao": "Sempre que você fizer um ataque à distância (incluindo arremessos) você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade 1 vez por turno. Passo Leve Habilidade (Técnica) Reação Requisito: Nível 5, Furtivo Mana: 10 Descrição: Sempre que você fizer um teste para mover-se em silencio, se esconder ou camuflar ou bater carteiras você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Esta Habilidade só pode ser usada uma vez por turno.",
+      "descricao": "Sempre que você fizer um ataque à distância (incluindo arremessos) você pode rolar novamente 1 dos dados. Você pode escolher com qual dos resultados vai ficar. Você só pode usar esta Habilidade 1 vez por turno.",
       "efeitos_estruturados": [],
       "especial": null,
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 121
+      }
+    },
+    {
+      "id": "olho_do_furacao",
+      "nome": "Olho do Furacão",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 40
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 14
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "evocar_temporal"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Evocar Temporal"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        }
+      ],
+      "descricao": "Desenhando um Selo Místico sobre si mesmo, você cria um poderoso turbilhão de vento em uma área com um diâmetro em metros igual à sua Vontade e uma altura igual à 10 vezes sua Vontade. Essa área tem um olho central com cerca de 2 metros de diâmetro onde não há vento. O furacão",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 88
       }
     },
     {
@@ -6816,6 +9526,42 @@
       }
     },
     {
+      "id": "onda_de_chamas",
+      "nome": "Onda de Chamas",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "arma_incandescente"
+        ],
+        "outros": [],
+        "texto": "Arma Incandescente"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Faça um ataque corporal com uma arma que esteja marcada com sua Runa pessoal, contra um alvo dentro da sua linha de visão. Esse ataque produz uma onda flamejante que causa dano igual a 10/Fogo. Esse efeito pode ser usado para inflamar objetos combustíveis - mas não faz alvos vivos irromperem em chamas.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 126
+      }
+    },
+    {
       "id": "onda_de_frio",
       "nome": "Onda de Frio",
       "categoria": "tecnica",
@@ -6831,7 +9577,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "arma_gelida"
+        ],
         "outros": [
           "arma_gelida_resistencia_a_fogo",
           "frio_ou_eletricidade_o"
@@ -6940,7 +9688,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "convocar_animais"
+        ],
         "outros": [
           "convocar_animais_fabricacao",
           "aplicacao",
@@ -6978,7 +9728,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "lingua_afiada"
+        ],
         "outros": [
           "lingua_afiada_combate_com_duas_armas_2"
         ],
@@ -7053,7 +9805,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "congelar"
+        ],
         "outros": [
           "invocar_elemental_1_requisito_congelar"
         ],
@@ -7071,6 +9825,40 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 97
+      }
+    },
+    {
+      "id": "patas_com_cascos",
+      "nome": "Patas com Cascos",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "fauno"
+        }
+      ],
+      "descricao": "Você possui fortes patas munidas de cascos resistentes. Você pode rolar +1d6 quando fizer testes de correr, saltar ou desviar de obstáculos, e seu Deslocamento é aumentado em 1. Além disso, se fizer ataques desarmados com seus cascos, seu dano será Força +2/Contusão.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 55
       }
     },
     {
@@ -7140,6 +9928,40 @@
       }
     },
     {
+      "id": "pele_rochosa",
+      "nome": "Pele Rochosa",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "mahok"
+        }
+      ],
+      "descricao": "Sua pele é mais espessa do que a da maioria dos outros Mahoks, seja esta uma característica inata sua ou por você estar apresentando os primeiros sinais de envelhecimento. Você é Resistente à Corte e tem +5 Pontos de Vida. Além disso, sua pele adquire também as características de uma armadura Rígida (além da característica Pesada).",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 72
+      }
+    },
+    {
       "id": "pernas_vulpinas",
       "nome": "Pernas Vulpinas",
       "categoria": "caracteristica",
@@ -7170,6 +9992,40 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 72
+      }
+    },
+    {
+      "id": "pintura_corporal",
+      "nome": "Pintura Corporal",
+      "categoria": "geral",
+      "acao": "suporte",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "fauno"
+        }
+      ],
+      "descricao": "Pinturas corporais são comuns entre os Faunos, utilizadas em rituais ou simplesmente como forma de expressão artística. Você deposita muita fé nos significados tradicionais das pinturas, ao ponto de conseguir se beneficiar dessa convicção quando estiver usando uma pintura. Sempre que estiver usando uma pintura corporal e que ela esteja completamente à mostra, você recebe um dos benefícios listados. Apenas uma pintura corporal pode ser usada por vez. Uma pintura corporal dura até você tomar banho - intencionalmente ou não! - ou dormir. Pintura de Caça: Realizada ao redor dos olhos e nas mãos. Você recebe +1 em seus testes ligados à visão e ataques à distância. Além disso, seus ataques à distância causam +1 de dano. Pintura de Guerra: Realizada nos braços, mãos e peito. Seus ataques corporais causam +2 de dano e você recebe Defesa +1 (Este é um bônus de esquiva). Pintura de Oração: Realizada ao redor da boca e pescoço. Você recebe +2 em todos os seus testes ligados à sua voz e instrumentos musicais de sopro, incluindo interações sociais (como convencer ou mentir) e cantar ou usar instrumentos musicais de sopro (incluindo Habilidades do tipo Música). Pintura Ritual: Realizada no peito e no rosto. Você recebe +1 em todos os seus testes ligados à liguagem corporal (como dançar, seduzir ou detectar mentiras) e Habilidades do tipo Magia.",
+      "efeitos_estruturados": [],
+      "especial": "A tintura necessária para a pintura é feita com materiais simples, facilmente encontrados na natureza (como folhas ou frutas trituradas, carvão e argila) e geralmente não tem custo, mas o Mestre pode exigir que o personagem gaste meia hora em busca dos materiais necessários e no preparo da tintura. O processo de aplicar a pintura demora cerca de 10 minutos, e exige sucesso num teste de Inteligência (Dificuldade 8) que pode ser realizado por você mesmo ou por alguém em quem você confia.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 57
       }
     },
     {
@@ -7221,7 +10077,9 @@
       },
       "requisitos": {
         "nivel_minimo": 10,
-        "habilidades": [],
+        "habilidades": [
+          "primaz"
+        ],
         "outros": [
           "primaz"
         ],
@@ -7326,7 +10184,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "disparo_certeiro"
+        ],
         "outros": [
           "disparo_certeiro"
         ],
@@ -7379,6 +10239,42 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 53
+      }
+    },
+    {
+      "id": "primaz",
+      "nome": "Primaz",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "asceta"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Asceta"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "sacerdote"
+        }
+      ],
+      "descricao": "Você acumulou um grande conhecimento sobre os desígnios das divindades. Você rola +1 em todos os seus testes envolvendo magias (incluindo conjurá-las) e conhecimento (esse bônus se acumula com os bônus de Asceta). Além disso, o custo de todas as Habilidades do tipo Magia que você lançar é diminuído em 5.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 134
       }
     },
     {
@@ -7502,7 +10398,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "mover_terra"
+        ],
         "outros": [
           "mover_terra_do_companheiro_animal_seguindo_as_mes"
         ],
@@ -7538,7 +10436,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "curar_ferimentos_1"
+        ],
         "outros": [],
         "texto": "Curar Ferimentos 1"
       },
@@ -7572,7 +10472,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "sabedoria_selvagem"
+        ],
         "outros": [],
         "texto": "Sabedoria Selvagem"
       },
@@ -7642,7 +10544,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "principio_natural"
+        ],
         "outros": [
           "principio_natural_o_selo_mistico_se_dissipa_imediatamen"
         ],
@@ -7720,6 +10624,14 @@
         {
           "tipo": "raca",
           "id": "fauno"
+        },
+        {
+          "tipo": "raca",
+          "id": "elfo"
+        },
+        {
+          "tipo": "raca",
+          "id": "tailox"
         }
       ],
       "descricao": "Você se sente confortável e renovado quando está sob a proteção da vegetação. Quando estiver dentro de uma floresta, bosque ou selva você recebe +2 em todos os seus testes.",
@@ -7838,6 +10750,114 @@
       }
     },
     {
+      "id": "resistencia_elemental",
+      "nome": "Resistência Elemental",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 9
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "runico"
+        }
+      ],
+      "descricao": "Desenhando uma Runa Arcana sobre uma criatura ou objeto, você confere Resistência a Fogo, Frio ou Eletricidade (o alvo sofre apenas metade do dano proveniente desse tipo de energia) a ele. Essa Runa Arcana dura por 1 minuto.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 99
+      }
+    },
+    {
+      "id": "retalhar",
+      "nome": "Retalhar",
+      "categoria": "tecnica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "corte_arterial"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Corte Arterial"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        }
+      ],
+      "descricao": "Sempre que você rolar um Sucesso Crítico em um ataque corporal usando uma arma que cause dano por Corte ou Perfuração, o dano será multiplicado por 3 ao invés de 2. Este é um efeito de sangramento.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 94
+      }
+    },
+    {
+      "id": "retesar_eficiente",
+      "nome": "Retesar Eficiente",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        }
+      ],
+      "descricao": "Você possui uma técnica eficiente em retesar arcos e bestas. Quando estiver usando uma besta ou prodd de qualquer tipo, você ignora a Característica Carregar dessas armas. Quando estiver usando um arco ou funda de qualquer tipo, o dano de seus ataques à distância é aumentado em +2.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 121
+      }
+    },
+    {
       "id": "ripostar",
       "nome": "Ripostar",
       "categoria": "tecnica",
@@ -7853,7 +10873,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "ataque_redirecionado"
+        ],
         "outros": [
           "danca_das_espadas_1_habilidade_tecnica_reacao"
         ],
@@ -7916,6 +10938,40 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 44
+      }
+    },
+    {
+      "id": "rugido_de_ahogr",
+      "nome": "Rugido de Ahogr",
+      "categoria": "caracteristica",
+      "acao": "acao",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 20
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "juban"
+        }
+      ],
+      "descricao": "Você aprendeu a canalizar a fúria de Ahogr em um poderoso rugido. Todos os oponentes que estiverem a até 10 metros à sua frente devem fazer um teste de Vontade (Dificuldade igual à sua Determinação). Aquees que falharem no teste ficam Amedrontados e Atordoados por 1 turno (ver Condições, pág. 169). Um oponente só é afetado por esta habiidade uma vez por combate. Este é um efeito de Medo.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 66
       }
     },
     {
@@ -8103,7 +11159,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "touche"
+        ],
         "outros": [
           "habilidade_tecnica_suporte"
         ],
@@ -8121,6 +11179,40 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 93
+      }
+    },
+    {
+      "id": "sentidos_apurados",
+      "nome": "Sentidos Apurados",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você possui sentidos treinados e extremamente apurados e aprendeu a confiar instintivamente no que eles captam. Você recebe +2 em todos os testes de para per-",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 16
       }
     },
     {
@@ -8199,6 +11291,40 @@
       }
     },
     {
+      "id": "sorte",
+      "nome": "Sorte",
+      "categoria": "caracteristica",
+      "acao": "reacao",
+      "nivel": "racial",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "raca",
+          "id": "humano"
+        }
+      ],
+      "descricao": "Você está acostumado a contar com a sorte - e ela costuma lhe sorrir. Você pode rolar novamente um dado cujo resultado seja 1. Você só pode usar essa Habilidade uma vez por turno. Jubans Singular masculino e feminino: Juban; Plural masculino e feminino: Jubans Atributos Iniciais: Força 4 Agilidade 2 Inteligência 3 Vontade 4 Classes comuns: Paladino, Sacerdote e Guerreiro. Habilidade Automática:",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 63
+      }
+    },
+    {
       "id": "telecinesia",
       "nome": "Telecinésia",
       "categoria": "magia",
@@ -8271,6 +11397,42 @@
       }
     },
     {
+      "id": "teleporte_2",
+      "nome": "Teleporte 2",
+      "categoria": "magia",
+      "acao": "acao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 50
+      },
+      "dificuldade_magia": {
+        "tipo": "fixo",
+        "valor": 14
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "teleporte_1"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Teleporte 1"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "feiticeiro"
+        }
+      ],
+      "descricao": "Desenhando uma runa arcana sobre si mesmo enquanto se concentra em um local qualquer que já tenha visitado pelo menos uma vez, você se teleportar imediatamente para o local pretendido. Você pode levar alguém com você se puder tocar o alvo e ele concordar (ou estiver inconsciente). Some +2 na dificuldade da magia para cada pessoa além de você. A Runa Arcana se dissipa imediatamente depois que seus efeitos são desencadeados.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 101
+      }
+    },
+    {
       "id": "tempestade_de_gelo",
       "nome": "Tempestade de Gelo",
       "categoria": "magia",
@@ -8304,6 +11466,42 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 100
+      }
+    },
+    {
+      "id": "tempestade_de_laminas",
+      "nome": "Tempestade de Lâminas",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "golpes_rapidos"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Golpes Rápidos"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        }
+      ],
+      "descricao": "Sempre que acertar um ataque corporal você pode fazer 1 ataque normal extra com a mesma arma. Esse efeito só pode ser usado 1 vez por turno com cada arma que você estiver usando.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 94
       }
     },
     {
@@ -8342,6 +11540,40 @@
       }
     },
     {
+      "id": "touche",
+      "nome": "Touché",
+      "categoria": "tecnica",
+      "acao": "acao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 10
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "espadachim"
+        }
+      ],
+      "descricao": "Faça um ataque corporal com uma arma que estiver empunhando com apenas 1 mão, rolando +1d6 no teste.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 93
+      }
+    },
+    {
       "id": "transpor",
       "nome": "Transpor",
       "categoria": "tecnica",
@@ -8357,7 +11589,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "defesa_agressiva"
+        ],
         "outros": [
           "defesa_agressiva_voroso_que_motiva_todos_seus_aliados_voce"
         ],
@@ -8393,7 +11627,9 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
+        "habilidades": [
+          "eloquente"
+        ],
         "outros": [
           "eloquente_o_alvo_tem_sua_moral_tao_profundamente"
         ],
@@ -8403,6 +11639,10 @@
         {
           "tipo": "classe",
           "id": "bardo"
+        },
+        {
+          "tipo": "classe",
+          "id": "ladino"
         }
       ],
       "descricao": "Você está acostumado a enganar e mentir, e seu raciocínio se tornou tão condicionado a extrapolar situações rapidamente que até ler (ou mesmo dominar) sua mente é mais difícil! Sua Inteligência é considerada o dobro em Confrontos para tentar esconder ou dissimular a verdade e para calcular sua Determinação contra magias e efeitos que tentem ler sua mente ou perceber suas intenções. Habilidade Final",
@@ -8429,7 +11669,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "evasao"
+        ],
         "outros": [
           "evasao_seu_proximo_turno"
         ],
@@ -8559,6 +11801,14 @@
         {
           "tipo": "classe",
           "id": "espadachim"
+        },
+        {
+          "tipo": "classe",
+          "id": "guerreiro"
+        },
+        {
+          "tipo": "classe",
+          "id": "paladino"
         }
       ],
       "descricao": "Cada vez que você derrota um oponente (isso inclui se ele se render ou fugir após a batalha) você recupera 5 pontos de vida e 5 pontos de mana. Habilidade Final",
@@ -8585,7 +11835,9 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [],
+        "habilidades": [
+          "forma_animal_1"
+        ],
         "outros": [],
         "texto": "Forma Animal 1"
       },
@@ -8673,6 +11925,46 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 134
+      }
+    },
+    {
+      "id": "veneficio",
+      "nome": "Venefício",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "avancada",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [
+          "herbalismo"
+        ],
+        "outros": [],
+        "texto": "Nível 5, Herbalismo"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "druida"
+        },
+        {
+          "tipo": "classe",
+          "id": "patrulheiro"
+        }
+      ],
+      "descricao": "Você é um especialista na fabricação, aplicação e cura de venenos. Você pode produzir qualquer veneno ou antídoto mágico.",
+      "efeitos_estruturados": [],
+      "especial": "Se você tiver alguma Habilidade do tipo Magia que cause dano por Perfuração ou Corte em um alvo, ela também aplicam um efeito de veneno potente (O alvo perde 5 Pontos de Vida por turno) além do dano normal. Esse veneno é considerado mágico e permanece ativo por uma quantidade de turnos gual à sua Vontade ou até ser curado. Habilidade Final",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 89
       }
     },
     {
@@ -8881,10 +12173,114 @@
         "livro": "guia_basico_3e",
         "pagina": 81
       }
+    },
+    {
+      "id": "vontade_de_ferro",
+      "nome": "Vontade de Ferro",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Você não se entrega com facilidade e é muito difícil derrubar você em combate. Você tem +20 Pontos de vida.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 17
+      }
+    },
+    {
+      "id": "vontade_heroica",
+      "nome": "Vontade Heróica",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "geral",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": 5,
+        "habilidades": [],
+        "outros": [],
+        "texto": "Nível 5"
+      },
+      "origens": [
+        {
+          "tipo": "geral",
+          "id": null
+        }
+      ],
+      "descricao": "Sua determinação e autoconfiança são quase inabaláveis. Você tem Vontade +1. Pontos de Vida Os Pontos de Vida (também chamados de PVs) definem quanto castigo físico um personagem é capaz de sofrer antes de se entregar. Eles não são uma medida apenas da saúde do personagem, mas também de uma mistura de sua moral, sua vontade de lutar, sua autoconfiança e também sorte. Quando o personagem sofre dano por um ataque, como um golpe de espada ou uma bola de fogo, não significa que ele for cortado ou queimado e que está sangrando e em chamas, mas sim que ele bloqueou ou esquivou o ataque por um triz ou que o ataque atingiu uma parte particularmente resistente da armadura e o personagem agora está mais consciente de que poderia perfeitamente ter, sim, perdido um bocado de carne devido ao ataque, o que efetivamente diminui sua autoconfiança e moral - além de talvez deixar um roxão ou até um pequeno corte superficial. Um personagem de nível 1 tem 60 Pontos de Vida iniciais. RReeggrraass Por um Fio Um personagem que perdeu todos os pontos de vida fica inconsciente, mas não está morto. O personagem é capaz de resistir aos ferimentos que o levaram à inconsciência por 1 minuto por ponto de Força ou Vontade (o que for mais alto) antes de efetivamente morrer. Depois esse tempo, ele pode fazer um teste de Vontade (dificuldade 12) para tentar reunir suas forças e permanecer vivo. Caso falhe neste teste, ele morre irremediavelmente, mas se passar, ele estabiliza, recuperando 1 Ponto de vida e acordando em 6 horas. Esse tempo de restabelecimento não recupera Pontos de vida ou Mana adicionais. Um personagem Por um Fio pode ser auxiliado por um personagem usando um Kit de Cura. Se esse aliado for bem sucedido em um teste de primeiros socorros (veja Cuidados Médicos na página 25) o personagem é considerado estabilizado como se tivesse sido bem-sucedido no teste de Vontade descrito acima. Um personagem Por um Fio é considerado Indefeso (veja Condições, na página 172) e qualquer quantidade de dano que ele receber o fará morrer sem chances de recuperação. Um personagem estabilizado é considerado Desprevinido (veja Condições, na página 173), mas caso seja ameaçado, pode reagir. Obviamente, certos ferimentos podem tornar o restabelecimento impossível. Se o alvo foi decapitado não há meios de estabilizá-lo. No caso de Habilidades como Absorver e Engolir, o personagem tem seu corpo completamente destruído, e não há chances de recuperação. Gás Petrificante e Olhar Petrificante também causam uma morte que não pode ser curada por qualquer meio, exceto magias e poções muito poderosas. Morte Instantânea Se um personagem estiver completamente indefeso - isto e, inconsciente, totalmente contido ou Por Um Fio - um oponente pode matá-lo instantaneamente com um ataque qualquer. O dano do ataque é totalmente irrelevante (uma faca cega é fatal se o opoente não pode se defender, e mesmo desarmado um personagem pode simplesmente estrangular uma vítima indefesa até matá-la). Lembre-se que um personagem que esteja dormindo não é considerado indefeso, mas sim surpreso (veja o capítulo 6 pág. 173 para mais detalhes). Pontos de Mana Mana é um conceito abstrato que mede a capacidade de concentração, o foco mental e espiritual do personagem e também, parcialmente, sua saúde. Os Pontos de Mana (também chamados de PMs) servem para abastecer Habilidades que tenham custo em Mana. Você só pode gastar Pontos de Mana se tiver a quantidade necessária exigida pela Habilidade ou tarefa. Habilidades de Ação devem ser abastecidas antes do personagem poder fazer o teste para realizá-la, e mesmo que não sejam bem-sucedidas, a energia necessária para realizá-las foi gasta de qualquer forma. Já as Magias são uma exceção a essa regra, só gastam pontos de Mana se você for bem-sucedido no teste para lança-la - portanto, se uma rolagem para lançar uma magia falha, ela não ocorre, e os pontos de Mana do personagem não são gastos. Um personagem de nível 1 tem 60 Pontos de Mana iniciais. Exaustão Um personagem que fique completamente exaurido de seus Pontos de Mana realiza todos os seus testes como se fosse Inapto até recuperar pelo menos 1 Ponto de Mana. Essa regra reflete a fadiga e falta de capacidade de concentração que o personagem sente ao chegar ao limite de sua resistência física e mental. Qualquer perda de Mana posterior será descontada dos PVs do personagem. Recuperação Há várias maneiras de recuperar Pontos de Vida e Mana sendo a mais comum o simples descanso. Um personagem descansando - isto é, sem fazer nenhuma atividade que exija testes de qualquer espécie, concentração física ou foco mental, como estudar magias, marchar ou ficar de vigia - recupera 1 ponto de vida e Mana a cada dez minutos. Dormindo, o personagem recupera o dobro dessa quantidade. Magias, poções e algumas Habilidades também podem recuperar Pontos de Vida e Mana. A recuperação através de poções, itens mágicos e Habilidades é direta, e o item ou Habilidade em questão terá uma descrição de como é seu funcionamento. Sucessos críticos em testes de Cuidados Médicos também podem recuperar Pontos de Vida - Veja Ações e Testes, na página 21. Perceba que nenhum personagem pode recuperar pontos de Vida ou Mana de modo à ficarem com mais do que seu máximo. O total dos Pontos de Vida e Mana de um personagem limitam sua quantidade máxima nessas duas características. Deslocamento O Deslocamento do personagem é calculado dividindo-se sua Agilidade por 2 (arredondada para baixo) e somando-se 5 ao resultado. Esse é o número de metros que um personagem consegue percorrer normalmente durante seu tur-",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 17
+      }
+    },
+    {
+      "id": "egide",
+      "nome": "Égide",
+      "categoria": "tecnica",
+      "acao": "reacao",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "fixo",
+        "valor": 15
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [
+          "codigo_da_coragem"
+        ],
+        "outros": [],
+        "texto": "Código da Coragem"
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Você sempre está pronto para se interpor diante do perigo. Se um ataque ou magia for atingir um alvo adjacente a você, você pode se interpor e sofrer o ataque no lugar do alvo original. Você sofre apenas metade do dano do ataque ou magia, mas sofre quaisquer outros efeitos normalmente.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 114
+      }
     }
   ],
   "revisao": {
     "fonte": "PDF original",
-    "descricao": "Descrições recompostas por coluna; hifenação editorial e erros tipográficos corrigidos."
+    "descricao": "Catálogo reconciliado com todos os cabeçalhos de habilidades, listas de classe/raça e referências internas."
   }
 }
