@@ -115,16 +115,27 @@ function abilityOriginLabels(id){const o=abilityOrigins(id),labels=[];if(o.gener
 function isAbilityAllowed(ability){const o=abilityOrigins(ability.id);return o.general||o.classes.some(x=>x.id===state.identity.classId)||o.races.some(x=>x.id===state.identity.raceId)}
 function abilityFormat(x){const labels=abilityOriginLabels(x.id);return{meta:`${x.categoria||''} · ${x.acao||''}`,detail:x.descricao,searchText:labels.join(' '),extraHtml:`<div>${labels.map(label=>`<span class="tag">${esc(label)}</span>`).join('')}</div>`}}
 function addAction(type){if(type==='language'){const name=prompt('Idioma:');if(name){state.languages.push(name);save();renderSimpleLists()}return}if(type==='protection'){openPicker('Adicionar proteção',catalog.equipment.filter(x=>['armadura','escudo'].includes(x.categoria)),x=>{state.protections.push({id:x.id});save();renderAll()},equipFormat);return}if(type==='attack'){openPicker('Adicionar arma',catalog.equipment.filter(x=>x.categoria==='arma'),x=>{state.attacks.push({id:x.id,damageType:x.dano?.tipos?.[0]||''});save();renderAll()},equipFormat);return}if(type==='ability'){openPicker('Adicionar habilidade',catalog.abilities.filter(x=>isAbilityAllowed(x)&&!state.abilities.some(a=>a.id===x.id)),x=>{state.abilities.push({id:x.id});save();renderAbilities()},abilityFormat);return}if(type==='item'){openPicker('Adicionar equipamento',catalog.equipment,x=>{state.inventory.push({id:x.id,quantity:1});save();renderAll()},equipFormat)}}
+function formatRequiredStrength(value){
+  if(value===null||value===undefined||value==='')return'';
+  if(typeof value!=='object')return String(value);
+  const requirements=[];
+  if(value.uso!=null)requirements.push(String(value.uso));
+  if(value.uma_mao!=null)requirements.push(`Uma mão: ${value.uma_mao}`);
+  if(value.duas_maos!=null)requirements.push(`Duas mãos: ${value.duas_maos}`);
+  return requirements.join(' · ');
+}
 function equipFormat(x){
   const fields=[];
   const add=(label,value)=>{if(value!==null&&value!==undefined&&value!=='')fields.push(`<div class="equipment-field"><strong>${esc(label)}:</strong>${esc(value)}</div>`)};
   add('ID',x.id);add('Categoria',x.categoria);add('Subcategoria',x.subcategoria);add('Custo',`${cost(x.custo)} moedas`);if(x.peso!=null)add('Peso',`${x.peso} kg`);
-  if(x.forca_necessaria){const fn=typeof x.forca_necessaria==='object'?[x.forca_necessaria.uma_mao!=null?`Uma mão: ${x.forca_necessaria.uma_mao}`:'',x.forca_necessaria.duas_maos!=null?`Duas mãos: ${x.forca_necessaria.duas_maos}`:''].filter(Boolean).join(' · '):x.forca_necessaria;add('Força necessária',fn)}
+  const requiredStrength=formatRequiredStrength(x.forca_necessaria);
+  add('Força necessária',requiredStrength);
   if(x.dano){const attribute=x.dano.atributo?attrNames[x.dano.atributo]||x.dano.atributo:'';const formula=x.dano.formula||[attribute,x.dano.bonus!=null?`${x.dano.bonus>=0?'+ ':''}${x.dano.bonus}`:''].filter(Boolean).join(' ');const types=(x.dano.tipos||[]).join(', ');add('Dano',[formula,types].filter(Boolean).join(' · '))}
   add('Alcance',x.alcance);if(x.defesa)add('Defesa',[x.defesa.valor,x.defesa.tipo].filter(v=>v!==null&&v!==undefined&&v!=='').join(' · '));if(x.caracteristicas?.length)add('Características',x.caracteristicas.join(', '));
   if(x.fonte){add('Fonte',[x.fonte.livro,x.fonte.pagina!=null?`página ${x.fonte.pagina}`:''].filter(Boolean).join(' · '))}
   const description=x.descricao?`<div class="equipment-description"><strong>Descrição</strong>${esc(x.descricao)}</div>`:'';
-  return{meta:[x.categoria,x.subcategoria].filter(Boolean).join(' · '),searchText:JSON.stringify(x),extraHtml:`<div class="equipment-info">${fields.join('')}${description}</div>`,hideDefaultDetail:true}
+  const strengthTag=requiredStrength?`<div><span class="tag">Força necessária: ${esc(requiredStrength)}</span></div>`:'';
+  return{meta:[x.categoria,x.subcategoria].filter(Boolean).join(' · '),searchText:JSON.stringify(x),extraHtml:`${strengthTag}<div class="equipment-info">${fields.join('')}${description}</div>`,hideDefaultDetail:true}
 }
 function renderSimpleLists(){$('#languages').innerHTML=state.languages.length?state.languages.map((x,i)=>`<div class="row"><div class="row-title">${esc(x)}</div><button class="icon-btn danger" data-del-lang="${i}">×</button></div>`).join(''):'<div class="empty">Nenhum idioma</div>';$$('[data-del-lang]').forEach(b=>b.onclick=()=>{state.languages.splice(+b.dataset.delLang,1);save();renderSimpleLists()})}
 function renderProtections(){const el=$('#protections');el.innerHTML=state.protections.length?state.protections.map((v,i)=>{const x=catalog.equipment.find(e=>e.id===v.id)||{nome:v.id};const affects=x.categoria==='escudo'?'Bloqueio':'Bloqueio e Esquiva';return `<div class="row"><div><div class="row-title">${esc(x.nome)}</div><div class="row-meta">${esc(x.categoria||'')} · Defesa ${x.defesa?.valor??'—'} · ${affects}</div></div><button class="icon-btn danger" data-del-prot="${i}">×</button></div>`}).join(''):'<div class="empty">Nenhum item de proteção</div>';bindDelete('prot',state.protections,renderAll)}
