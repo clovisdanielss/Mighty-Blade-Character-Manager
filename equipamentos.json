@@ -499,6 +499,27 @@
       }
     },
     {
+      "id": "banho_quente",
+      "nome": "Banho Quente",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 2,
+        "max": 5
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Uma tina de água quente em uma sala privada.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
       "id": "barril",
       "nome": "Barril",
       "categoria": "equipamento_geral",
@@ -853,6 +874,69 @@
       }
     },
     {
+      "id": "camarote",
+      "nome": "Camarote",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 2,
+        "max": 10
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Um espaço privativo para até 6 pessoas. Custo por hora.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
+      "id": "caneco_de_cerveja",
+      "nome": "Caneco de Cerveja",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 1,
+        "max": 3
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Qualquer bebida fermentada de baixa qualidade",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
+      "id": "caneco_de_grog",
+      "nome": "Caneco de Grog",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 2,
+        "max": 5
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Qualquer bebida destilada de baixa qualidade",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
       "id": "cantil",
       "nome": "Cantil",
       "categoria": "equipamento_geral",
@@ -994,6 +1078,27 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 166
+      }
+    },
+    {
+      "id": "catre",
+      "nome": "Catre",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 1,
+        "max": 5
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Uma cama de peles e um baú em um pequeno quarto particular",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
       }
     },
     {
@@ -1307,7 +1412,7 @@
       "caracteristicas": [
         "aura_nula"
       ],
-      "descricao": null,
+      "descricao": "Recupera 30 Pontos de Mana e Vida",
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 168
@@ -1347,7 +1452,7 @@
       "caracteristicas": [
         "aura_nula"
       ],
-      "descricao": null,
+      "descricao": "Recupera 30 Pontos de Vida",
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 168
@@ -1769,6 +1874,26 @@
       }
     },
     {
+      "id": "garrafa_de_bebida",
+      "nome": "Garrafa de bebida",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "texto": "-"
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Quatro vezes o preço do caneco",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
       "id": "garrafa_de_ceramica",
       "nome": "Garrafa de Cerâmica",
       "categoria": "equipamento_geral",
@@ -1982,6 +2107,27 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 157
+      }
+    },
+    {
+      "id": "lavanderia",
+      "nome": "Lavanderia",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 2,
+        "max": 5
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Por conjunto de roupa.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
       }
     },
     {
@@ -2525,6 +2671,42 @@
       }
     },
     {
+      "id": "passagem_completa",
+      "nome": "Passagem Completa",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": 15,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Como acima, mas com todas as refeições inclusas.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
+      "id": "passagem_privativa",
+      "nome": "Passagem Privativa",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": 60,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Como acima, mas você tem uma carruagem privativa que também serve como quarto. A carruagem pode ser ocupada por até quatro pessoas.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
       "id": "pederneira_e_isqueiro",
       "nome": "Pederneira e Isqueiro",
       "categoria": "equipamento_geral",
@@ -2733,6 +2915,48 @@
       }
     },
     {
+      "id": "quarto_comum",
+      "nome": "Quarto comum",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 5,
+        "max": 10
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Cama de peles para duas pessoas, guarda-roupas e escrivaninha com cadeira.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
+      "id": "quarto_comum_para_quatro_pessoas",
+      "nome": "Quarto comum para quatro pessoas",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 20,
+        "max": 30
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Igual à um quarto comum, mas com duas camas e uma mesa com quatro cadeiras.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
       "id": "rabeca",
       "nome": "Rabeca",
       "categoria": "instrumento_musical",
@@ -2778,6 +3002,48 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 157
+      }
+    },
+    {
+      "id": "refeicao_completa",
+      "nome": "Refeição Completa",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 5,
+        "max": 10
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Carne, queijo e pão frescos ou uma sopa grossa de vegetais e carne, além de frutas frescas",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
+      }
+    },
+    {
+      "id": "refeicao_simples",
+      "nome": "Refeição Simples",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "min": 1,
+        "max": 3
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Um pedaço de pão e queijo ou um caldo ralo de vegetais",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
       }
     },
     {
@@ -2861,6 +3127,26 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 157
+      }
+    },
+    {
+      "id": "seguranca_extra",
+      "nome": "Segurança Extra",
+      "categoria": "servico",
+      "subcategoria": "servico",
+      "custo": {
+        "texto": "-"
+      },
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "É sabido que em certas caravanas os guardas protegem mais determinados passageiros, pois esses pagam mais caro para garantir sua segurança e, na maioria das vezes, a segurança de seus produtos. Esse custo é bem variável dependendo do que está sendo protegido.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 167
       }
     },
     {
@@ -3267,6 +3553,6 @@
   ],
   "revisao": {
     "fonte": "PDF original",
-    "descricao": "Descrições de tabelas recompostas e erros tipográficos corrigidos."
+    "descricao": "Catálogo reconciliado com as tabelas de armas, armaduras, itens, montarias e serviços."
   }
 }
