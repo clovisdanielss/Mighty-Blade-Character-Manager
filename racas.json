@@ -1,0 +1,365 @@
+{
+  "versao_schema": 1,
+  "fonte": "Mighty Blade - Guia Básico - 3ª Edição",
+  "racas": [
+    {
+      "id": "aesir",
+      "nome": "Aesir",
+      "nomes_genero": {
+        "singular_masculino": "Aesir",
+        "plural_masculino": "Aesires",
+        "singular_feminino": "Aesir",
+        "plural_feminino": "Aesires"
+      },
+      "atributos_iniciais": {
+        "forca": 4,
+        "agilidade": 2,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Aesires são humanoides altos e robustos com uma fisiologia adaptada para climas extremamente frios. Sua altura mediana está entre 1,9 e 2,2 metros e pesam em média entre 100 e 130 quilos. Possuem pele e olhos extremamente claro, adaptados à luz muito clara das regiões de gelo eterno onde vivem. A pele possui pouca pigmentação, sendo extremamente clara com uma matiz levemente azulada ou esverdeada. Seu corpo é coberto por uma pelagem rala e fina mais concentrada no alto da cabeça e, nos machos, ao redor e abaixo do rosto. A cor dos pelos é quase branca, apresentando matizes de azul, verde ou cinza, dependendo do indivíduo. Os olhos são extremamente bem adaptados, sendo protegidos por uma finíssima membrana que reflete completamente a luz. Graças à isso, os olhos parecem ser de uma única cor, sempre refletindo o aspecto de luz do ambiente - geralmente branco - ou dourado em áreas iluminadas apenas por fogo artificial. A gestação das Aesires dura cerca de nove meses e o bebê nasce completamente dependente da mãe pelos primeiros anos de vida. Um Aesir é considerado adulto aproximadamente aos 16 anos, apesar de algumas raras vezes poderem atingir a maioridade diante da comunidade com menos idade. Podem viver até os 90 noventa anos, com raros indivíduos chegando aos 120 anos. Aesires começam a apresentar sinais de envelhecimento por volta dos 60 anos, como diminuição da massa muscular e na capacidade de percepção. As fêmeas são distintas dos machos por não desenvolverem pelos faciais e também por apresentarem um par de mamas que podem ser de tamanho mé-   dio à grandes, geralmente aumentando de tamanho depois da primeira gestação. Elas também são em geral pouco menores do que os machos e possuem traços faciais mais delicados.",
+      "cultura": "Os Aesires vivem no extremo gelado do continente numa região que eles chamam de Eishelm, ao norte do reino élfico de Londérien, no extremo norte de Cassiopéia, quase no polo. Eishelm é isolado de Londórien pela Cordilheira Cnoc Oighir, e os Aesires se espalham entre o norte e parte do oeste dessa cadeia de montanhas, onde existem estepes, tundras e pequenas e é constantemente assolada por nevascas e áreas de gelo perene. Eishelm não é um reino em si, pois a estrutura política dos Aesires não comporta a existência de reis. Ao invés disso, cada grande comunidade é regida por um Jarl, que mantém as leis e a ordem da região com o aconselhamento de bardos, druidas e sacerdotes. De tempos em tempos os Jarls se reúnem para discutir problemas, trocar informações importantes e rever, criar ou anunciar leis. Essas reuniões (chamadas Althings) acontecem anualmente, no final do verão, a menos que algum problema de impacto considerável exija que haja um conselho de emergência - algo que não acontece há cerca de 15 séculos, desde a derrocada do último dragão que assolou a região. Apesar de ser presidida por Jarls e seus conselheiros, os Althings são abertos a todos os homens livres, que podem questionar qualquer decisão ou pedir por mais detalhes de certa lei ou informação nova. Aesires são grandes navegadores, capazes de velejarem distancias longínquas em seus Drakkar, apesar de não terem desenvolvido sistemas de navegação oceânica, o que os limita à navegação de cabotagem - que lhes permite teoricamente chegar à qualquer ponto de Cassiopéia. No entanto, pelo norte, eles não ultrapassam a costa do Grande Pântano do Leste - por considerarem que não pode haver nenhuma terra de interesse além daquele lamaçal fétido - e nem vão além do porto de Aet’Muuri, em Arkânia - o ponto mais ao sul com quem mantém contatos comerciais. Assim, apesar de manterem comércio em bons termos com Arkânia, Dagothar, Londérien e Tebryn, os Aesires nunca chegaram à Bryne e Parband, e dificilmente um Aesir será visto nesses dois reinos, apesar de serem relativamente comuns nos portos do resto de Cassiopéia. Apesar de serem vistos como ríspidos e broncos por alguns Tebrynianos e Arkanitas, os Anões mantém boas relações com eles, enquanto os Elfos têm uma ótima impressão dos Aesires - que possuem uma série de lendas que dizem respeito aos Elfos, tanto dizendo que são portadores de grande magia e guardiões da natureza quanto que dizem que são criaturas vingativas e rancorosas do submundo - que sempre demonstram grande respeito e até mesmo reverência com os Elfos. De qualquer forma, todos os reinos mantém boas relações comerciais com os Aesires por conta de sua liberdade de movimentação dentro do Mar do Comércio, por seu notório hábito de manter a palavra em questões de negócios e por sua estadia em portos para negociar ser sempre extremamente breve - o que limita bastante a possibilidade de atritos maiores com os cidadãos locais. Apesar de eventualmente um jovem Aesir resolver se aventurar pelos reinos do sul, esses são eventos isolados e nem um pouco comuns - a maioria dos Aesires considera as complexas cadeias políticas dos outros povos muito complicadas e desnecessárias. Aqueles Aesires que decidem explorar os reinos do sul geralmente se tornam andarilhos e, muito comumente, aventureiros. Os motivos que regem as visitas dos Aesires serem breves e os ovens Aesires que decidem se aventurar no sul geralmente o fazerem sozinhos é simplesmente porque dentro das tradições da raça, visitantes e invasores são diferenciados pela quantidade em que chegam. Enquanto um ou dois estrangeiros sejam sempre bem-vindos à comunidades Aesires, grupos maiores podem ser considerados como invasões e rechaçadas como tal! Por conta disso, eles tentam visitar outras comunidades com o menor contingente possível - a menos, é claro, que tenham a intenção de pilhar! Há um",
+      "habilidades_automaticas": [
+        "vigor_nordico"
+      ],
+      "habilidades_extras": [
+        "furia_bestial",
+        "berserkir",
+        "potencia",
+        "robustez",
+        "bravura_selvagem_1",
+        "ulfhednar",
+        "bravura_selvagem_2"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 40
+      }
+    },
+    {
+      "id": "anao",
+      "nome": "Anão",
+      "nomes_genero": {
+        "singular_masculino": "Anão",
+        "singular_feminino": "Anã",
+        "plural_masculino": "Anões",
+        "plural_feminino": "Anãs dez anos. Atingem a maturidade por volta"
+      },
+      "atributos_iniciais": {
+        "forca": 4,
+        "agilidade": 2,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Os Anões são humanoides de composição compacta e vigorosa. São conhecidos pela pelagem pesada que recobre sua cabeça deixando apenas sua face de fora. A pelagem no corpo é mais esparsa e macia do que na cabeça, e geralmente mais escura. Se tornando acinzentada ou branca nos idosos. Os machos também tendem à calvície depois da maturidade. A pele dos anões é de uma tonalidade parda ou bronzeada, geralmente esmaecendo com a idade. Medem em média 1,4 a 1,5 metros de altura, sem uma diferença considerável entre os gêneros. A espécie possui tônus muscular proeminente, com uma certa tendência à obesidade - principalmente nos machos - e pesam entre 70 e 90 quilos. A gestação das Anãs dura cerca de dez meses, e as crianças são totalmente dependentes dos pais até aproximadamente os dez anos. Atingem a maturidade por volta dos vinte anos, e só começam a apresentar sinais de envelhecimento (como perda de tônus muscular e da pigmentação dos pelos) depois dos 100 anos, mas em geral se mantém ativos e saudáveis até os 200 anos. Anciões acima dessa idade geralmente se tornam fracos e tendem a ficar mais obesos. As fêmeas são facilmente distinguíveis dos machos por não apresentarem pelos no pescoço e no queixo, e pelo par de mamas amplas e pesadas que possuem.",
+      "cultura": "Os Anões se orgulham do seu exímio trabalho em pedra, e nenhum deles se sente confortável em um abrigo feito de outro material. A maioria das cidades anãs é entalhada diretamente dentro de rochas, seja na encosta de montanhas e colinas, seja em cavernas - enquanto Dagothar é bastante abundante em formações rochosas, a maioria das comunidades anãs em Tebryn fica ao longo das Cordilheira dos Cristais, sendo as maiores cidades anãs no reino Braktar e Stord. Mesmo aquelas cidades que são construídas na superfície são erigidas próximas de áreas com abundância de rochas para fornecer matéria-prima para seus prédios. A maioria dos prédios públicos é bastante ampla, mas as moradias geralmente são compostas por múltiplas salas pequenas, cada uma com um propósito específico. Além das cozinhas, quartos e salas de estar costumam possuir fontes de fogo, seja para iluminação, aquecimento ou ambos. Nas cidades subterrâneas, as casas particulares costumam ser construídas em túneis ligados a grandes espaços comunais, chamados de salões. As cidades maiores possuem vários salões, cada um com propósitos específicos, enquanto comunidades menores possuem salões que servem múltiplos propósitos simultanea-",
+      "habilidades_automaticas": [
+        "coracao_da_montanha"
+      ],
+      "habilidades_extras": [
+        "duro_como_pedra",
+        "estabilidade",
+        "forjado_a_fogo",
+        "cabeca_dura",
+        "raca_subterranea"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 45
+      }
+    },
+    {
+      "id": "elfo",
+      "nome": "Elfo",
+      "nomes_genero": {
+        "singular_masculino": "Faen",
+        "plural_masculino": "Elfos",
+        "plural_feminino": "Elfas",
+        "singular_feminino": "Faen"
+      },
+      "atributos_iniciais": {
+        "forca": 2,
+        "agilidade": 4,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Os Elfos são humanoides de estatura mediana, constituição esbelta e traços delicados. Têm em média entre 1,6 e 1,7 metros de altura e pesam entre 50 e 60 quilos. Uma de suas características mais marcante são as longas orelhas pontudas, que lhes confere uma audição superior. A pele dos Elfos possui tonalidades douradas ou bronzeadas e os olhos são claros, sendo o verde, o lilás e o azul as cores mais comuns, mas alguns indivíduos possuem olhos de coloração âmbar. Apresentam uma pelagem muito fina e clara cobrindo o corpo, mais abundante no topo da cabeça. É tradicional que todos os Elfos mantenham suas cabeleiras longas, geralmente em trançados exuberantes ou amarrações confortáveis, dependendo das atividades desenvolvidas pelo indivíduo. A pelagem dos elfos é sempre de uma cor muito clara, geralmente loura, mas o branco também é bastante comum. Tons acinzentados são incomuns, mas existem. Diferente da maioria das outras espécies de humanoides, os pelos dos Elfos não mudam de cor ao longo da vida, nem mesmo com a chegada da velhice. A gestação das Elfas é longa, durando em torno de 18 meses. Com cerca de 25 anos, os Elfos chegam numa idade em que seu desenvolvimento físico chega ao ápice, e mudanças físicas naturais não ocorrem mais depois dessa idade. Apesar de ampliação ou redução de massa muscular devido à atividade mais ou menos pesada, cicatrizes por ferimentos profundos ou mesmo a perda de membros poderem modificar o corpo dos Elfos, eles não são fisicamente alterados pelos efeitos comuns   do envelhecimento. Esse fenômeno, conhecido pelos estudiosos como Benção de Lathellanis, é de origem mágica e intrínseco da raça, não havendo nenhum tipo de efeito que seja capaz de anular ou replicar o fenômeno - mas muitos estudiosos serem obcecados por ele, tanto entre os Elfos como entre as outras raças. Graças à Benção de Lathellanis, os Elfos atingem uma idade impossível para qualquer outra raça, exceto talvez os dragões. Há registros de Elfos que atingiram a impressionante marca de 700 anos. Ainda que a média de vida dos Elfos seja um pouco abaixo disso, cerca de 500 anos, ela está muito além da expectativa que qualquer outra raça possa esperar atingir naturalmente. As fêmeas são distinguíveis dos machos por apresentarem um par de mamas pequenas, mas o corpo esbelto e os traços delicados tanto de machos como fêmeas, assim como a ausência de barba, faz com que a distinção de gênero as vezes seja difícil, principalmente por raças não mamíferas - como os Draconianos, Grotons e Naga.",
+      "cultura": "A maioria das comunidades élficas é construída em áreas florestais. A arquitetura da raça tende a se adaptar à natureza ao redor, causando um mínimo de impacto no meio ambiente. É muito comum que os Elfos cultivem plantas em formatos específicos para formar domos ou galerias inteiras sob elas, e dependendo da região, podem utilizar árvores mortas ou mesmo grutas naturais para construir seus prédios, sempre observando a manutenção da natureza. As comunidades élficas geralmente se estendem por imensas áreas, com uma densidade populacional muito baixa. A maioria das comunidades é abastecida de alimentos por forrageio e caça. Apesar de conhecerem técnicas avançadas de agronomia, a maioria das comunidades não faz uso de plantação em larga escala. Ao invés de fazendeiros, é muito comum que haja uma quantidade de forrageadores experientes que se encarregam de fornecer frutas, folhas e raízes da estação suficientes para, em conjunto com os caçadores e pescadores, abastecer eficientemente a comunidade, sem que seja necessário o plantio sistematizado. Os caçadores élficos também se preocupam em abater aquelas criaturas que normalmente se alimentariam do que os forrageadores recolhem e também uma parcela dos predadores naturais desses animais, para que não haja desequilíbrio na cadeia alimentar local. Essa preocupação com o equilíbrio do ambiente é explicada não só pela veneração da raça por Lathellanis - considerada a Deusa geradora da raça e primeira divindade de Drakon, associada à natureza, como princípio criador e nutridora da vida como um todo - mas também porque, na experiência da raça, um menor impacto na natureza permite que as comunidades jamais enfrentar escassez de alimento nem se vejam atacadas por animais desprovidos de seus alimentos naturais. Além disso, os Elfos não domesticam nenhum tipo de animal, seja para trabalho, corte ou como animais de estimação. Todos os recursos de origem animal (carne, peles lã e leite) vêm de obtenção in loco - os Elfos vão até onde os animais estão, extraem o que precisam e retornam para a comunidade. Assim como as formas de vida ao seu redor, a maioria dos Elfos também tem uma grande preocupação com o solo em si. É a única raça que não se dedica à mineração, extraindo todo o metal por garimpagem, principalmente de aluvião. Assim, os metais não são abundantes para a raça, e são extremamente valorizados. A maioria das peças metálicas de origem élfica são pequenas (pontas de flechas, anéis e broches) e extremamente bem trabalhadas. Os instrumentos, ferramentas e armas empregados pela raça geralmente são de madeira, as vezes com partes de silex (como em instrumentos de corte e ferramentas de escultura). A sociedade élfica é notoriamente matriarcal, com as fêmeas desempenhando papéis de reguladoras e regentes das comunidades, geralmente ocupando todos os cargos de maior importância. Alguns",
+      "habilidades_automaticas": [
+        "bencao_de_lathellanis"
+      ],
+      "habilidades_extras": [
+        "heranca_feerica",
+        "intelecto_elfico",
+        "invisibilidade_natural",
+        "luzes_das_fadas",
+        "arboricola",
+        "dom_da_magia"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 48
+      }
+    },
+    {
+      "id": "faen",
+      "nome": "Faen",
+      "nomes_genero": {
+        "singular_masculino": "Fauno",
+        "singular_feminino": "Faunesa",
+        "plural_masculino": "Faens",
+        "plural_feminino": "Faens"
+      },
+      "atributos_iniciais": {
+        "forca": 2,
+        "agilidade": 4,
+        "inteligencia": 3,
+        "vontade": 2
+      },
+      "biologia": "Os Faen são humanoides com características herdadas de ancestrais feéricos. Eles podem chegar a cerca de 1,5 metros, apesar da maioria medir em torno de 1,3 e 1,4 metro e não pesam mais do que 35 quilos. Possuem, nas costas, asas leves e semitransparentes semelhantes às dos insetos. Estas asas tem uma envergadura total igual à altura do Faen. Eles também apresentam um par de antenas que nasce na testa, que permitem que alguns deles mantenham uma comunicação rudimentar com insetos. Faens apresentam uma coloração róseo-amarelada na pele, podendo chegar ao dourado ou ao bronzeado. A pele é lisa e desprovida de pelos, exceto no topo da cabeça, onde apresentam uma cabeleira fina e macia, que pode ter variadas cores, indo do louro claro ao ruivo, passando por matizes de azul e lilás. Alguns raros Faen nascem com a pele e cabelos com tons verdes, chamados de “Isnuu” (ou “nascidos nas folhas” no idioma Silvestre) e possuem uma grande afinidade com a magia. A gestação Faen é curta, por volta de 3 meses, e a incidência de gêmeos é muito grande. Cerca de um quinto de todos os nascimentos gera gêmeos ou trigêmeos. Apesar disso, o nascimento de mais do que três Faens em uma mesma gestação é desconhecido. Faens nascem sem suas asas, que se desenvolvem durante a infância e chegam ao tamanho total quando o indivíduo chega ao começo da puberdade, com cerca de 16 anos - no entanto, a maioria dos Faens são capazes de voos curtos e desajeita-   Especial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos de Encontrão). dos a partir dos 10 anos. Ao atingir os 20 anos, já tendo domínio total da sua capacidade de voo, o Faen é considerado adulto. Faens podem chegar aos 200 anos, e não sofrem os efeitos do envelhecimento tão severamente quanto a maioria das outras raças. De fato, apesar de geralmente perderem um pouco de massa corpórea depois dos 100 anos e de marcas de expressão mais notáveis na pele, nenhuma outra modificação devido à idade avançada é percebida na raça. Além disso, quando morre naturalmente, todo Faen passa por uma metamor-",
+      "cultura": "Os Faens vivem em pequenas comunidades no interior de florestas - principalmente no sul da Floresta dos Antigos, ao norte do Vale das Orquídeas e no Vale do Dragão. Costumam ter uma organização desleixada, sem uma hierarquia rígida nem postos ou líderes permanentes, exceto pelo fato de os mais velhos costumam ser consultados quanto aos assuntos importantes - apesar de assuntos relativos à magia geralmente ficarem a cargo dos Isnuu quase que exclusivamente. Cada Faen de uma colônia gasta seu tempo como preferir, e a maioria escolhe sua profissão por prazer e não por imposição ou levando em consideração as necessidades da colônia. Apesar disso, todas as decisões são tomadas em grupo, e devido à sua natureza gregária as ações decididas pela maioria são aceitas coletivamente sem atritos. Os Faens se alimentam forrageando frutas, castanhas, folhas e raízes, mas alguns deles são adeptos do cultivo de plantas e fungos comestíveis. São estritamente herbívoros, mas alguns Faens, capazes de uma comunicação mais profunda com insetos, geralmente mantêm pequenas colmeias de insetos meleiros. São intimamente ligados ao meio ambiente, estando livres da grande maioria das ameaças naturais e - em geral - de outros povos, mas costumam migrar quando comunidades de outras raças se aproximam muito de suas colônias, devido às modificações ambientais que estas geralmente causam nos arredores. Sua ligação com plantas permite que eles esculpam o crescimento destas para formar casas e outras estruturas, e suas cidades são sempre camufladas com plantas e geralmente escondidas por magia. Os Faens preferem sempre fugir a lutar, e em geral, só agirão de forma agressiva se estiverem protegendo entes queridos, sua colônia ou a floresta onde vivem. A reação mais comum de um Faen frente ao combate iminente é simplesmente levantar voo e se afastar tanto quanto possível da ameaça. Não que sejam covardes, mas eles simplesmente não veem nenhuma necessidade em colocar sua saúde em risco quando existe a possibilidade de simplesmente voar para longe. No entanto, se forem forçados a lutar, não desistem até que seu inimigo esteja morto e lançam mão de qualquer recurso para isso.",
+      "habilidades_automaticas": [
+        "constituicao_feerica"
+      ],
+      "habilidades_extras": [
+        "luzes_das_fadas",
+        "dom_da_magia",
+        "heranca_feerica",
+        "presenca_real",
+        "invisibilidade_natural",
+        "voador_eximio"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 51
+      }
+    },
+    {
+      "id": "fauno",
+      "nome": "Fauno",
+      "nomes_genero": {
+        "singular_masculino": "Fira",
+        "plural_masculino": "Faunos",
+        "plural_feminino": "Faunesas o crânio, que crescem novamente se fo-",
+        "singular_feminino": "Fira"
+      },
+      "atributos_iniciais": {
+        "forca": 3,
+        "agilidade": 3,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Os Faunos são humanoides com pés digitígrados que terminam em dois dedos, cada um protegido por um casco. Sua pele é parda ou bronzeada, coberta por uma pelagem fina, densa e curta que cobre quase todo o corpo (com exceção das palmas das mãos), sendo mais esparsa no rosto, tronco e braços. Essa pelagem varia de um louro-palha passando por vários tons de castanho que pode chegar a um tom quase preto. Apesar de alguns poderem apresentar uma pequena diferença de cor de uma área para outra, a pelagem é sempre uniforme e sólida, sem padrões ou manchas. A pelagem vai perdendo cor com o tempo, e os faunos mais velhos costumam ter pelagens cinzentas ou mesmo completamente brancas. No alto da cabeça a pelagem se transforma em chifres queratinosos, sem ligação com o crânio, que crescem novamente se forem cortados. Os chifres dos Faunos crescem paralelos à testa, inclinando-se para trás, podendo apresentar uma borda fina ou formato espiralado. Costumam ter uma estatura que varia de 1,5 à 1,7 metros e pesar entre 50 e 60 quilos, apresentando pernas longas e musculosas e geralmente pouca gordura corporal. A gestação das Faunesas dura cerca de oito meses, e as crianças se desenvolvem rápido, sendo capazes de andar com cerca de um ano. O padrão dos chifres é sempre o mesmo do pai, sem exceções. Atingem a maturidade com cerca de 18 anos, e começam a apresentar sinais de envelhecimento - como descoloração dos pelos - somente depois dos 100 anos. Podem chegar à respeitável idade de 200 anos, mas a maioria dos faunos mais velhos se torna bastante frágil e fraco. As fêmeas apresentam chifres mais curtos, duas mamas pequenas e características faciais mais delicadas, além de terem pelagem mais esparsa e não desenvolverem barba, presente nos machos.",
+      "cultura": "Os Faunos são uma raça intrinsecamente silvícola, preferindo viver em selvas ou matas fechadas, mas algumas comunidades podem ser encontradas em florestas ou bosques de vegetação menos densa. A maioria das comunidades de Faunos em Tebryn se localiza na Floresta da Borda, mas a Floresta dos Antigos tem algumas comunidades de tamanho considerável. A maioria das comunidades de Faunos estão em Londérien, no entanto, de onde acredita-se que eles tenham migrado para o sul do continente de Cassiopéia antes mesmo da formação do reino dos Elfos. Sua sociedade é comunal (sem propriedade privada em larga escala), bastante igualitária e descentralizada. Lideranças ou outras funções de prestígio às vezes são transmitidas em caráter hereditário, mas em geral os critérios decisivos são a competência, o prestígio e o carisma pessoal. Possuem grande respeito pela autoridade e sabedoria dos líderes, geralmente papel dos Druidas e Bardos, que se responsabilizam pelas tarefas administrativas superiores da comunidade, incluindo a aplicação da Justiça e a condução de ritos e festejos coletivos. Os papéis de gênero são bastante distintos. Os machos cuidam da caça, pesca, construção e manutenção das estruturas físicas da comunidade, enquanto as fêmeas cabe a manutenção das plntações, preparo de alimentos e fabricação de utensílios e tecidos. A manufatura de arte, os ritos xamânicos e a pratica medicinal são, porém, atividades realizadas por ambos os gêneros, dependendo apenas de capacidade pessoal. A educação das crianças é compartilhada por todos os habitantes da aldeia, estimulando-se a autonomia e o acompanhamento de todas as atividades para que cada indivíduo se concentre nas práticas que mais lhe agradarem. As mães amamentam o filho por vários anos, conquanto não tenham outro no período, e os pais geralmente permanecem ao lado de ambos durante esse período, mas os laços matrimoniais geralmente não sobrevivem além desse período. As crianças pequenas estão sempre acompanhadas, e antes de andar frequentemente vão carregadas em várias atividades adultas que não apresentem riscos. Rituais solenes de passagem, conduzidos pelos Druidas da comunidade, marcam as diferentes etapas do crescimento de cada indivíduo desde o nascimento até a morte, e são celebrados coletivamente por toda a comunidade. As habitações são construídas com materiais disponíveis na região - variando de junco e barro até madeira e pedra - e são comunais. Cada grupo familiar constrói sua própria habitação, que, dependendo do tamanho da comunidade, pode variar de apenas uma a até dezenas de casas comunais. Quando existem inimigos próximos à comunidade, geralmente são levantadas paliçadas de troncos de árvores e preparadas armadilhas simples, como fossos com estacas. A música tem uma grande importância na cultura dos Faunos. Além de estar presente em todas as comemorações e rituais, a maioria dos Druidas utiliza música para realizar magias, e, como não possuem uma linguagem escrita, é responsabilidade dos Bardos, através de suas músicas, contos e poemas manter a memória cultural da sociedade e passar os ensinamentos para as gerações mais novas.",
+      "habilidades_automaticas": [
+        "cascos_ageis"
+      ],
+      "habilidades_extras": [
+        "flauta_de_pa",
+        "patas_fortes",
+        "raca_florestal",
+        "sentidos_de_cacador"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 54
+      }
+    },
+    {
+      "id": "fira",
+      "nome": "Fira",
+      "nomes_genero": {
+        "singular_masculino": "Humano",
+        "singular_feminino": "Humana",
+        "plural_masculino": "Firas co entre essas raças: quando estão sob",
+        "plural_feminino": "Firas co entre essas raças: quando estão sob"
+      },
+      "atributos_iniciais": {
+        "forca": 3,
+        "agilidade": 3,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Os Firas são seres humanoides de estatura e constituição medianas (entre 1,6 e 1,9 metros de altura e pesando entre 70 e 80 quilos) adaptados à vida em regiões quentes e áridas. Sua pele é escura, geralmente em um tom de cobre fosco ou marrom-oliva. O corpo dos Firas é coberto por uma pelagem grossa e esparsa, mais espessa na cabeça e, nos machos da espécie, sob o queixo. Essa pelagem geralmente é negra com tons avermelhados, passando por alguns tons de castanho e muito raramente ruivo. Uma das características mais notáveis dos Firas são seus olhos desprovidos de íris ou pupila, geralmente de cor branca, mas que pode apresentar variações de amarelo e dourado, com indivíduos apresentando uma luminescência semelhante ao brilho de uma chama, capaz de fornecer iluminação em ambientes escuros. Podem suportar temperaturas mortais para a maioria das outras raças, graças à um reflexo biológico único entre essas raças: quando estão sob muito calor, os batimentos cardíacos e a respiração diminuem drasticamente de frequência, reduzindo a temperatura do corpo. Somado à pele que reflete de forma eficiente o calor, os Firas são extremamente resistentes ao calor e até mesmo ao fogo. A gestação das Firas dura cerca de nove meses, e as crianças ficam sob supervisão dos pais até atingirem a idade adulta, com cerca de 18 anos. A incidência de gêmeos é extremamente incomum na raça. Os Fira podem viver até os 120 anos, com os primeiros efeitos da idade - como acessos de letargia causados pelo reflexo desregulado do corpo em diminuir o ritmo do organismo - começando a surgir em geral apenas depois dos 70 anos. As fêmeas são diferenciadas dos machos por não desenvolverem pelos sob o queixo e por apresentarem um par de mamas de tamanho pequeno ou médio.",
+      "cultura": "Os Firas preferem locais abertos e clima árido para erigirem suas comunidades. Em Cassiopéia, a região do Grande Planalto do Leste, onde se estabeleceram depois do Tratado dos Povos Livres oferece as condições perfeitas para eles. Geralmente procuram locais com pedreiras ou abundância de rochas, matéria-prima da maioria das suas construções, como ocorre em Sa’es Yasgaroth e Tell’es Triadha, cidades que foram rapidamente erigidas e prosperaram rapidamente graças aos esforços dos Firas somados à abundância de matéria prima ainda inexplorada desses locais. A maioria das edificações dos Firas, particulares ou públicas, possuem uma área interna e outra externa, esta última geralmente no topo da construção, e as formas pirami-",
+      "habilidades_automaticas": [
+        "habitante_do_deserto"
+      ],
+      "habilidades_extras": [
+        "fulgurante",
+        "chamas_internas_1",
+        "mente_iluminada",
+        "sopro_de_fogo",
+        "chamas_internas_2",
+        "vigor_do_deserto"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 57
+      }
+    },
+    {
+      "id": "humano",
+      "nome": "Humano",
+      "nomes_genero": {
+        "singular_masculino": "Juban",
+        "plural_masculino": "Humanos",
+        "plural_feminino": "Humanas.",
+        "singular_feminino": "Juban"
+      },
+      "atributos_iniciais": {
+        "forca": 3,
+        "agilidade": 3,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Humanos são os humanoides mais numerosos de Drakon. Graças a isso, são a base de comparação para todas as outras raças humanoides - que recebem essa classificação, não por acaso, devido ao nome dessa raça. Humanos possuem uma altura mediana, entre 1,5 e 1,9 metros, e indivíduos mais baixos ou altos são bastante raros, geralmente sendo portadores de deficiências de nascença. Variam consideravelmente de peso dependendo do seu estilo de vida, variando de 40 a até 140 quilos - apesar da média estar entre os 60 e 80 quilos. Possuem uma pele que varia do rosado ao negro, passando por algumas variações de pardo. Seu corpo é coberto por uma pelagem rala e fina, mais abundante nos machos. Apresentam uma concentração maior de pelos no alto da cabeça e, nos machos, ao redor e abaixo do rosto. A cor dos pelos varia entre o amarelo palha até o negro, passando por variações de louro, castanho e raramente ruivo. Os olhos costumam ser de coloração castanha, verde ou mais raramente, azul. A gestação das Humanas dura cerca de nove meses. Um Humano é considerado adulto aproximadamente aos 16 anos. Podem viver até os oitenta anos, com raros indivíduos chegando aos 100 anos, mas começam a apresentar sinais de envelhecimento por volta dos 50 anos. As fêmeas são distintas dos machos por não desenvolverem pelos faciais e também por apresentarem um par de mamas que variam de pequenas a grandes, que geralmente aumentam de tamanho depois da primeira gestação. Elas Atributos Iniciais: Força 3 Agilidade 3 Inteligência 3 Vontade 3 Classes Comuns: Bardo, Espadachim, Feiticeiro, Guerreiro, Ladino, Mago, Sacerdote e Rúnico. Habilidade Automática: Adaptabilidade Habilidade (Característica) - Suporte Descrição: Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu - ou precisou - desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha. também são, em geral, pouco menores do que os machos e possuem traços faciais mais delicados.",
+      "cultura": "Os Humanos são a raça mais expansionista de Drakon. Eles geralmente procuram tratados com outras raças, e gostam de trocar conhecimentos acadêmicos e culturais, muitas vezes adotando e adaptando os mesmos. Eles estão presentes em todos os Reinos conhecidos, em maior ou menor número. Fora de Tebryn, um reino de cultura majoritariamente humana, eles geralmente adotam os costumes culturais vigentes. Humanos geralmente vivem em um sistema de meritocracia titular, isto é, bens e funções são garantidos por merecimento pessoal através de um título de nobreza geralmente não hereditário, mas é muito comum que parte do prestígio (não só no que se refere ao título, mas também com relação a realizações pessoais) seja transferido de pai para filho, assim como é esperado que os filhos assumam as responsabilidades e atividades dos pais. As cidades humanas são geralmente construídas em locais com acesso aos recursos naturais necessários para manterem a comunidade - como rios e bosques - ou providenciar áreas onde os habitantes possam desenvolver atividades com esse fim - como campos amplos para plantação e criação de gado. Humanos costumam estabelecer atividades extrativistas ao redor de suas comunidades, geralmente explorando ao máximo os recursos naturais à disposição. Apesar de algumas comunidades terem perecido devido ao descuido em manter essa prática dentro de limites que permitam que o meio ambiente se reestruture com o tempo - o que fez com que muitas comunidades Humanas ancestrais fossem nômades - os Humanos contemporâneos aprenderam a administrar de forma eficiente os recursos naturais à disposição, tendo aprendido com os Elfos a lidarem de forma mais eficiente com a natureza. Humanos tendem a construir seus prédios com foco em funcionalidade mais do que estética, e a maioria das construções da raça possuem estruturas simples e práticas. Apesar disso, casas abastadas, templos e construções importantes - como bibliotecas, castelos, monumentos e salões - são construídas com uma arquitetura mais requintada, geralmente com a influência da engenharia Anã. Templos, castelos e fortalezas costumam ter salões amplos, enquanto residências, oficinas e comércios costumam ter ambientes menores, geralmente separados em salas com propósitos específicos. Humanos utilizam os recursos naturais ao seu redor para construir o que precisam. Apesar de apreciarem construções sólidas de pedra, devido à velocidade que os Humanos geralmente constroem seus prédios, a maioria das moradias e comércios é feito de madeira, em caráter muitas vezes temporário, até que construções de pedra possam ser erguidas em seu lugar. Se a região não for abundante em pedras que possam ser usadas para construção, os prédios de madeira serão mais requintados e feitos para durar. Em regiões onde ambas as fontes de recursos sejam escassas, os Humanos costumam construir suas casas de barro, usando a madeira disponível apenas para criar um esqueleto sólido para as paredes e para o teto e, se possível, pedras para construir bases sólidas para os prédios maiores. Humanos reverenciam a Tríade Divina majoritariamente, mas em geral eles escolhem uma divindade específica do panteão para reverenciar como seus patronos, geralmente aquela que tiver ligação com sua profissão - Magistrados e soldados têm uma inclinação a reverenciar Mirah, enquanto carpinteiros e Druidas geralmente favorecem Ellenis, por exemplo - embora isso não seja regra geral. Cada urbe e a maioria dos burgos e mesmo vilas terão pelo menos um templo dedicado à Tríade Divina em cidades Humanas.",
+      "habilidades_automaticas": [
+        "adaptabilidade"
+      ],
+      "habilidades_extras": [
+        "assuntos_diversos",
+        "audacia",
+        "gregario",
+        "barganha",
+        "diversidade"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 60
+      }
+    },
+    {
+      "id": "juban",
+      "nome": "Juban",
+      "nomes_genero": {
+        "plural_masculino": "Jubans muns. Alguns apresentam padrões, como",
+        "singular_masculino": "Juban",
+        "singular_feminino": "Juban",
+        "plural_feminino": "Jubans muns. Alguns apresentam padrões, como"
+      },
+      "atributos_iniciais": {
+        "forca": 4,
+        "agilidade": 2,
+        "inteligencia": 3,
+        "vontade": 4
+      },
+      "biologia": "Os jubans são humanoides com pernas digitígradas de porte avantajado com algumas características semelhantes às dos grandes felinos. Costumam ter entre 1,8 e 2 metros de altura, e graças à uma musculatura poderosa podem chegar aos 140 quilos, apesar da média girar em torno de 120 quilos. A cabeça dos Jubans é munida de um focinho curto com presas fortes, e os dedos dos pés e mãos possuem garras curvas curtas e resistentes. Também apresentam uma cauda com, em média, 1 metro de comprimento, apesar da função original da cauda (provavelmente melhorar o equilíbrio, como no caso dos felinos) tenha se perdido durante a evolução da raça. Jubans apresentam uma pele rosada, coberta quase inteiramente com uma pelagem fina e cerrada que pode variar do dourado ao marrom escuro, apesar das cores castanho-avermelhadas serem as mais comuns. Alguns apresentam padrões, como listras e manchas, e os machos desenvolvem uma pelagem mais densa e abundante no alto da cabeça e no pescoço, cuja tonalidade geralmente é mais escura do que o resto do pelo. Alguns raros indivíduos apresentam pelagem branca, mas essa é uma ocorrência anômala semelhante ao albinismo de outras raças - apesar dos Jubans brancos não apresentarem sensibilidade ao sol nem falta de pigmentação na pele e nos olhos como acontece com os albinos de outras raças. A gestação das Jubans dura em média 9 meses, e um indivíduo é considerado adulto com cerca de 18 anos. Jubans começam a apresentar sinais de velhice - como o enfraquecimento de presas e garras - com cerca de 80 anos, e podem chegar aos 140 anos de idade. As fêmeas são distintas dos machos por apresentarem duas pequenas mamas (apesar delas serem pouco perceptíveis devido ao tamanho reduzido e à musculatura desenvolvida da raça) e por não desenvolverem a característica juba dos machos.",
+      "cultura": "Jubans costumam se firmar em planícies, savanas ou outros locais de terreno plano. Algumas comunidades se desenvolvem no alto de planaltos, e é bastante comum que eles aplainem o topo de colinas ao redor da área onde as comunidades se desenvolvem para construir fortificações. Kommos, a capital administrativa de Parband é um exemplo perfeito do gosto dos Jubans para assentarem suas cidades: um planalto amplo e baixo à beira de um rio, cercado por planícies até onde a vista alcança. Os Jubans são uma raça extremamente organizada e disciplinada, e apesar de não serem tão inclinados à religiosidade quanto os Firas, os dogmas de Ahogr (um",
+      "habilidades_automaticas": [
+        "corpo_pesado"
+      ],
+      "habilidades_extras": [
+        "imparavel",
+        "mordida_poderosa",
+        "robustez",
+        "fortaleza",
+        "sentidos_de_cacador",
+        "garras"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 63
+      }
+    },
+    {
+      "id": "levent",
+      "nome": "Levent",
+      "nomes_genero": {
+        "singular_masculino": "Mahok",
+        "singular_feminino": "Mahok",
+        "plural_masculino": "Levents",
+        "plural_feminino": "Levents"
+      },
+      "atributos_iniciais": {
+        "forca": 2,
+        "agilidade": 3,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Os Levent são humanoides dotados de grandes asas que brotam de suas costas - logo abaixo das omoplatas. São geralmente mais baixos e menos corpulentos do que os humanos, com uma média de altura de 1,5 a 1,6 metros e um peso que oscila entre 60 e 70 quilos. As asas possuem uma envergadura total igual ao dobro da altura do indivíduo. Seus traços são finos, com lábios pouco carnudos e orelhas levemente pontudas. Seus olhos são grandes e de coloração clara, variando entre azul, verde e âmbar. A pele é de uma tonalidade bronzeada clara. Apresentam uma penugem fina que recobrem a parte de cima e de trás da cabeça se estendendo até a base das asas, os ombros e os antebraços. Na cabeça, as penas costumam ser longas e, nos machos são mais grossas e formam penachos. As penas no resto do corpo são pequenas e macias, geralmente confundidas com pelos, mas em alguns indivíduos elas podem ser maiores e mais duras, como as penas das asas, que são extremamente fortes e resistentes. A plumagem dos Levent costuma ser de uma única tonalidade no corpo todo, e pode variar do branco ao castanho escuro, mas tonalidades de amarelo e castanho-claro são as mais comuns. A gestação dos Levent dura em torno de 10 meses. Gêmeos são extremamente raros, e os bebês nascem sem penas, mas já nos primeiros dias de vida desenvolvem uma plumagem branca muito macia que trocam com cerca de cinco anos por sua plumagem adulta. Durante esse período de troca, que dura cerca de três à quatro meses, ficam reclusos po-   Especial: O dano de qualquer manobra de Encontrão usada em voo é duplicado (mas o dano da arma que você usar no Encontrão não é alterado, nem quaisquer outros possíveis efeitos do Encontrão). dendo ser vistos apenas por membros de sua família. As fêmeas são diferenciadas dos machos por apresentarem duas pequenas mamas no peito e possuírem traços em geral mais delicados. Além disso, as fêmeas não desenvolvem o penacho característico dos machos. Os Levent chegam a viver 500 anos, e assim como os elfos, não perdem o vigor físico com a idade. São considerados adultos quando suas asas se desenvolvem o suficiente para alçarem vôo, geralmente próximo aos 16 anos de idade. Nesse período, eles buscam um local isolado junto à dois tutores, um de cada gênero, que iniciam o Levent em técnicas de vôo, pesca e na vida sexual. Esse período dura cerca de dois meses, e falar com outros Levents que não seus tutores durante esse período é considerado um sinal de desrespeito.",
+      "cultura": "Os Levent vivem em picos altos de regiões montanhosas. Suas cidades costumam ser feitas de torres escavadas nas rochas ou erigidas sobre as mesmas. Em geral, cada comunidade vai apresentar uma mistura desses dois tipos de construções, usualmente empregando escavações profundas nas rochas como depósitos, quartéis e prisões, e torres elevadas como moradia, estabelecimentos de comércio e salões destinados à política e aos cultos religiosos. Como são capazes de voar, a maioria dos locais mais importantes, geralmente construídos nas partes mais altas de suas cidades, são inacessíveis para outras raças exceto com ajuda. A maioria das casas apresenta um balcão largo para pouso, mas escadas são quase completamente desconhecidas em suas cidades. Além disso, em geral mantém espaços amplos e verticais, que lhes permita alçar voo sem dificuldades. A maioria das outras raças fica extasiada com o tamanho colossal das construções Levent, sempre muito amplas e cheias de ecos. A maioria das cidades é construída próxima a rios, mares ou nascentes nas montanhas. As comundidades Levent de Cassiopéia se concentram no Arquipélago das Três Irmãs, na Ilha do Lagarto e ao longo da cadeia de Cnoc Ard, em Londérien - principalmente no sudoeste da mesma. A carne de pesca é a mais comum entre eles, já que não desenvolveram técnicas muito elaboradas para a caça, e abater pássaros e outras criaturas voadoras é um tabu para a raça. Apesar de não terem desenvolvido a navegação, a maioria deles aprecia a pesca, e é muito comum encontrar revoadas de Levent próximos à costa realizando pesca esportiva ou profissional. Muitos dos Levent apresentam certa habilidade para a magia, e também é muito comum que sintam um impulso de se comunicar com os espíritos, principalmente quando se tornam mais velhos. De fato, as comunidades Levent são sempre regidas por conselhos teocráticos, formado por Druidas e Sacerdotes, às vezes com a presença de Magos. Líderes militares, burgomestres, castelões e outros membros de postos mais “mundanos” são comumente procurados como conselheiros, mas não têm voz ativa no conselho. A natureza dos Levent é notoriamente pacífica. Preferem a diplomacia à guerra sempre que possível, e mesmo suas punições são em geral mais psicológicas do que físicas. Apesar de manterem um corpo de guarda organizado, principalmente formado por patrulheiros especializados em lidar com feras comuns da região de cada comunidade, dificilmente se envolvem em conflitos de larga escala. A localidade de suas cidades os tornam muito menos vulneráveis a ataques do que as raças “do solo”, e apenas um número pequeno de criaturas podem realmente representar uma ameaça para suas comunidades. Mesmo aqueles indivíduos mais aventureiros ou agressivos que procuram outras raças para exercitar suas capacidades marciais geralmente preferem tarefas de rastreio e reconhecimento em lugar do combate direto. Unem-se a um parceiro por toda a vida, sendo fieis a eles até a morte, mas, antes de eleger um parceiro passam por um notório período de experimentação e promiscuidade. Quando o parceiro de um",
+      "habilidades_automaticas": [
+        "asas_ancestrais"
+      ],
+      "habilidades_extras": [
+        "mente_iluminada",
+        "asas_fortes",
+        "movimento_brusco",
+        "olhos_de_aguia"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 66
+      }
+    },
+    {
+      "id": "mahok",
+      "nome": "Mahok",
+      "nomes_genero": {
+        "plural_masculino": "Mahoks A pele dos Mahoks geralmente",
+        "singular_masculino": "Mahok",
+        "singular_feminino": "Mahok",
+        "plural_feminino": "Mahoks A pele dos Mahoks geralmente"
+      },
+      "atributos_iniciais": {
+        "forca": 5,
+        "agilidade": 2,
+        "inteligencia": 2,
+        "vontade": 3
+      },
+      "biologia": "Os Mahok são humanoides de constituição sólida, medindo cerca de 2,5m de altura e pesando cerca de 300 quilos na idade adulta. Esse peso aumenta com a idade, e pode chegar a até o dobro disso antes do Mahok não ser capaz de se mover devido ao próprio peso. Esse peso se deve princoipalmente devido à característica mais notável da raça, sua pele formada por placas de rocha. A pele dos Mahoks geralmente apresenta cor e configuração granítica, embora em algumas regiões eles possam apresentar formações semelhantes ao mármore ou ao alabastro. Os sentidos dos mahoks são notoriamente precários. Sua pele grossa não transmite a sensação do tato e seus ouvidos não possuem pavilhões auditivos externos. Além disso as formações rochosas ao redor dos olhos e das narinas limitam sua visão e olfato. Mahoks têm quatro dedos em cada mão e pé, apesar de, nos pés, os dedos serem geralmente unidos sob uma grossa camada de pedra formando um bloco único. Além disso, em raros casos, um Mahok nasce com um par extra de braços. Esses braços geralmente não são muito hábeis, já que a maioria das atividades dos Mahoks (assim como das outras raças) é realizada e desenvolvida para indivíduos com dois braços - mas com treinamento é possível aprender a usá-los com eficiência. Mahoks possuem um ciclo de vida singular. A gestação dura cerca de 10 meses, e o bebê (sempre apenas um por gestação) nasce com uma camada muito fina de rochas envolvendo o corpo, que se racha e cai nos primeiros dias de vida, enquanto uma camada nova se desenvolve por baixo. Mahoks crescem rápido, e com cerca de 10 anos de idade já apresenta o seu tamanho máximo, mas sua pele só é considerada como tendo uma configuração ideal quando eles atingem os 20 anos, idade na qual são considerados adultos. Desse ponto em diante, os Mahoks se desenvolvem lentamente, mas sua pele continua a engrossas progressivamente. Quando chega aos 60 anos, a maioria dos Mahoks tem alguma dificuldade de locomoção devido ao peso e à configuração da pele e a maioria deles simplesmente deixa de ter qualquer mobilidade quando atinge os 80 anos, tornando-",
+      "cultura": "Mahoks vivem em cidades escavadas em montanhas ou em grandes galerias de cavernas naturais. As comunidades geralmente são pequenas, e os Mahoks não costumam alterar mais do que o estritamente necessário do ambiente onde vivem. De fato, muitas comunidades são nômades, percorrendo grandes áreas montanhosas e fixando-se por pouco tempo em cavernas naturais ou esculpidas por seus ancestrais. A maioria dessas comunidades erra através dos Picos Orientais, mas há também algumas poucas comunidades nas Cnoc Ard, Cnoc Oighir e nas montanhas Eisenhügel em Londérien e Dagothar, respectivamente, enquanto as comunidades que haviam nas Montanhas do Céu Vermelho deixaram há muito tempo aquela região devido as atividades Arkanitas ali, migrando para as Montanhas de Cristal, principalmente em sua porção mais oriental, mas não são muito numerosas. Apesar de não terem um reino constituído, muitos Mahoks são cidadãos de Dagothar, Tebryn e, principalmente Parband. A alimentação dos Mahoks é bastante peculiar. Como precisam de grandes quantidades de silício, carbono e sais minerais em sua dieta, é comum que consumam argila e cal (geralmente cozidos em forma de biscoitos) e alimentos assados ao ponto de se tornarem carvão. Mahoks também alimentam-se de vegetais crus e apreciam bastante vários tipos de insetos como iguarias. São gregários por natureza e geralmente constituem grupos familiares extremamente unidos. Essa característica também os torna extremamente sociáveis e faz com que gostem de travar contato com todas as outras raças capazes de se comunicar, mesmo que rudimentarmente - incluindo ogros, ciclopes e outros trogloditas que as outras raças inteligentes consideram irracionais. São estoicos e precisam de muito pouco conforto, não sendo afetados por ambientes que a maioria das outras raças consideraria hostis, nem pela maioria das intempéries consideradas desagradáveis ou nocivas - como chuva, ambientes desérticos ou granizo, por exemplo. Graças a isso, seu estilo de vida frugal e sua tendência a entrar em contato com raças selvagens, os Mahoks geralmente são vistos como pouco sofisticados - ou mesmo incivilizados - por outras raças. Devido ao seu ciclo de vida peculiar, os Mahoks mostram um grande interesse em escolher com precisão o local, ou ao menos a área onde vão tornar-se parte da paisagem quando morrerem. A maioria dos picos mais elevados de Cassiopéia possuem campos monolíticos (chamados cromlechs), onde centenas de Mahoks foram para encontrar seu descanso final. A maioria desses campos pode passar despercebido por viajantes e exploradores e em algumas ocasiões são confundidos com monumentos. Como nem mesmo os próprios Mahoks podem dizer com certeza se um menir é realmente o resultado da petrificação de um Mahok ou uma rocha natural, algumas vezes eles são deslocados desavisadamente por outras raças - particularmente Orcs, Anões e Firas, que costumam usar pedras na construção de prédios ou monumentos.",
+      "habilidades_automaticas": [
+        "pele_de_pedra"
+      ],
+      "habilidades_extras": [
+        "gregario",
+        "abraco_de_pedra",
+        "raca_subterranea",
+        "estabilidade"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 69
+      }
+    },
+    {
+      "id": "tailox",
+      "nome": "Tailox",
+      "nomes_genero": {
+        "singular_masculino": "Tailox",
+        "singular_feminino": "Tailox",
+        "plural_masculino": "Tailoxs",
+        "plural_feminino": "Tailoxs"
+      },
+      "atributos_iniciais": {
+        "forca": 2,
+        "agilidade": 4,
+        "inteligencia": 3,
+        "vontade": 3
+      },
+      "biologia": "Os Tailox são humanoides de pequena estatura (entre 1,4 e 1,6 metros) e de constituição esbelta (pesando entre 40 e 50 quilos). A cabeça apresenta um focinho curto e fino e orelhas grandes e seus são digitígrados. Possuem uma cauda pequena, coberta por uma pelagem mais farta do que no resto do corpo. Tailox têm pele rosada coberta por uma pelagem macia, curta e espessa que cobre praticamente todo o corpo - exceto as palmas das mãos e sola dos pés. A pelagem dos Tailox geralmente apresenta um tom castanho ou ruivo com padrões negros e brancos no corpo, particularmente no rosto, cauda, mãos e pés. A gestação das Tailox dura entre sete e oito meses, e gêmeos são relativamente frequentes, embora três ou mais crianças em uma mesma gestação ser um acontecimento extremamente raro. Um Tailox é considerado adulto ao atingir os 15 anos, e os sinais do envelhecimento - como despigmentação do pelo - começam a aparecer a partir dos 40 anos. A maioria dos Tailox não chega a atingir 90 anos de idade. Machos e fêmeas da espécie são extremamente semelhantes, não havendo diferenças físicas notáveis. As fêmeas possuem duas mamas extremamente pequenas, que são difíceis de perceber mesmo na época da amamentação.",
+      "cultura": "Os Tailox são originários de Gaian, onde se agrupavam em pequenas comunidades familiares, nos bosques gelados mais ao sul do continente. Os Gnolls daquele continente, no entanto, sistematicamente atacaram e espantaram a maioria dos Tailox da região, forçando-os para o norte, onde eles acabaram por ser assimilados pela sociedade Juban. Suas características físicas permitiam que eles realizassem tarefas que para os Jubans eram mais difíceis - particularmente reconhecimento e espionagem - e as duas raças acabaram por criar uma simbiose extremamente produtiva. Apesar da grande maioria dos Tailox preferir a civilização e a interação com outras raças, além dos confortos oferecidos pelas grandes urbes de Drakon, existem pequenas comunidades Tailox que buscam o contato com a natureza como faziam seus ancestrais. Essas comunidades vivem em bosques onde a caça e o forrageio são favoráveis, às vezes em companhia (ou em comunidades) dos Elfos, Faens e Faunos. Esses Tailox buscam a comunhão com Ellenis para atingir o Mtii’Ruah, o Espírito Verdadeiro. O aspecto mais palpável do Mtii’Ruah é a capacidade de se transformar em uma raposa, chegando mais próximo da comunhão com a sua natureza animal. Fora dessas sociedades rústicas, alguns poucos Tailox conseguem atingir o Mtii’Ruah, e os que conseguem geralmente são Druidas ou Sacerdotes de Ellenis. Em geral, os Tailox tem uma visão extremamente prática e procuram sempre resolver qualquer problema com a menor quantidade de esforço necessária. Somando-se à isso o fato de serem astutos e furtivos, ganharam fama de serem trapaceiros e ladrões, e muitos indivíduos desconfiam dos Tailox. Essa fama, no entanto, é extremamente exagerada. A maioria dos Tailox passam para seus filhos ensinamentos semelhantes aqueles dos Jubans no que diz respeito à honra e caráter, e a grande maioria dos Tailox é tão honesta quanto cidadãos de qualquer outra raça, apesar de alguns realmente tirarem proveito de suas capacidades naturais - e do fato de sua fama lhes permitir menos oportunidades de trabalho - e acabarem por se tornarem ladrões e criminosos. A maioria dos Tailox é extremamente promíscua e quase nunca mantém relacionamentos estáveis. É comum inclusive que se relacionem com membros de outras raças, e muito poucos deles procura pelo matrimônio. Não obstante, suas relações de amizade são sempre extremamente honestas e duradouras, e apesar de demorarem algum tempo para confiarem em indivíduos de outras raças, quando o fazem é geralmente de coração. A maioria dos Tailox tem uma pré- -disposição ao heroísmo romântico. Parcialmente isso é explicado pela promiscuidade da raça - “salvar a donzela/o mancebo em apuros” parece ter um efeito positivo em suas conquistas amorosas - mas possui raízes mais profundas, apesar da maioria dos Tailox negarem ou nem mesmo terem consciência disso. Considerando que a raça perdeu completamente sua identidade cultural depois da Revoada dos Dragões e precisou se integrar às culturas de outras raças para sobreviver, e ainda assim é assolada por uma fama de trapaceiros, preguiçosos e ladrões geralmente descabida, a grande maioria dos Tailox possui um desejo quase instintivo de ser não só aceito integralmente como um membro íntegro da sociedade, mas também de ser admirado pelas outras raças. Essa característica é uma espécie de catarse racial com relação aos Tailox marginalizados e é um impulso muito difícil de refrear. Em indivíduos com caráter questionáveis ou com estilos de vida medíocres, no entanto, essa característica pode estar totalmente ausente. No entanto, a maioria dos Tailox aventureiros assume uma postura heroica descabida, não apenas com comportamentos excêntricos, mas muitas vezes enfrentando perigos desnecessários em busca de resultados admiráveis e dignos de músicas de Bardos.",
+      "habilidades_automaticas": [
+        "pernas_vulpinas"
+      ],
+      "habilidades_extras": [
+        "forma_da_raposa",
+        "audacia",
+        "contos_da_estrada",
+        "visao_auditiva",
+        "faro"
+      ],
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina_inicial": 72
+      }
+    }
+  ],
+  "revisao": {
+    "fonte": "PDF original",
+    "descricao": "Textos recompostos por coluna; erros tipográficos corrigidos."
+  }
+}

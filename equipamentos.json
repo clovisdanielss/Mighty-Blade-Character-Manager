@@ -1,0 +1,3272 @@
+{
+  "versao_schema": 1,
+  "fonte": "Mighty Blade - Guia Básico - 3ª Edição",
+  "equipamentos": [
+    {
+      "id": "adaga",
+      "nome": "Adaga",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 50,
+      "peso": 0.25,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 4,
+        "formula": "forca + 4",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "arremesso",
+        "canalizador"
+      ],
+      "descricao": "Arremesso, Canalizador",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "alabarda",
+      "nome": "Alabarda",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 275,
+      "peso": 6,
+      "forca_necessaria": {
+        "uma_mao": 6,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 11,
+        "formula": "forca + 11",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "haste",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "alaude",
+      "nome": "Alaúde",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 50,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "alforge",
+      "nome": "Alforge",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 50,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "aljava_comum",
+      "nome": "Aljava Comum",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 1.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Utensilio usado normalmente nas costas para carregar flechas. Comporta até 20 flechas (compradas separadamente).",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "antidoto_basico",
+      "nome": "Antídoto Básico",
+      "categoria": "pocao",
+      "subcategoria": "pocao",
+      "custo": 50,
+      "peso": 0.12,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "aura_nula"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 168
+      }
+    },
+    {
+      "id": "anzol_e_linha",
+      "nome": "Anzol e Linha",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "arco_composto",
+      "nome": "Arco Composto",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 175,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 3,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 6,
+        "formula": "forca + 6",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "longo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": "Duas Mãos",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "arco_de_guerra",
+      "nome": "Arco de Guerra",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 250,
+      "peso": 1.5,
+      "forca_necessaria": {
+        "uma_mao": 4,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 8,
+        "formula": "forca + 8",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "longo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "arco_recurvo",
+      "nome": "Arco Recurvo",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 250,
+      "peso": 1.5,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 7,
+        "formula": "forca + 7",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "longo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": "Duas mãos",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "arco_simples",
+      "nome": "Arco Simples",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 75,
+      "peso": 0.75,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 4,
+        "formula": "forca + 4",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "armadura_completa",
+      "nome": "Armadura Completa",
+      "categoria": "armadura",
+      "subcategoria": "armadura",
+      "custo": 2000,
+      "peso": 36,
+      "forca_necessaria": {
+        "uso": 8
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 5,
+        "tipo": "base"
+      },
+      "caracteristicas": [
+        "pesada",
+        "rigida"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "armadura_de_batalha",
+      "nome": "Armadura de Batalha",
+      "categoria": "armadura",
+      "subcategoria": "armadura",
+      "custo": 600,
+      "peso": 27,
+      "forca_necessaria": {
+        "uso": 6
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 4,
+        "tipo": "base"
+      },
+      "caracteristicas": [
+        "pesada"
+      ],
+      "descricao": "Pesada",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "armadura_de_couro",
+      "nome": "Armadura de Couro",
+      "categoria": "armadura",
+      "subcategoria": "armadura",
+      "custo": 100,
+      "peso": 12,
+      "forca_necessaria": {
+        "uso": 2
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 2,
+        "tipo": "base"
+      },
+      "caracteristicas": [],
+      "descricao": "-",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "armadura_para_animais_batalha",
+      "nome": "Armadura para Animais (Batalha)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1200,
+      "peso": 75,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Concede +3 de defesa ao animal",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "armadura_para_animais_completa",
+      "nome": "Armadura para Animais (Completa)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1800,
+      "peso": 100,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "armadura_para_animais_couro",
+      "nome": "Armadura para Animais (Couro)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 300,
+      "peso": 35,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Concede +1 de defesa ao animal",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "armadura_para_animais_simples",
+      "nome": "Armadura para Animais (Simples)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 600,
+      "peso": 50,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "armadura_simples",
+      "nome": "Armadura Simples",
+      "categoria": "armadura",
+      "subcategoria": "armadura",
+      "custo": 200,
+      "peso": 18,
+      "forca_necessaria": {
+        "uso": 4
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 3,
+        "tipo": "base"
+      },
+      "caracteristicas": [
+        "pesada"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 50,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 5,
+        "formula": "forca + 5",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "arremesso"
+      ],
+      "descricao": "Arremesso",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "balas",
+      "nome": "Balas",
+      "categoria": "municao",
+      "subcategoria": "municao",
+      "custo": 1,
+      "peso": 0.02,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "barril",
+      "nome": "Barril",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 20,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Barril de madeira para liquidos. Comporta 50 litros de liquido.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "barrilete",
+      "nome": "Barrilete",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 6,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "bau_grande",
+      "nome": "Baú Grande",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 50,
+      "peso": 60,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "bau_pequeno",
+      "nome": "Baú Pequeno",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 30,
+      "peso": 20,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Baú de madeira reforçado. Com alça para cadeado. 50 cm da largura, 25 cm de profundidade e 25 cm de altura.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "berrante",
+      "nome": "Berrante",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 30,
+      "peso": 2,
+      "forca_necessaria": {
+        "uso": 3
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "instrumento de sopro produzido a partir de um grande chifre, cuja variação de som é feita pelo modo de soprar do músico",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "besta_leve",
+      "nome": "Besta Leve",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 175,
+      "peso": 2,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": null,
+        "bonus": 10,
+        "formula": "10",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos",
+        "carregar"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "besta_pesada",
+      "nome": "Besta Pesada",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 225,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": null,
+        "bonus": 14,
+        "formula": "14",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos",
+        "carregar"
+      ],
+      "descricao": "Duas Mãos, Carregar",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "bico_de_corvo",
+      "nome": "Bico-de-Corvo",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 125,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 6,
+        "formula": "forca + 6",
+        "tipos": [
+          "contusao",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "arremesso"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "bohdran",
+      "nome": "Bohdran",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 30,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "bolanta",
+      "nome": "Bolanta",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 400,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "bongo",
+      "nome": "Bongô",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 40,
+      "peso": 1.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "instrumento de percussão constituído de dois pequenos tambores unidos lado a lado que são percutidos com as mãos",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "bordao",
+      "nome": "Bordão",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 50,
+      "peso": 2,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 5,
+        "formula": "forca + 5",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos",
+        "canalizador"
+      ],
+      "descricao": "Duas Mãos, Canalizador",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "burro",
+      "nome": "Burro",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 50,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Versão treinada do Burro descrito no Monstrum Codex p. 9",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "caixa_grande",
+      "nome": "Caixa Grande",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 45,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "caixa_pequena",
+      "nome": "Caixa Pequena",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 2,
+      "peso": 8,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Caixa quadrada de madeira com 50 cm de lado.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "cajado",
+      "nome": "Cajado",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 50,
+      "peso": 2,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "cerne_arcano",
+        "cerne_mistico",
+        "registro",
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "cantil",
+      "nome": "Cantil",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Recipiente para carregar líquidos feito com couro e armação de madeira e/ou metal. Mais fácil de carregar do que o odre. Cheio de líquido pesa 1kg a mais.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "capa_de_la",
+      "nome": "Capa de Lã",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Para proteger do frio.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "capa_de_pele",
+      "nome": "Capa de Pele",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 3,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "carroca",
+      "nome": "Carroça",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 150,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Carroças são normalmente usadas para transportar pessoas, além do banco frontal, na parte interna ela tem mais dois bancos. Capaz de transportar 8 pessoas. Deve ser puxada por dois cavalos.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "carroca_coberta",
+      "nome": "Carroça Coberta",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 180,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "carrocao",
+      "nome": "Carroção",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 100,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "carruagem",
+      "nome": "Carruagem",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 250,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Uma carroça fechada, geralmente possui uma porta lateral e comporta até quatro pessoas dentro. O condutor vai do lado de fora em cima. Pode ser puxada por dois ou quatro cavalos.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "carruagem_nobre",
+      "nome": "Carruagem Nobre",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 600,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "cavalo_comum",
+      "nome": "Cavalo Comum",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 150,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "cavalo_de_guerra",
+      "nome": "Cavalo de Guerra",
+      "categoria": "transporte",
+      "subcategoria": "transporte",
+      "custo": 300,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Cavalo Comum com treinamento especial Animal de Guerra, ver Codex Monstrorum p. 149.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 166
+      }
+    },
+    {
+      "id": "cetro",
+      "nome": "Cetro",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 75,
+      "peso": 1.5,
+      "forca_necessaria": {
+        "uso": 3
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "cerne_arcano",
+        "cerne_mistico",
+        "registro"
+      ],
+      "descricao": "Cetros são simplesmente clavas sintonizadas a um conjurador através de sua runa pessoal. Canalizador, Cerne Arcano, Cerne Místico, Registro",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "chapeu",
+      "nome": "Chapéu",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "de palha, couro ou lona.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "chifre",
+      "nome": "Chifre",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 20,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 225,
+      "peso": 2.5,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 9,
+        "formula": "forca + 9",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "cinto_de_ferramentas",
+      "nome": "Cinto de Ferramentas",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 0.4,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "cinto_oculto",
+      "nome": "Cinto Oculto",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1,
+      "peso": 0.15,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "cinturao_de_adagas",
+      "nome": "Cinturão de Adagas",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 0.25,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Cinto para o peito com espaço para 10 adagas",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "clava",
+      "nome": "Clava",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 75,
+      "peso": 1.5,
+      "forca_necessaria": {
+        "uma_mao": 3,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 6,
+        "formula": "forca + 6",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador"
+      ],
+      "descricao": "Canalizador",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "claymore",
+      "nome": "Claymore",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 250,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 11,
+        "formula": "forca + 11",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "corda_grossa_15m",
+      "nome": "Corda Grossa (15m)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 6,
+      "peso": 3,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Corda reforçada aguenta 500 kg",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "corda_simples_15m",
+      "nome": "Corda Simples (15m)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 2,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "dardos",
+      "nome": "Dardos",
+      "categoria": "municao",
+      "subcategoria": "municao",
+      "custo": 1,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Agulhas para zarabatana, 200 dessas pesam 1kg.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "elixir_da_restauracao",
+      "nome": "Elixir da Restauração",
+      "categoria": "pocao",
+      "subcategoria": "pocao",
+      "custo": 150,
+      "peso": 0.12,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "aura_nula"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 168
+      }
+    },
+    {
+      "id": "elixir_de_mana",
+      "nome": "Elixir de Mana",
+      "categoria": "pocao",
+      "subcategoria": "pocao",
+      "custo": 100,
+      "peso": 0.12,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "aura_nula"
+      ],
+      "descricao": "Recupera 30 Pontos de Mana",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 168
+      }
+    },
+    {
+      "id": "elixir_de_vida",
+      "nome": "Elixir de Vida",
+      "categoria": "pocao",
+      "subcategoria": "pocao",
+      "custo": 50,
+      "peso": 0.12,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "aura_nula"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 168
+      }
+    },
+    {
+      "id": "escudo_de_corpo",
+      "nome": "Escudo de Corpo",
+      "categoria": "escudo",
+      "subcategoria": "escudo",
+      "custo": 200,
+      "peso": 9,
+      "forca_necessaria": {
+        "uso": 5
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 3,
+        "tipo": "bonus"
+      },
+      "caracteristicas": [
+        "ocupa_uma_mao"
+      ],
+      "descricao": "Ocupa uma mão",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "escudo_medio",
+      "nome": "Escudo Médio",
+      "categoria": "escudo",
+      "subcategoria": "escudo",
+      "custo": 100,
+      "peso": 6,
+      "forca_necessaria": {
+        "uso": 3
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 2,
+        "tipo": "bonus"
+      },
+      "caracteristicas": [
+        "ocupa_uma_mao"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "escudo_pequeno",
+      "nome": "Escudo Pequeno",
+      "categoria": "escudo",
+      "subcategoria": "escudo",
+      "custo": 50,
+      "peso": 4,
+      "forca_necessaria": {
+        "uso": 2
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 1,
+        "tipo": "bonus"
+      },
+      "caracteristicas": [
+        "ocupa_uma_mao"
+      ],
+      "descricao": "Ocupa uma mão",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "espada_curta",
+      "nome": "Espada Curta",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 100,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 6,
+        "formula": "forca + 6",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "espada_longa",
+      "nome": "Espada Longa",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 175,
+      "peso": 2,
+      "forca_necessaria": {
+        "uma_mao": 4,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 8,
+        "formula": "forca + 8",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "extrato_explosivo_menor",
+      "nome": "Extrato Explosivo Menor",
+      "categoria": "pocao",
+      "subcategoria": "pocao",
+      "custo": 250,
+      "peso": 0.12,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "aura_nula"
+      ],
+      "descricao": "Se este frasco romper, causa 10/fogo de dano em tudo e todos que estiverem a até 3 metros de distância",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 168
+      }
+    },
+    {
+      "id": "flauta_de_pa",
+      "nome": "Flauta de Pã",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 15,
+      "peso": 0.2,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "flauta_doce",
+      "nome": "Flauta Doce",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 20,
+      "peso": 0.2,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "instrumento de sopro geralmente de madeira ou osso constituído de um tubo com orifícios que devem ser tampados com os dedos para tornar o som mais grave ou mais agudo",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "flecha_comum",
+      "nome": "Flecha Comum",
+      "categoria": "municao",
+      "subcategoria": "municao",
+      "custo": 2,
+      "peso": 0.05,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "flecha_garateia",
+      "nome": "Flecha Garateia",
+      "categoria": "municao",
+      "subcategoria": "municao",
+      "custo": 10,
+      "peso": 0.2,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Fecha especial para acoplar uma garatéia na ponta e uma corda",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "frasco_de_ceramica",
+      "nome": "Frasco de Cerâmica",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 2,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "frasco_de_tinta",
+      "nome": "Frasco de Tinta",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 15,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Suficiente para dez páginas de texto",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "frasco_de_vidro",
+      "nome": "Frasco de Vidro",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 4,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "freio_redeas_e_bocal",
+      "nome": "Freio, Rédeas e Bocal",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 20,
+      "peso": 0.45,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Consiste no equipamento que vai na cabeça do animal. O personagem recebe -2 nos testes de cavalgar se não possuir esse equipamento.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "funda_estilingue",
+      "nome": "Funda/Estilingue",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 50,
+      "peso": 0.25,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 2,
+        "formula": "forca + 2",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "fustibalo",
+      "nome": "Fustíbalo",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 200,
+      "peso": 2,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 6,
+        "formula": "forca + 6",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": "Duas Mãos",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "gaita_de_fole",
+      "nome": "Gaita de Fole",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 200,
+      "peso": 5,
+      "forca_necessaria": {
+        "uso": 2
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "instrumento de sopro constituído de um saco de couro ligado à uma série de foles e um bocal com orifícios que devem ser tampados para produzir sons mais graves ou mais agudos, enquanto o músico aperta o saco de couro para produzir notas mais altas ou baixas",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "garateia",
+      "nome": "Garatéia",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 12,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "garateia_furtiva",
+      "nome": "Garatéia Furtiva",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 20,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Garatéia forrada com tecido grosso para diminuir o barulho.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "garrafa_de_ceramica",
+      "nome": "Garrafa de Cerâmica",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "glaive",
+      "nome": "Glaive",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 225,
+      "peso": 4,
+      "forca_necessaria": {
+        "uma_mao": 4,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 10,
+        "formula": "forca + 10",
+        "tipos": [
+          "corte"
+        ]
+      },
+      "alcance": "haste",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": "Duas Mãos",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "grimorio",
+      "nome": "Grimório",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 50,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uso": 2
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "registro"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "harpa",
+      "nome": "Harpa",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 100,
+      "peso": 35,
+      "forca_necessaria": {
+        "uso": 3
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "hurdi_gurdi",
+      "nome": "Hurdi Gurdi",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 100,
+      "peso": 1.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "instrumento de corda com uma manivela que mantém as cordas girando, enquanto o músico aperta teclas que comprimem as cordas gerando notas",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "jorvik",
+      "nome": "Jorvik",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 10,
+      "peso": 0.1,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "kit_de_arrombamento",
+      "nome": "Kit de Arrombamento",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 100,
+      "peso": 0.4,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Bainha com várias gazuas. Necessário para arrombar fechaduras.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "kit_de_cura",
+      "nome": "Kit de Cura",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 50,
+      "peso": 2,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "lampiao",
+      "nome": "Lampião",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 20,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Este lampião funciona a óleo. Dura 6 horas.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "lanca",
+      "nome": "Lança",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 100,
+      "peso": 2,
+      "forca_necessaria": {
+        "uma_mao": 3,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 7,
+        "formula": "forca + 7",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "haste",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos",
+        "arremesso"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "lira",
+      "nome": "Lira",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 50,
+      "peso": 1,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "um instrumento de corda em formato de meia-lua, com 40 à 60 cordas",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "luvas",
+      "nome": "Luvas",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "luvas_de_couro",
+      "nome": "Luvas de Couro",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Para trabalho pesado ou climas muito frios.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 100,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 6,
+        "formula": "forca + 6",
+        "tipos": [
+          "corte"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "arremesso"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "machado_de_batalha",
+      "nome": "Machado de Batalha",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 150,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 8,
+        "formula": "forca + 8",
+        "tipos": [
+          "corte"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "machado_pesado",
+      "nome": "Machado Pesado",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 175,
+      "peso": 4,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 11,
+        "formula": "forca + 11",
+        "tipos": [
+          "corte"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 200,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 6,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 9,
+        "formula": "forca + 9",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "manto",
+      "nome": "Manto",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "marreta",
+      "nome": "Marreta",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 175,
+      "peso": 5,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 11,
+        "formula": "forca + 11",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "martelete",
+      "nome": "Martelete",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 24,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Pequeno martelo usado para fixar os pinos de escalada, a cabeça do martelo é dividida em uma ponta de martelo e outra de picareta.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "martelo_de_guerra",
+      "nome": "Martelo de Guerra",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 175,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 4,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 8,
+        "formula": "forca + 8",
+        "tipos": [
+          "contusao",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "martelo_lucerno",
+      "nome": "Martelo Lucerno",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 275,
+      "peso": 5,
+      "forca_necessaria": {
+        "uma_mao": 7,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 11,
+        "formula": "forca + 11",
+        "tipos": [
+          "contusao",
+          "perfuracao"
+        ]
+      },
+      "alcance": "haste",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos"
+      ],
+      "descricao": "Duas Mãos",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "mata_borrao",
+      "nome": "Mata-Borrão",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Usado para limpar o excesso de tinta ajudando na secagem. Peso desprezível.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "maca_estrela",
+      "nome": "Maça Estrela",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 100,
+      "peso": 2,
+      "forca_necessaria": {
+        "uma_mao": 4,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 7,
+        "formula": "forca + 7",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [
+        "arremesso"
+      ],
+      "descricao": "Arremesso",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "maca_leve",
+      "nome": "Maça Leve",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 25,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 5,
+        "formula": "forca + 5",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "maca_pesada",
+      "nome": "Maça Pesada",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 150,
+      "peso": 2.5,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 8,
+        "formula": "forca + 8",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "missal",
+      "nome": "Missal",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 50,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uso": 2
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "registro"
+      ],
+      "descricao": "Livro usado por conjuradores místicos para registrar suas magias. Canalizador; Registro",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "mochila_grande",
+      "nome": "Mochila Grande",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 50,
+      "peso": 2,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Mochila reforçada de viagem. Comporta até 20 quilos.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "mochila_pequena_embornal",
+      "nome": "Mochila Pequena/Embornal",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 20,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "odre",
+      "nome": "Odre",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 2,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "orbe_de_cristal",
+      "nome": "Orbe de Cristal",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 25,
+      "peso": 0.25,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "foco_magico"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "pandeiro",
+      "nome": "Pandeiro",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 20,
+      "peso": 0.2,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "papiro",
+      "nome": "Papiro",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "pederneira_e_isqueiro",
+      "nome": "Pederneira e Isqueiro",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 0.25,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Uma pedra especial que quando riscada por um metal (isqueiro) gera uma grande quantidade de faíscas. Usada para acender uma fogueira.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "pelego",
+      "nome": "Pelego",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 4,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "pena",
+      "nome": "Pena",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 2,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Pena usada para escrever",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "pergaminho",
+      "nome": "Pergaminho",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": null,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "pinos_para_escalada",
+      "nome": "Pinos para Escalada",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 0.4,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "10 pinos para escaladas.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "plumbata",
+      "nome": "Plumbata",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 100,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 4,
+        "formula": "forca + 4",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "prodd",
+      "nome": "Prodd",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 175,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 4,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": null,
+        "bonus": 12,
+        "formula": "12",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "medio",
+      "defesa": null,
+      "caracteristicas": [
+        "duas_maos",
+        "carregar"
+      ],
+      "descricao": "Duas Mãos, Carregar",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "provisoes",
+      "nome": "Provisões",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "punhal",
+      "nome": "Punhal",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 50,
+      "peso": 0.25,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "cerne_arcano"
+      ],
+      "descricao": "Punhais são simplesmente adagas sintonizadas a um conjurador através de sua runa pessoal. Canalizador, Cerne Arcano",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "pa_de_acampamento",
+      "nome": "Pá de Acampamento",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "rabeca",
+      "nome": "Rabeca",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 100,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "rapieira",
+      "nome": "Rapieira",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 125,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 2,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 7,
+        "formula": "forca + 7",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "roupas_comuns",
+      "nome": "Roupas Comuns",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 5,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Camisa ou túnica, calções ou saia e sandálias.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "roupas_de_festa",
+      "nome": "Roupas de Festa",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 2,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "roupas_de_viagem",
+      "nome": "Roupas de Viagem",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 20,
+      "peso": 3,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Camisa e calças de lona e botas.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "sabre",
+      "nome": "Sabre",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 100,
+      "peso": 1,
+      "forca_necessaria": {
+        "uma_mao": 3,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 7,
+        "formula": "forca + 7",
+        "tipos": [
+          "corte",
+          "perfuracao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "sela_e_estribos",
+      "nome": "Sela e Estribos",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 80,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "soco_chute",
+      "nome": "Soco, chute",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 0,
+      "peso": null,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 0,
+        "formula": "forca + 0",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "soqueira_manopla",
+      "nome": "Soqueira/Manopla",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 25,
+      "peso": 0.25,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 2,
+        "formula": "forca + 2",
+        "tipos": [
+          "contusao"
+        ]
+      },
+      "alcance": "corpo_a_corpo",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "simbolo_sagrado",
+      "nome": "Símbolo Sagrado",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 25,
+      "peso": 0.1,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "cerne_mistico"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "tamboril",
+      "nome": "Tamboril",
+      "categoria": "instrumento_musical",
+      "subcategoria": "instrumento_musical",
+      "custo": 30,
+      "peso": 1,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "instrumento de percussão constituído de um tubo de madeira encimado por um couro esticado, geralmente percutido com uma baqueta",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 169
+      }
+    },
+    {
+      "id": "tenda_grande_quatro_pessoas",
+      "nome": "Tenda Grande (Quatro Pessoas)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 85,
+      "peso": 13,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Tenda simples para quatro pessoas, 1,8m de altura por 4m de comprimentos e 4m de largura. Essa tenda é muito grande para ser carregada por apenas uma pessoa, ela deve ser posta em uma carroça ou, ao menos, em um cavalo.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "tenda_grupo_dez_pessoas",
+      "nome": "Tenda Grupo (Dez Pessoas)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 150,
+      "peso": 27,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "tenda_media_duas_pessoas",
+      "nome": "Tenda Média (Duas Pessoas)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 50,
+      "peso": 6,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "tenda_pequena_uma_pessoa",
+      "nome": "Tenda Pequena (Uma Pessoa)",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 35,
+      "peso": 3,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Tenda simples para uma pessoa, 1m de altura por 2m de comprimentos e 1m de largura.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "tocha",
+      "nome": "Tocha",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 1,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Dura uma hora",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "subcategoria": "arma_corporal",
+      "custo": 175,
+      "peso": 3,
+      "forca_necessaria": {
+        "uma_mao": 5,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 8,
+        "formula": "forca + 8",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "haste",
+      "defesa": null,
+      "caracteristicas": [
+        "arremesso"
+      ],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 157
+      }
+    },
+    {
+      "id": "tunica",
+      "nome": "Túnica",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 3,
+      "peso": 1,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "tunica_pesada",
+      "nome": "Túnica Pesada",
+      "categoria": "armadura",
+      "subcategoria": "armadura",
+      "custo": 50,
+      "peso": 2.5,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": {
+        "valor": 1,
+        "tipo": "base"
+      },
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 162
+      }
+    },
+    {
+      "id": "varinha",
+      "nome": "Varinha",
+      "categoria": "item_conjuracao",
+      "subcategoria": "item_conjuracao",
+      "custo": 25,
+      "peso": 0.15,
+      "forca_necessaria": {
+        "uso": 1
+      },
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [
+        "canalizador",
+        "asseste_magico"
+      ],
+      "descricao": "Uma pequena haste com 25 a 40 centímetros de comprimento feito de madeira nobre. Canalizador, Asseste Mágico",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 165
+      }
+    },
+    {
+      "id": "velino",
+      "nome": "Velino",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 0.02,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Uma folha. Pele de feto de boi ou cordeiro, preparada para receber tinta. Mais lisa e macia do que pergaminho comum, depois de seca a tinta resiste mesmo que a folha seja molhada. Grimórios a prova d’água podem ser feitos desse material.",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    },
+    {
+      "id": "virote_comum",
+      "nome": "Virote Comum",
+      "categoria": "municao",
+      "subcategoria": "municao",
+      "custo": 2,
+      "peso": 0.04,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "virote_garateia",
+      "nome": "Virote Garateia",
+      "categoria": "municao",
+      "subcategoria": "municao",
+      "custo": 10,
+      "peso": 0.2,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Virote especial para acoplar uma garatéia na ponta e uma corda",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "zarabatana",
+      "nome": "Zarabatana",
+      "categoria": "arma",
+      "subcategoria": "arma_distancia",
+      "custo": 25,
+      "peso": 0.5,
+      "forca_necessaria": {
+        "uma_mao": 1,
+        "duas_maos": null
+      },
+      "dano": {
+        "atributo": "forca",
+        "bonus": 0,
+        "formula": "forca + 0",
+        "tipos": [
+          "perfuracao"
+        ]
+      },
+      "alcance": "curto",
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 160
+      }
+    },
+    {
+      "id": "oleo_combustivel",
+      "nome": "Óleo Combustível",
+      "categoria": "equipamento_geral",
+      "subcategoria": "equipamento_geral",
+      "custo": 10,
+      "peso": 0.5,
+      "forca_necessaria": null,
+      "dano": null,
+      "alcance": null,
+      "defesa": null,
+      "caracteristicas": [],
+      "descricao": "Serve para recarregar lampiões. Se exposto ao fogo, explode (dano igual à 10/fogo em uma área de 2 metros de raio)",
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 153
+      }
+    }
+  ],
+  "revisao": {
+    "fonte": "PDF original",
+    "descricao": "Descrições de tabelas recompostas e erros tipográficos corrigidos."
+  }
+}
