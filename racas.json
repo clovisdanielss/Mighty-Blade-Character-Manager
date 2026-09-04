@@ -23,13 +23,13 @@
         "vigor_nordico"
       ],
       "habilidades_extras": [
-        "furia_bestial",
         "berserkir",
+        "bravura_selvagem_1",
+        "bravura_selvagem_2",
+        "furia_bestial",
         "potencia",
         "robustez",
-        "bravura_selvagem_1",
-        "ulfhednar",
-        "bravura_selvagem_2"
+        "ulfhednar"
       ],
       "fonte": {
         "livro": "guia_basico_3e",
@@ -57,10 +57,12 @@
         "coracao_da_montanha"
       ],
       "habilidades_extras": [
+        "cabeca_dura",
+        "coracao_da_montanha_2",
         "duro_como_pedra",
         "estabilidade",
         "forjado_a_fogo",
-        "cabeca_dura",
+        "nascido_nas_montanhas",
         "raca_subterranea"
       ],
       "fonte": {
@@ -89,12 +91,13 @@
         "bencao_de_lathellanis"
       ],
       "habilidades_extras": [
+        "arboricola",
+        "dom_da_magia",
         "heranca_feerica",
         "intelecto_elfico",
         "invisibilidade_natural",
         "luzes_das_fadas",
-        "arboricola",
-        "dom_da_magia"
+        "raca_florestal"
       ],
       "fonte": {
         "livro": "guia_basico_3e",
@@ -122,11 +125,12 @@
         "constituicao_feerica"
       ],
       "habilidades_extras": [
-        "luzes_das_fadas",
         "dom_da_magia",
         "heranca_feerica",
-        "presenca_real",
         "invisibilidade_natural",
+        "isnuu",
+        "luzes_das_fadas",
+        "presenca_real",
         "voador_eximio"
       ],
       "fonte": {
@@ -156,7 +160,10 @@
       ],
       "habilidades_extras": [
         "flauta_de_pa",
+        "marrada",
+        "patas_com_cascos",
         "patas_fortes",
+        "pintura_corporal",
         "raca_florestal",
         "sentidos_de_cacador"
       ],
@@ -186,11 +193,12 @@
         "habitante_do_deserto"
       ],
       "habilidades_extras": [
-        "fulgurante",
+        "cavaleiro_experiente",
         "chamas_internas_1",
+        "chamas_internas_2",
+        "fulgurante",
         "mente_iluminada",
         "sopro_de_fogo",
-        "chamas_internas_2",
         "vigor_do_deserto"
       ],
       "fonte": {
@@ -213,7 +221,7 @@
         "inteligencia": 3,
         "vontade": 3
       },
-      "biologia": "Humanos são os humanoides mais numerosos de Drakon. Graças a isso, são a base de comparação para todas as outras raças humanoides - que recebem essa classificação, não por acaso, devido ao nome dessa raça. Humanos possuem uma altura mediana, entre 1,5 e 1,9 metros, e indivíduos mais baixos ou altos são bastante raros, geralmente sendo portadores de deficiências de nascença. Variam consideravelmente de peso dependendo do seu estilo de vida, variando de 40 a até 140 quilos - apesar da média estar entre os 60 e 80 quilos. Possuem uma pele que varia do rosado ao negro, passando por algumas variações de pardo. Seu corpo é coberto por uma pelagem rala e fina, mais abundante nos machos. Apresentam uma concentração maior de pelos no alto da cabeça e, nos machos, ao redor e abaixo do rosto. A cor dos pelos varia entre o amarelo palha até o negro, passando por variações de louro, castanho e raramente ruivo. Os olhos costumam ser de coloração castanha, verde ou mais raramente, azul. A gestação das Humanas dura cerca de nove meses. Um Humano é considerado adulto aproximadamente aos 16 anos. Podem viver até os oitenta anos, com raros indivíduos chegando aos 100 anos, mas começam a apresentar sinais de envelhecimento por volta dos 50 anos. As fêmeas são distintas dos machos por não desenvolverem pelos faciais e também por apresentarem um par de mamas que variam de pequenas a grandes, que geralmente aumentam de tamanho depois da primeira gestação. Elas Atributos Iniciais: Força 3 Agilidade 3 Inteligência 3 Vontade 3 Classes Comuns: Bardo, Espadachim, Feiticeiro, Guerreiro, Ladino, Mago, Sacerdote e Rúnico. Habilidade Automática: Adaptabilidade Habilidade (Característica) - Suporte Descrição: Você se adaptou ao ambiente em que cresceu ou à atividade que escolheu - ou precisou - desempenhar. Você tem +1 em qualquer um dos seus Atributos a sua escolha. também são, em geral, pouco menores do que os machos e possuem traços faciais mais delicados.",
+      "biologia": "Humanos são os humanoides mais numerosos de Drakon. Graças a isso, são a base de comparação para todas as outras raças humanoides - que recebem essa classificação, não por acaso, devido ao nome dessa raça. Humanos possuem uma altura mediana, entre 1,5 e 1,9 metros, e indivíduos mais baixos ou altos são bastante raros, geralmente sendo portadores de deficiências de nascença. Variam consideravelmente de peso dependendo do seu estilo de vida, variando de 40 a até 140 quilos - apesar da média estar entre os 60 e 80 quilos. Possuem uma pele que varia do rosado ao negro, passando por algumas variações de pardo. Seu corpo é coberto por uma pelagem rala e fina, mais abundante nos machos. Apresentam uma concentração maior de pelos no alto da cabeça e, nos machos, ao redor e abaixo do rosto. A cor dos pelos varia entre o amarelo palha até o negro, passando por variações de louro, castanho e raramente ruivo. Os olhos costumam ser de coloração castanha, verde ou mais raramente, azul. A gestação das Humanas dura cerca de nove meses. Um Humano é considerado adulto aproximadamente aos 16 anos. Podem viver até os oitenta anos, com raros indivíduos chegando aos 100 anos, mas começam a apresentar sinais de envelhecimento por volta dos 50 anos. As fêmeas são distintas dos machos por não desenvolverem pelos faciais e também por apresentarem um par de mamas que variam de pequenas a grandes, que geralmente aumentam de tamanho depois da primeira gestação. Elas também são, em geral, pouco menores do que os machos e possuem traços faciais mais delicados.",
       "cultura": "Os Humanos são a raça mais expansionista de Drakon. Eles geralmente procuram tratados com outras raças, e gostam de trocar conhecimentos acadêmicos e culturais, muitas vezes adotando e adaptando os mesmos. Eles estão presentes em todos os Reinos conhecidos, em maior ou menor número. Fora de Tebryn, um reino de cultura majoritariamente humana, eles geralmente adotam os costumes culturais vigentes. Humanos geralmente vivem em um sistema de meritocracia titular, isto é, bens e funções são garantidos por merecimento pessoal através de um título de nobreza geralmente não hereditário, mas é muito comum que parte do prestígio (não só no que se refere ao título, mas também com relação a realizações pessoais) seja transferido de pai para filho, assim como é esperado que os filhos assumam as responsabilidades e atividades dos pais. As cidades humanas são geralmente construídas em locais com acesso aos recursos naturais necessários para manterem a comunidade - como rios e bosques - ou providenciar áreas onde os habitantes possam desenvolver atividades com esse fim - como campos amplos para plantação e criação de gado. Humanos costumam estabelecer atividades extrativistas ao redor de suas comunidades, geralmente explorando ao máximo os recursos naturais à disposição. Apesar de algumas comunidades terem perecido devido ao descuido em manter essa prática dentro de limites que permitam que o meio ambiente se reestruture com o tempo - o que fez com que muitas comunidades Humanas ancestrais fossem nômades - os Humanos contemporâneos aprenderam a administrar de forma eficiente os recursos naturais à disposição, tendo aprendido com os Elfos a lidarem de forma mais eficiente com a natureza. Humanos tendem a construir seus prédios com foco em funcionalidade mais do que estética, e a maioria das construções da raça possuem estruturas simples e práticas. Apesar disso, casas abastadas, templos e construções importantes - como bibliotecas, castelos, monumentos e salões - são construídas com uma arquitetura mais requintada, geralmente com a influência da engenharia Anã. Templos, castelos e fortalezas costumam ter salões amplos, enquanto residências, oficinas e comércios costumam ter ambientes menores, geralmente separados em salas com propósitos específicos. Humanos utilizam os recursos naturais ao seu redor para construir o que precisam. Apesar de apreciarem construções sólidas de pedra, devido à velocidade que os Humanos geralmente constroem seus prédios, a maioria das moradias e comércios é feito de madeira, em caráter muitas vezes temporário, até que construções de pedra possam ser erguidas em seu lugar. Se a região não for abundante em pedras que possam ser usadas para construção, os prédios de madeira serão mais requintados e feitos para durar. Em regiões onde ambas as fontes de recursos sejam escassas, os Humanos costumam construir suas casas de barro, usando a madeira disponível apenas para criar um esqueleto sólido para as paredes e para o teto e, se possível, pedras para construir bases sólidas para os prédios maiores. Humanos reverenciam a Tríade Divina majoritariamente, mas em geral eles escolhem uma divindade específica do panteão para reverenciar como seus patronos, geralmente aquela que tiver ligação com sua profissão - Magistrados e soldados têm uma inclinação a reverenciar Mirah, enquanto carpinteiros e Druidas geralmente favorecem Ellenis, por exemplo - embora isso não seja regra geral. Cada urbe e a maioria dos burgos e mesmo vilas terão pelo menos um templo dedicado à Tríade Divina em cidades Humanas.",
       "habilidades_automaticas": [
         "adaptabilidade"
@@ -221,9 +229,11 @@
       "habilidades_extras": [
         "assuntos_diversos",
         "audacia",
-        "gregario",
         "barganha",
-        "diversidade"
+        "diversidade",
+        "gregario",
+        "o_dobro_ou_nada",
+        "sorte"
       ],
       "fonte": {
         "livro": "guia_basico_3e",
@@ -251,12 +261,13 @@
         "corpo_pesado"
       ],
       "habilidades_extras": [
+        "fortaleza",
+        "garras",
         "imparavel",
         "mordida_poderosa",
         "robustez",
-        "fortaleza",
-        "sentidos_de_cacador",
-        "garras"
+        "rugido_de_ahogr",
+        "sentidos_de_cacador"
       ],
       "fonte": {
         "livro": "guia_basico_3e",
@@ -284,8 +295,11 @@
         "asas_ancestrais"
       ],
       "habilidades_extras": [
-        "mente_iluminada",
         "asas_fortes",
+        "comunhao_com_espiritos",
+        "contato_com_espiritos",
+        "dancarino_do_ar",
+        "mente_iluminada",
         "movimento_brusco",
         "olhos_de_aguia"
       ],
@@ -315,10 +329,13 @@
         "pele_de_pedra"
       ],
       "habilidades_extras": [
-        "gregario",
         "abraco_de_pedra",
-        "raca_subterranea",
-        "estabilidade"
+        "bracos_extras",
+        "estabilidade",
+        "gregario",
+        "nascido_nas_montanhas",
+        "pele_rochosa",
+        "raca_subterranea"
       ],
       "fonte": {
         "livro": "guia_basico_3e",
@@ -346,11 +363,13 @@
         "pernas_vulpinas"
       ],
       "habilidades_extras": [
-        "forma_da_raposa",
+        "astuto",
         "audacia",
         "contos_da_estrada",
-        "visao_auditiva",
-        "faro"
+        "faro",
+        "forma_da_raposa",
+        "raca_florestal",
+        "visao_auditiva"
       ],
       "fonte": {
         "livro": "guia_basico_3e",
