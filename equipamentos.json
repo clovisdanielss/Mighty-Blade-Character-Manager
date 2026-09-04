@@ -1209,7 +1209,7 @@
       "peso": 2.5,
       "forca_necessaria": {
         "uma_mao": 5,
-        "duas_maos": null
+        "duas_maos": 3
       },
       "dano": {
         "atributo": "forca",
@@ -1571,7 +1571,7 @@
       "peso": 2,
       "forca_necessaria": {
         "uma_mao": 4,
-        "duas_maos": null
+        "duas_maos": 2
       },
       "dano": {
         "atributo": "forca",
@@ -2283,7 +2283,7 @@
       "peso": 3,
       "forca_necessaria": {
         "uma_mao": 6,
-        "duas_maos": null
+        "duas_maos": 3
       },
       "dano": {
         "atributo": "forca",
@@ -2377,7 +2377,7 @@
       "peso": 3,
       "forca_necessaria": {
         "uma_mao": 4,
-        "duas_maos": null
+        "duas_maos": 2
       },
       "dano": {
         "atributo": "forca",
@@ -2513,7 +2513,7 @@
       "peso": 2.5,
       "forca_necessaria": {
         "uma_mao": 5,
-        "duas_maos": null
+        "duas_maos": 3
       },
       "dano": {
         "atributo": "forca",
@@ -3365,7 +3365,7 @@
       "peso": 3,
       "forca_necessaria": {
         "uma_mao": 5,
-        "duas_maos": null
+        "duas_maos": 3
       },
       "dano": {
         "atributo": "forca",
