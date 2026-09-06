@@ -21,10 +21,10 @@
         "habilidades": [
           "graca_divina"
         ],
-        "outros": [
-          "graca_divina_requisito_caminhada_magica"
-        ],
-        "texto": "Graça Divina"
+        "outros": [],
+        "texto": "Graça Divina",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -60,7 +60,9 @@
           "abencoar_aliados_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Abençoar Aliados 1"
+        "texto": "Nível 5, Abençoar Aliados 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -96,7 +98,9 @@
           "graca_divina"
         ],
         "outros": [],
-        "texto": "Graça Divina"
+        "texto": "Graça Divina",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -129,7 +133,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -162,7 +169,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -203,7 +213,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -237,7 +250,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -273,11 +288,10 @@
         "habilidades": [
           "defesa_agressiva"
         ],
-        "outros": [
-          "defesa_agressiva_ataques_desarmados",
-          "adiciona_2_nos"
-        ],
-        "texto": "Defesa Agressiva"
+        "outros": [],
+        "texto": "Defesa Agressiva",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -310,7 +324,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -354,7 +371,9 @@
           "detectar_magia"
         ],
         "outros": [],
-        "texto": "Detectar Magia"
+        "texto": "Detectar Magia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -401,10 +420,10 @@
         "habilidades": [
           "mente_disciplinada"
         ],
-        "outros": [
-          "mente_disciplinada"
-        ],
-        "texto": "Nível 5, Mente Disciplinada"
+        "outros": [],
+        "texto": "Nível 5, Mente Disciplinada",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -441,7 +460,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -478,7 +500,9 @@
           "teleporte_1"
         ],
         "outros": [],
-        "texto": "Relâmpago 1, Teleporte 1"
+        "texto": "Relâmpago 1, Teleporte 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -512,7 +536,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -547,11 +573,10 @@
         "habilidades": [
           "enfeiticar_arma_1"
         ],
-        "outros": [
-          "enfeiticar_arma_1_mal_da_arma",
-          "mais_um_dano_adicional_igual_a"
-        ],
-        "texto": "Enfeitiçar Arma 1"
+        "outros": [],
+        "texto": "Enfeitiçar Arma 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -584,9 +609,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "detectar_magia_pessoal_esse_ataque_causa_o"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -619,7 +645,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -652,10 +681,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "enfeiticar_arma_1_mal_da_arma",
-          "mais_um_dano_adicional_igual_a"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -686,11 +715,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [
-          "ataque_aleijador"
-        ],
-        "outros": []
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -731,7 +761,9 @@
           "arma_fiel"
         ],
         "outros": [],
-        "texto": "Arma Fiel, Enfeitiçar Armadura"
+        "texto": "Arma Fiel, Enfeitiçar Armadura",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -764,7 +796,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -800,7 +835,9 @@
           "olho_da_aguia"
         ],
         "outros": [],
-        "texto": "Nível 10, Olho da Águia"
+        "texto": "Nível 10, Olho da Águia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -836,7 +873,9 @@
           "telecinesia"
         ],
         "outros": [],
-        "texto": "Telecinésia"
+        "texto": "Telecinésia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -869,7 +908,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -904,11 +946,10 @@
         "habilidades": [
           "caminhada_magica"
         ],
-        "outros": [
-          "volva_flores",
-          "frutas_ou_raizes"
-        ],
-        "texto": "Caminhada Mágica"
+        "outros": [],
+        "texto": "Caminhada Mágica",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -945,10 +986,12 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "forca_4_5_pontos_de_mana"
-        ],
-        "texto": "Força 4"
+        "outros": [],
+        "texto": "Força 4",
+        "atributos": {
+          "forca": 4
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -981,9 +1024,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "curar_ferimentos_1_requisito_dogma"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1016,7 +1060,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1050,7 +1097,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1083,7 +1132,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1127,7 +1179,9 @@
           "arma_relampejante"
         ],
         "outros": [],
-        "texto": "Nível 5, Arma Relampejante"
+        "texto": "Nível 5, Arma Relampejante",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1163,7 +1217,9 @@
           "arma_gelida"
         ],
         "outros": [],
-        "texto": "Nível 5, Arma Gélida"
+        "texto": "Nível 5, Arma Gélida",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1196,7 +1252,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1236,7 +1295,9 @@
           "evasao"
         ],
         "outros": [],
-        "texto": "Evasão"
+        "texto": "Evasão",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1269,7 +1330,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1304,10 +1368,10 @@
         "habilidades": [
           "arma_incandescente"
         ],
-        "outros": [
-          "habilidade_tecnica_acao"
-        ],
-        "texto": "Nível 5, Arma Incandescente"
+        "outros": [],
+        "texto": "Nível 5, Arma Incandescente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1339,10 +1403,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "evasao"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1382,7 +1447,9 @@
           "evasao"
         ],
         "outros": [],
-        "texto": "Evasão"
+        "texto": "Evasão",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1425,10 +1492,10 @@
         "habilidades": [
           "combate_em_grupo"
         ],
-        "outros": [
-          "combate_em_grupo"
-        ],
-        "texto": "Combate em Grupo"
+        "outros": [],
+        "texto": "Combate em Grupo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1462,7 +1529,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1497,11 +1566,10 @@
         "habilidades": [
           "ataque_do_bufalo"
         ],
-        "outros": [
-          "ataque_do_bufalo_pode_cancelar_o_efeito_quando_quiser",
-          "recebem"
-        ],
-        "texto": "Nível 5, Ataque do Búfalo"
+        "outros": [],
+        "texto": "Nível 5, Ataque do Búfalo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1534,7 +1602,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1573,10 +1644,10 @@
         "habilidades": [
           "curar_ferimentos_1"
         ],
-        "outros": [
-          "curar_ferimentos_1_requisito_dogma"
-        ],
-        "texto": "Curar Ferimentos 1"
+        "outros": [],
+        "texto": "Curar Ferimentos 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1612,7 +1683,9 @@
           "aura_de_cura_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Aura de Cura 1"
+        "texto": "Nível 5, Aura de Cura 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1646,7 +1719,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": "Código da Honestidade"
+        "texto": "Código da Honestidade",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1682,7 +1757,9 @@
           "codigo_da_justica"
         ],
         "outros": [],
-        "texto": "Nível 5, Código da Justiça"
+        "texto": "Nível 5, Código da Justiça",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1715,7 +1792,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1748,9 +1828,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "dificuldade_da_magia_11"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1791,7 +1872,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -1826,10 +1910,12 @@
         "habilidades": [
           "furia_bestial"
         ],
-        "outros": [
-          "vontade_4_nao_pode_possuir_esta_habilidade_se_voce"
-        ],
-        "texto": "Fúria Bestial, Vontade 4"
+        "outros": [],
+        "texto": "Fúria Bestial, Vontade 4",
+        "atributos": {
+          "vontade": 4
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -1865,7 +1951,9 @@
           "bencao_de_ellenis"
         ],
         "outros": [],
-        "texto": "Benção de Ellenis"
+        "texto": "Benção de Ellenis",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1901,7 +1989,9 @@
           "inflamar"
         ],
         "outros": [],
-        "texto": "Inflamar"
+        "texto": "Inflamar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1937,7 +2027,9 @@
           "sabedoria_selvagem"
         ],
         "outros": [],
-        "texto": "Sabedoria Selvagem"
+        "texto": "Sabedoria Selvagem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -1969,12 +2061,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "furia_bestial"
-        ],
-        "outros": [
-          "vontade_4"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2014,7 +2105,9 @@
           "bravura_selvagem_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Bravura Selvagem 1"
+        "texto": "Nível 5, Bravura Selvagem 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2048,7 +2141,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2082,7 +2177,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2119,7 +2216,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2154,10 +2254,10 @@
         "habilidades": [
           "comunhao_com_espiritos"
         ],
-        "outros": [
-          "comunhao_com_espiritos"
-        ],
-        "texto": "Nível 5, Comunhão com Espíritos"
+        "outros": [],
+        "texto": "Nível 5, Comunhão com Espíritos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2190,7 +2290,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2230,7 +2333,9 @@
           "furtivo"
         ],
         "outros": [],
-        "texto": "Nível 5, Furtivo"
+        "texto": "Nível 5, Furtivo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2267,7 +2372,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2302,10 +2410,10 @@
         "habilidades": [
           "eloquente"
         ],
-        "outros": [
-          "eloquente_fervoroso_que_motiva_todos_seus_aliados_eles"
-        ],
-        "texto": "Nível 5, Eloquente"
+        "outros": [],
+        "texto": "Nível 5, Eloquente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2341,7 +2449,9 @@
           "melodia_do_enjoo"
         ],
         "outros": [],
-        "texto": "Nível 5, Melodia do Enjoo"
+        "texto": "Nível 5, Melodia do Enjoo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2377,7 +2487,9 @@
           "cancao_da_provocacao"
         ],
         "outros": [],
-        "texto": "Canção da Provocação"
+        "texto": "Canção da Provocação",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2413,10 +2525,10 @@
           "virtuoso",
           "cancao_desesperadora"
         ],
-        "outros": [
-          "can"
-        ],
-        "texto": "Nível 10, Virtuoso, Canção Desesperadora"
+        "outros": [],
+        "texto": "Nível 10, Virtuoso, Canção Desesperadora",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2452,7 +2564,9 @@
           "melodia_do_repouso"
         ],
         "outros": [],
-        "texto": "Melodia do Repouso"
+        "texto": "Melodia do Repouso",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2488,7 +2602,9 @@
           "melodia_do_repouso"
         ],
         "outros": [],
-        "texto": "Melodia do Repouso"
+        "texto": "Melodia do Repouso",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2522,7 +2638,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2555,7 +2674,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2589,7 +2711,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2629,7 +2753,9 @@
           "armadilheiro"
         ],
         "outros": [],
-        "texto": "Armadilheiro"
+        "texto": "Armadilheiro",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2665,7 +2791,9 @@
           "armadilheiro"
         ],
         "outros": [],
-        "texto": "Nível 5, Armadilheiro"
+        "texto": "Nível 5, Armadilheiro",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2700,10 +2828,10 @@
         "habilidades": [
           "bencao_de_ellenis"
         ],
-        "outros": [
-          "bencao_de_ellenis_cura_espiritual"
-        ],
-        "texto": "Benção de Ellenis"
+        "outros": [],
+        "texto": "Benção de Ellenis",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2735,12 +2863,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "chamas_internas_1"
-        ],
-        "outros": [
-          "vonta"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -2776,7 +2903,9 @@
           "chamas_internas_1"
         ],
         "outros": [],
-        "texto": "Chamas Internas 1"
+        "texto": "Chamas Internas 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2812,7 +2941,9 @@
           "flechas_rapidas"
         ],
         "outros": [],
-        "texto": "Flechas Rápidas"
+        "texto": "Flechas Rápidas",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2848,7 +2979,9 @@
           "chuva_de_flechas"
         ],
         "outros": [],
-        "texto": "Nível 5, Chuva de Flechas"
+        "texto": "Nível 5, Chuva de Flechas",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2884,7 +3017,9 @@
           "motivar"
         ],
         "outros": [],
-        "texto": "Nível 5, Motivar"
+        "texto": "Nível 5, Motivar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2918,7 +3053,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -2962,7 +3099,9 @@
           "combate_com_duas_armas_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Combate com Duas Armas 1."
+        "texto": "Nível 5, Combate com Duas Armas 1.",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3004,7 +3143,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3039,10 +3180,10 @@
         "habilidades": [
           "combate_tatico"
         ],
-        "outros": [
-          "combate_tatico_librio"
-        ],
-        "texto": "Combate Tático"
+        "outros": [],
+        "texto": "Combate Tático",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3075,9 +3216,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "ataque_aleijador_voce_pode_escolher_com_qual_dos_resul"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3127,7 +3269,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3171,7 +3315,9 @@
           "companheiro_animal_1"
         ],
         "outros": [],
-        "texto": "Companheiro Animal 1"
+        "texto": "Companheiro Animal 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3215,7 +3361,9 @@
           "companheiro_animal_2"
         ],
         "outros": [],
-        "texto": "Nível 5, Companheiro animal 2"
+        "texto": "Nível 5, Companheiro animal 2",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3260,7 +3408,9 @@
           "espirito_animal"
         ],
         "outros": [],
-        "texto": "Nível 5, Invocar Espírito Animal"
+        "texto": "Nível 5, Invocar Espírito Animal",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3296,7 +3446,9 @@
           "contato_com_espiritos"
         ],
         "outros": [],
-        "texto": "Contato com Espíritos"
+        "texto": "Contato com Espíritos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3333,7 +3485,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3366,7 +3521,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3403,7 +3561,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3444,7 +3605,9 @@
           "mover_terra"
         ],
         "outros": [],
-        "texto": "Nível 5, Mover Terra"
+        "texto": "Nível 5, Mover Terra",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3480,7 +3643,9 @@
           "dogma"
         ],
         "outros": [],
-        "texto": "Dogma"
+        "texto": "Dogma",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3513,7 +3678,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3549,7 +3717,9 @@
           "conjurar_lanca_do_destino"
         ],
         "outros": [],
-        "texto": "Nível 5, Conjurar Lança do Destino"
+        "texto": "Nível 5, Conjurar Lança do Destino",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3585,7 +3755,9 @@
           "exorcismo"
         ],
         "outros": [],
-        "texto": "Exorcismo"
+        "texto": "Exorcismo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3618,7 +3790,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3652,7 +3827,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3689,7 +3866,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3722,7 +3902,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3757,11 +3940,10 @@
         "habilidades": [
           "bencao_de_ellenis"
         ],
-        "outros": [
-          "bencao_de_ellenis_teja_com_os_pes_no_chao",
-          "reduzindo_seu_des"
-        ],
-        "texto": "Benção de Ellenis"
+        "outros": [],
+        "texto": "Benção de Ellenis",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3795,7 +3977,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3836,7 +4020,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3870,7 +4057,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3905,10 +4094,10 @@
         "habilidades": [
           "protecao_mistica"
         ],
-        "outros": [
-          "protecao_mistica_fazendo_com_que_eles_imediatamente_percam"
-        ],
-        "texto": "Proteção Mística"
+        "outros": [],
+        "texto": "Proteção Mística",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -3941,7 +4130,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -3976,10 +4168,10 @@
         "habilidades": [
           "ataque_aleijador"
         ],
-        "outros": [
-          "ataque_aleijador_voce_pode_escolher_com_qual_dos_resul"
-        ],
-        "texto": "Ataque Aleijador"
+        "outros": [],
+        "texto": "Ataque Aleijador",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4018,10 +4210,10 @@
         "habilidades": [
           "cariatide"
         ],
-        "outros": [
-          "cariatide_manter_golem"
-        ],
-        "texto": "Nível 5, Cariátide"
+        "outros": [],
+        "texto": "Nível 5, Cariátide",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4055,7 +4247,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4089,7 +4283,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4124,11 +4320,10 @@
         "habilidades": [
           "curar_ferimentos_1"
         ],
-        "outros": [
-          "curar_ferimentos_1_co_no_ar",
-          "ele_se_torna_uma_passagem_com_o_ta"
-        ],
-        "texto": "Nível 5, Curar Ferimentos 1"
+        "outros": [],
+        "texto": "Nível 5, Curar Ferimentos 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4163,10 +4358,10 @@
         "habilidades": [
           "exorcismo"
         ],
-        "outros": [
-          "conjurar_broquel"
-        ],
-        "texto": "Nível 5, Conjurar Broquel Místico, Exorcismo"
+        "outros": [],
+        "texto": "Nível 5, Conjurar Broquel Místico, Exorcismo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4199,7 +4394,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4213,6 +4411,42 @@
       "fonte": {
         "livro": "guia_basico_3e",
         "pagina": 112
+      }
+    },
+    {
+      "id": "codigo_da_honestidade",
+      "nome": "Código da Honestidade",
+      "categoria": "caracteristica",
+      "acao": "suporte",
+      "nivel": "basica",
+      "mana": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "dificuldade_magia": {
+        "tipo": "nenhum",
+        "valor": null
+      },
+      "requisitos": {
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
+      },
+      "origens": [
+        {
+          "tipo": "classe",
+          "id": "paladino"
+        }
+      ],
+      "descricao": "Você sempre cumpre suas promessas, não importa quão difícil isso seja, e preza a verdade acima de tudo, emanando uma aura de honestidade que deixa desconfortáveis aqueles que escondem a verdade. Você sempre saberá quando alguém estiver mentindo. Nem sempre omitir é mentir; depende das intenções da pessoa que está omitindo. Mentir é passar informações erradas propositalmente.",
+      "efeitos_estruturados": [],
+      "especial": null,
+      "fonte": {
+        "livro": "guia_basico_3e",
+        "pagina": 113
       }
     },
     {
@@ -4232,7 +4466,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4265,7 +4502,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4301,7 +4541,9 @@
           "cavaleiro_experiente"
         ],
         "outros": [],
-        "texto": "Cavaleiro Experiente"
+        "texto": "Cavaleiro Experiente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4335,7 +4577,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4370,10 +4614,10 @@
         "habilidades": [
           "danca_das_espadas_1"
         ],
-        "outros": [
-          "danca_das_espadas_1_habilidade_tecnica_reacao"
-        ],
-        "texto": "Nível 5, Dança das Espadas 1"
+        "outros": [],
+        "texto": "Nível 5, Dança das Espadas 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4407,7 +4651,11 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": "Agilidade 5."
+        "texto": "Agilidade 5.",
+        "atributos": {
+          "agilidade": 5
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -4443,7 +4691,9 @@
           "defletor"
         ],
         "outros": [],
-        "texto": "Defletor"
+        "texto": "Defletor",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4476,7 +4726,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4516,7 +4769,9 @@
           "ataque_redirecionado"
         ],
         "outros": [],
-        "texto": "Ataque Redirecionado"
+        "texto": "Ataque Redirecionado",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4548,12 +4803,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "arma_fiel"
-        ],
-        "outros": [
-          "enfeiticar_armadura_mana_20"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4590,7 +4844,9 @@
           "entrelacar"
         ],
         "outros": [],
-        "texto": "Nível 5, Entrelaçar"
+        "texto": "Nível 5, Entrelaçar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4625,10 +4881,10 @@
         "habilidades": [
           "codigo_da_coragem"
         ],
-        "outros": [
-          "codigo_da_coragem_habilidade_tecnica_suporte"
-        ],
-        "texto": "Nível 5, Código da Coragem"
+        "outros": [],
+        "texto": "Nível 5, Código da Coragem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4666,7 +4922,9 @@
           "arma_gelida"
         ],
         "outros": [],
-        "texto": "Nível 10, Arma Incandescente, Arma Gélida e Arma Relampejante"
+        "texto": "Nível 10, Arma Incandescente, Arma Gélida e Arma Relampejante",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4700,7 +4958,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4746,7 +5006,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4781,10 +5043,10 @@
         "habilidades": [
           "retesar_eficiente"
         ],
-        "outros": [
-          "retesar_eficiente_furtivo"
-        ],
-        "texto": "Retesar Eficiente"
+        "outros": [],
+        "texto": "Retesar Eficiente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4822,7 +5084,9 @@
           "aparar"
         ],
         "outros": [],
-        "texto": "Nível 5, Aparar Magia"
+        "texto": "Nível 5, Aparar Magia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -4867,7 +5131,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4898,11 +5165,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [
-          "aura_de_cura_1"
-        ],
-        "outros": []
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4939,7 +5207,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -4976,7 +5247,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5012,7 +5286,9 @@
           "relampago_2"
         ],
         "outros": [],
-        "texto": "Nível 5, Relâmpago 2"
+        "texto": "Nível 5, Relâmpago 2",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5046,7 +5322,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5090,7 +5368,9 @@
           "camuflagem"
         ],
         "outros": [],
-        "texto": "Nível 5, Camuflagem"
+        "texto": "Nível 5, Camuflagem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5131,7 +5411,9 @@
           "disparo_certeiro"
         ],
         "outros": [],
-        "texto": "Nível 5, Ataque Aleijador, Disparo Certeiro"
+        "texto": "Nível 5, Ataque Aleijador, Disparo Certeiro",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5167,7 +5449,9 @@
           "flanquear"
         ],
         "outros": [],
-        "texto": "Nível 5, Flanquear"
+        "texto": "Nível 5, Flanquear",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5201,7 +5485,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5233,11 +5519,13 @@
       },
       "requisitos": {
         "nivel_minimo": 5,
-        "habilidades": [],
-        "outros": [
-          "enfeiticar_arma_destruicao_elemental"
+        "habilidades": [
+          "enfeiticar_arma_1"
         ],
-        "texto": "Nível 5, Enfeitiçar Arma"
+        "outros": [],
+        "texto": "Nível 5, Enfeitiçar Arma",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5271,7 +5559,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5307,7 +5597,9 @@
           "sabedoria_selvagem"
         ],
         "outros": [],
-        "texto": "Sabedoria Selvagem"
+        "texto": "Sabedoria Selvagem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5339,12 +5631,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "espirito_animal"
-        ],
-        "outros": [
-          "contato_sabedoria_selvagem"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5385,7 +5676,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5432,10 +5726,10 @@
         "habilidades": [
           "brigao"
         ],
-        "outros": [
-          "brigao"
-        ],
-        "texto": "Nível 5, Brigão"
+        "outros": [],
+        "texto": "Nível 5, Brigão",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5467,10 +5761,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "grito_ensurdecedor"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5517,10 +5812,10 @@
         "habilidades": [
           "evocar_temporal"
         ],
-        "outros": [
-          "evocar_temporal_turbilhao_de_vento_em_uma_area_com_um_dia"
-        ],
-        "texto": "Nível 5, Evocar Temporal"
+        "outros": [],
+        "texto": "Nível 5, Evocar Temporal",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5555,10 +5850,10 @@
         "habilidades": [
           "principio_natural"
         ],
-        "outros": [
-          "principio_natural_mover_terra"
-        ],
-        "texto": "Princípio Natural"
+        "outros": [],
+        "texto": "Princípio Natural",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5591,9 +5886,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "protecao_mistica_fazendo_com_que_eles_imediatamente_percam"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5628,10 +5924,10 @@
         "habilidades": [
           "flanquear"
         ],
-        "outros": [
-          "flanquear_habilidade_caracteristica_suporte"
-        ],
-        "texto": "Nível 5, Flanquear"
+        "outros": [],
+        "texto": "Nível 5, Flanquear",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5664,7 +5960,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5705,7 +6004,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5741,7 +6043,9 @@
           "lingua_afiada"
         ],
         "outros": [],
-        "texto": "Nível 5, Língua Afiada"
+        "texto": "Nível 5, Língua Afiada",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5774,9 +6078,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "ataque_alei_sarios_estiverem_adjacentes_a"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5809,7 +6114,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5842,9 +6150,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "retesar_eficiente_furtivo"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5877,7 +6186,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5910,7 +6222,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -5946,7 +6261,9 @@
           "bencao_de_ellenis"
         ],
         "outros": [],
-        "texto": "Benção de Ellenis"
+        "texto": "Benção de Ellenis",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -5982,7 +6299,9 @@
           "forma_animal_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Forma Animal 1"
+        "texto": "Nível 5, Forma Animal 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6017,10 +6336,12 @@
         "habilidades": [
           "raca_florestal"
         ],
-        "outros": [
-          "vontade_5"
-        ],
-        "texto": "Raça Florestal, Vontade 5"
+        "outros": [],
+        "texto": "Raça Florestal, Vontade 5",
+        "atributos": {
+          "vontade": 5
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -6053,7 +6374,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6089,7 +6413,9 @@
           "ataque_do_bufalo"
         ],
         "outros": [],
-        "texto": "Nível 5, Ataque do Búfalo"
+        "texto": "Nível 5, Ataque do Búfalo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6123,7 +6449,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6159,7 +6487,9 @@
           "bons_frutos"
         ],
         "outros": [],
-        "texto": "Bons Frutos"
+        "texto": "Bons Frutos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6192,9 +6522,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "sempre_realiza_seus_testes_para_se_esconder"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6227,9 +6558,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "eloquente_mana_20"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6270,7 +6602,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6304,7 +6639,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6337,7 +6674,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6370,7 +6710,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6406,10 +6749,10 @@
           "entrelacar",
           "rajada_de_espinhos"
         ],
-        "outros": [
-          "rajada"
-        ],
-        "texto": "Nível 5, Entrelaçar, Rajada de Espinhos"
+        "outros": [],
+        "texto": "Nível 5, Entrelaçar, Rajada de Espinhos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6442,9 +6785,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "defle_um_escudo_causa_dano_igual_a"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6479,10 +6823,10 @@
         "habilidades": [
           "nocautear"
         ],
-        "outros": [
-          "nocautear"
-        ],
-        "texto": "Nocautear"
+        "outros": [],
+        "texto": "Nocautear",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6518,7 +6862,9 @@
           "golpe_devastador_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Golpe Devastador 1"
+        "texto": "Nível 5, Golpe Devastador 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6553,10 +6899,10 @@
         "habilidades": [
           "enfeiticar_arma_1"
         ],
-        "outros": [
-          "enfeiticar_arma_1"
-        ],
-        "texto": "Nível 5, Enfeitiçar Arma 1"
+        "outros": [],
+        "texto": "Nível 5, Enfeitiçar Arma 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6588,10 +6934,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "combate_tatico"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6627,10 +6974,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "toque_mistico"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6663,7 +7011,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6704,7 +7055,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6748,7 +7102,9 @@
           "grito_de_guerra_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Grito de Guerra 1"
+        "texto": "Nível 5, Grito de Guerra 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6792,7 +7148,9 @@
           "grito_de_guerra_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Grito de Guerra 1"
+        "texto": "Nível 5, Grito de Guerra 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6828,10 +7186,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "grito_ensurdecedor"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6867,7 +7226,9 @@
           "grito_ensurdecedor"
         ],
         "outros": [],
-        "texto": "Grito Ensurdecedor"
+        "texto": "Grito Ensurdecedor",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6903,7 +7264,9 @@
           "forma_animal_2"
         ],
         "outros": [],
-        "texto": "Nível 10, Forma Animal 2"
+        "texto": "Nível 10, Forma Animal 2",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -6936,7 +7299,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -6980,7 +7346,9 @@
           "guerreiro_de_aco_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Guerreiro de Aço 1"
+        "texto": "Nível 5, Guerreiro de Aço 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7021,7 +7389,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -7054,7 +7425,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -7086,10 +7460,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "heranca_feerica"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -7129,7 +7504,9 @@
           "sabedoria_selvagem"
         ],
         "outros": [],
-        "texto": "Sabedoria Selvagem"
+        "texto": "Sabedoria Selvagem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7174,10 +7551,10 @@
           "sabedoria_selvagem",
           "principio_natural"
         ],
-        "outros": [
-          "principio_na"
-        ],
-        "texto": "Nível 10, Princípio Natural, Companheiro Animal 1, Sabedoria Selvagem"
+        "outros": [],
+        "texto": "Nível 10, Princípio Natural, Companheiro Animal 1, Sabedoria Selvagem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7212,10 +7589,12 @@
         "habilidades": [
           "fortaleza"
         ],
-        "outros": [
-          "vontade_5"
-        ],
-        "texto": "Fortaleza, Vontade 5"
+        "outros": [],
+        "texto": "Fortaleza, Vontade 5",
+        "atributos": {
+          "vontade": 5
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -7250,11 +7629,10 @@
         "habilidades": [
           "sem_escapatoria"
         ],
-        "outros": [
-          "sem_escapatoria_vida",
-          "5_pontos_de_mana"
-        ],
-        "texto": "Nível 5, Sem Escapatória"
+        "outros": [],
+        "texto": "Nível 5, Sem Escapatória",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7303,10 +7681,10 @@
       "requisitos": {
         "nivel_minimo": 5,
         "habilidades": [],
-        "outros": [
-          "dobro_em_confrontos_para_tentar_esconder_ou"
-        ],
-        "texto": "Nível 5"
+        "outros": [],
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7341,10 +7719,10 @@
         "habilidades": [
           "comunhao_com_espiritos"
         ],
-        "outros": [
-          "comunhao_com_es_pode_cancela_lo_a_qualquer_momento"
-        ],
-        "texto": "Nível 5, Comunhão com Espíritos"
+        "outros": [],
+        "texto": "Nível 5, Comunhão com Espíritos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7379,10 +7757,10 @@
         "habilidades": [
           "inferno"
         ],
-        "outros": [
-          "inferno_invocar_elemental_3"
-        ],
-        "texto": "Nível 5, Inferno"
+        "outros": [],
+        "texto": "Nível 5, Inferno",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7418,7 +7796,9 @@
           "bola_de_fogo"
         ],
         "outros": [],
-        "texto": "Nível 5, Bola de Fogo"
+        "texto": "Nível 5, Bola de Fogo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7452,7 +7832,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -7488,10 +7871,10 @@
           "detectar_magia",
           "inflamar"
         ],
-        "outros": [
-          "detectar_magia"
-        ],
-        "texto": "Detectar Magia, Inflamar"
+        "outros": [],
+        "texto": "Detectar Magia, Inflamar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7524,10 +7907,16 @@
       "requisitos": {
         "nivel_minimo": 10,
         "habilidades": [],
-        "outros": [
-          "dois_codigos_quaisquer"
-        ],
-        "texto": "Nível 10, Dois Códigos Quaisquer"
+        "outros": [],
+        "texto": "Nível 10, Dois Códigos Quaisquer",
+        "atributos": {},
+        "condicoes": [
+          {
+            "tipo": "habilidade_nome_prefixo",
+            "prefixo": "Código da",
+            "quantidade_minima": 2
+          }
+        ]
       },
       "origens": [
         {
@@ -7559,10 +7948,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "heranca_feerica"
-        ],
-        "outros": []
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -7596,7 +7986,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7632,7 +8024,9 @@
           "golpe_com_escudo"
         ],
         "outros": [],
-        "texto": "Nível 5, Golpe com Escudo"
+        "texto": "Nível 5, Golpe com Escudo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7663,11 +8057,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [
-          "ataque_do_bufalo"
-        ],
-        "outros": []
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -7707,7 +8102,9 @@
           "heranca_feerica"
         ],
         "outros": [],
-        "texto": "Herança Feérica"
+        "texto": "Herança Feérica",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7748,7 +8145,9 @@
           "inflamar"
         ],
         "outros": [],
-        "texto": "Congelar e Inflamar"
+        "texto": "Congelar e Inflamar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7784,7 +8183,9 @@
           "invocar_elemental_1"
         ],
         "outros": [],
-        "texto": "Invocar Elemental 1"
+        "texto": "Invocar Elemental 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7819,10 +8220,10 @@
         "habilidades": [
           "invocar_elemental_2"
         ],
-        "outros": [
-          "invocar_elemental_2"
-        ],
-        "texto": "Nível 5, Invocar Elemental 2"
+        "outros": [],
+        "texto": "Nível 5, Invocar Elemental 2",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7859,7 +8260,9 @@
           "espirito_animal"
         ],
         "outros": [],
-        "texto": "Espírito Animal, Contato com Espíritos"
+        "texto": "Espírito Animal, Contato com Espíritos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7893,7 +8296,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7929,7 +8334,9 @@
           "codigo_da_justica"
         ],
         "outros": [],
-        "texto": "Código da Justiça"
+        "texto": "Código da Justiça",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -7964,10 +8371,10 @@
         "habilidades": [
           "justica_final_1"
         ],
-        "outros": [
-          "habilidade_tecnica_acao"
-        ],
-        "texto": "Nível 5, Justiça Final 1"
+        "outros": [],
+        "texto": "Nível 5, Justiça Final 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8002,10 +8409,10 @@
         "habilidades": [
           "telecinesia"
         ],
-        "outros": [
-          "telecinesia_vida_ao_inves_de_sofrer_dano_ela_pode_supor"
-        ],
-        "texto": "Telecinésia"
+        "outros": [],
+        "texto": "Telecinésia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8041,7 +8448,9 @@
           "heranca_feerica"
         ],
         "outros": [],
-        "texto": "Herança Feérica"
+        "texto": "Herança Feérica",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8080,10 +8489,10 @@
         "habilidades": [
           "eloquente"
         ],
-        "outros": [
-          "eloquente_mana_20"
-        ],
-        "texto": "Eloquente"
+        "outros": [],
+        "texto": "Eloquente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8124,7 +8533,9 @@
           "aptidao_elemental"
         ],
         "outros": [],
-        "texto": "Nível 10, Resistência Elemental, Aptidão Elemental"
+        "texto": "Nível 10, Resistência Elemental, Aptidão Elemental",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8157,7 +8568,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -8197,7 +8611,9 @@
           "criar_golem"
         ],
         "outros": [],
-        "texto": "Nível 5, Criar Golem"
+        "texto": "Nível 5, Criar Golem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8230,10 +8646,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "eletricidade_estatica_dificuldade_da_magia_12"
-        ],
-        "texto": "Eletricidade Estática"
+        "outros": [],
+        "texto": "Eletricidade Estática",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8267,7 +8683,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8302,10 +8720,10 @@
         "habilidades": [
           "cacador_de_criatura"
         ],
-        "outros": [
-          "cacador_de_criatura_vamente_1_dos_dados"
-        ],
-        "texto": "Nível 5, Caçador de [Criatura]"
+        "outros": [],
+        "texto": "Nível 5, Caçador de [Criatura]",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8340,10 +8758,10 @@
         "habilidades": [
           "melodia_dancante"
         ],
-        "outros": [
-          "melodia_dancante_musica"
-        ],
-        "texto": "Nível 5, Melodia Dançante"
+        "outros": [],
+        "texto": "Nível 5, Melodia Dançante",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8377,7 +8795,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8411,7 +8831,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8444,7 +8866,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -8480,7 +8905,9 @@
           "cancao_da_sereia"
         ],
         "outros": [],
-        "texto": "Nível 5, Canção da Sereia"
+        "texto": "Nível 5, Canção da Sereia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8516,7 +8943,9 @@
           "melodia_do_repouso"
         ],
         "outros": [],
-        "texto": "Melodia do Repouso"
+        "texto": "Melodia do Repouso",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8550,7 +8979,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8586,12 +9017,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "chamas_internas_1"
-        ],
-        "outros": [
-          "vonta"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -8626,11 +9056,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [
-          "furtivo"
-        ],
-        "outros": []
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -8665,10 +9096,10 @@
         "habilidades": [
           "mestre_das_adagas_1"
         ],
-        "outros": [
-          "talvez_fuligem_ou_barro_quando_puder_usar"
-        ],
-        "texto": "Mestre das Adagas 1"
+        "outros": [],
+        "texto": "Mestre das Adagas 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8703,10 +9134,10 @@
         "habilidades": [
           "mestre_das_adagas_2"
         ],
-        "outros": [
-          "mestre_das_adagas_2_aquela_acao_ao_inves_disso"
-        ],
-        "texto": "Nível 5, Mestre das Adagas 2"
+        "outros": [],
+        "texto": "Nível 5, Mestre das Adagas 2",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8737,11 +9168,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
+        "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "melodia_do_enjoo"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -8774,7 +9206,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -8815,10 +9250,10 @@
       "requisitos": {
         "nivel_minimo": 5,
         "habilidades": [],
-        "outros": [
-          "habilidade_tecnica_suporte"
-        ],
-        "texto": "Nível 5"
+        "outros": [],
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8855,11 +9290,12 @@
       "requisitos": {
         "nivel_minimo": 10,
         "habilidades": [
-          "mestre_de_armas_2",
-          "combate_com_duas_armas_2"
+          "mestre_de_armas_2"
         ],
         "outros": [],
-        "texto": "Nível 10, Mestre de Armas 2"
+        "texto": "Nível 10, Mestre de Armas 2",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8893,7 +9329,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8927,7 +9365,9 @@
         "nivel_minimo": 10,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 10"
+        "texto": "Nível 10",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8962,10 +9402,10 @@
         "habilidades": [
           "codigo_da_cortesia"
         ],
-        "outros": [
-          "codigo_da_cortesia_mana_10"
-        ],
-        "texto": "Código da Cortesia"
+        "outros": [],
+        "texto": "Código da Cortesia",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -8996,16 +9436,15 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
+        "nivel_minimo": null,
         "habilidades": [
           "montaria_especial_1",
-          "codigo_da_justica",
           "codigo_da_coragem"
         ],
-        "outros": [
-          "codigo_requisito"
-        ],
-        "texto": "Montaria Especial 1, Código da Coragem"
+        "outros": [],
+        "texto": "Montaria Especial 1, Código da Coragem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9038,10 +9477,13 @@
       "requisitos": {
         "nivel_minimo": 5,
         "habilidades": [
-          "montaria_especial_2"
+          "montaria_especial_2",
+          "codigo_da_honestidade"
         ],
         "outros": [],
-        "texto": "Nível 5, Montaria Especial 2, Código da Honestidade"
+        "texto": "Nível 5, Montaria Especial 2, Código da Honestidade",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9074,7 +9516,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -9110,7 +9555,9 @@
           "codigo_da_lealdade"
         ],
         "outros": [],
-        "texto": "Código da Lealdade"
+        "texto": "Código da Lealdade",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9146,7 +9593,9 @@
           "principio_natural"
         ],
         "outros": [],
-        "texto": "Princípio Natural"
+        "texto": "Princípio Natural",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9181,10 +9630,10 @@
         "habilidades": [
           "dancarino_do_ar"
         ],
-        "outros": [
-          "dancarino_do_ar"
-        ],
-        "texto": "Dançarino do Ar"
+        "outros": [],
+        "texto": "Dançarino do Ar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9220,7 +9669,9 @@
           "acrobata"
         ],
         "outros": [],
-        "texto": "Acrobata"
+        "texto": "Acrobata",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9258,7 +9709,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9292,7 +9745,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9330,7 +9785,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9364,7 +9821,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9404,7 +9863,9 @@
           "sorte"
         ],
         "outros": [],
-        "texto": "Sorte"
+        "texto": "Sorte",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9440,7 +9901,9 @@
           "disparo_certeiro"
         ],
         "outros": [],
-        "texto": "Nível 5, Disparo Certeiro"
+        "texto": "Nível 5, Disparo Certeiro",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9476,7 +9939,9 @@
           "evocar_temporal"
         ],
         "outros": [],
-        "texto": "Nível 5, Evocar Temporal"
+        "texto": "Nível 5, Evocar Temporal",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9509,7 +9974,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -9545,7 +10013,9 @@
           "arma_incandescente"
         ],
         "outros": [],
-        "texto": "Arma Incandescente"
+        "texto": "Arma Incandescente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9580,11 +10050,10 @@
         "habilidades": [
           "arma_gelida"
         ],
-        "outros": [
-          "arma_gelida_resistencia_a_fogo",
-          "frio_ou_eletricidade_o"
-        ],
-        "texto": "Arma Gélida"
+        "outros": [],
+        "texto": "Arma Gélida",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9620,7 +10089,9 @@
           "arma_relampejante"
         ],
         "outros": [],
-        "texto": "Arma Relampejante"
+        "texto": "Arma Relampejante",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9656,7 +10127,9 @@
           "ataque_fantasma"
         ],
         "outros": [],
-        "texto": "Ataque Fantasma"
+        "texto": "Ataque Fantasma",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9691,12 +10164,10 @@
         "habilidades": [
           "convocar_animais"
         ],
-        "outros": [
-          "convocar_animais_fabricacao",
-          "aplicacao",
-          "cura_de_venenos_voce"
-        ],
-        "texto": "Nível 5, Convocar Animais"
+        "outros": [],
+        "texto": "Nível 5, Convocar Animais",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9731,10 +10202,10 @@
         "habilidades": [
           "lingua_afiada"
         ],
-        "outros": [
-          "lingua_afiada_combate_com_duas_armas_2"
-        ],
-        "texto": "Língua Afiada"
+        "outros": [],
+        "texto": "Língua Afiada",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9765,11 +10236,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [
-          "golpe_devastador_1"
-        ],
-        "outros": []
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -9808,10 +10280,10 @@
         "habilidades": [
           "congelar"
         ],
-        "outros": [
-          "invocar_elemental_1_requisito_congelar"
-        ],
-        "texto": "Congelar"
+        "outros": [],
+        "texto": "Congelar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9845,7 +10317,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9878,7 +10352,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -9911,7 +10388,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -9945,7 +10425,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -9978,7 +10460,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10012,7 +10497,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10045,7 +10532,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10080,10 +10570,10 @@
         "habilidades": [
           "primaz"
         ],
-        "outros": [
-          "primaz"
-        ],
-        "texto": "Nível 10, Primaz"
+        "outros": [],
+        "texto": "Nível 10, Primaz",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10119,7 +10609,9 @@
           "caminhada_magica"
         ],
         "outros": [],
-        "texto": "Nível 5, Caminhada Mágica"
+        "texto": "Nível 5, Caminhada Mágica",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10152,7 +10644,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10187,10 +10682,10 @@
         "habilidades": [
           "disparo_certeiro"
         ],
-        "outros": [
-          "disparo_certeiro"
-        ],
-        "texto": "Disparo Certeiro"
+        "outros": [],
+        "texto": "Disparo Certeiro",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10223,9 +10718,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "heranca_feerica_das_capacidades_da_criatura"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10261,7 +10757,9 @@
           "asceta"
         ],
         "outros": [],
-        "texto": "Nível 5, Asceta"
+        "texto": "Nível 5, Asceta",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10294,7 +10792,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10330,7 +10831,9 @@
           "parede_de_gelo"
         ],
         "outros": [],
-        "texto": "Nível 5, Parede de Gelo"
+        "texto": "Nível 5, Parede de Gelo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10366,7 +10869,9 @@
           "toque_mistico"
         ],
         "outros": [],
-        "texto": "Toque Místico"
+        "texto": "Toque Místico",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10401,10 +10906,10 @@
         "habilidades": [
           "mover_terra"
         ],
-        "outros": [
-          "mover_terra_do_companheiro_animal_seguindo_as_mes"
-        ],
-        "texto": "Nível 5, Mover Terra"
+        "outros": [],
+        "texto": "Nível 5, Mover Terra",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10440,7 +10945,9 @@
           "curar_ferimentos_1"
         ],
         "outros": [],
-        "texto": "Curar Ferimentos 1"
+        "texto": "Curar Ferimentos 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10476,7 +10983,9 @@
           "sabedoria_selvagem"
         ],
         "outros": [],
-        "texto": "Sabedoria Selvagem"
+        "texto": "Sabedoria Selvagem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10512,7 +11021,9 @@
           "congelar"
         ],
         "outros": [],
-        "texto": "Congelar"
+        "texto": "Congelar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10547,10 +11058,10 @@
         "habilidades": [
           "principio_natural"
         ],
-        "outros": [
-          "principio_natural_o_selo_mistico_se_dissipa_imediatamen"
-        ],
-        "texto": "Princípio Natural"
+        "outros": [],
+        "texto": "Princípio Natural",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10581,11 +11092,12 @@
         "valor": 8
       },
       "requisitos": {
-        "nivel_minimo": 5,
+        "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "mente_disciplinada"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10618,7 +11130,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10659,7 +11174,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10697,7 +11215,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": "Eletricidade Estática"
+        "texto": "Eletricidade Estática",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10733,7 +11253,9 @@
           "relampago_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Relâmpago 1"
+        "texto": "Nível 5, Relâmpago 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10767,7 +11289,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10807,7 +11331,9 @@
           "corte_arterial"
         ],
         "outros": [],
-        "texto": "Nível 5, Corte Arterial"
+        "texto": "Nível 5, Corte Arterial",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10841,7 +11367,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10876,10 +11404,10 @@
         "habilidades": [
           "ataque_redirecionado"
         ],
-        "outros": [
-          "danca_das_espadas_1_habilidade_tecnica_reacao"
-        ],
-        "texto": "Nível 5, Ataque Redirecionado"
+        "outros": [],
+        "texto": "Nível 5, Ataque Redirecionado",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10915,12 +11443,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "furia_bestial"
-        ],
-        "outros": [
-          "vontade_4"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -10958,7 +11485,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -10994,7 +11523,9 @@
           "rugido_do_predador"
         ],
         "outros": [],
-        "texto": "Rugido do Predador"
+        "texto": "Rugido do Predador",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11026,12 +11557,11 @@
       },
       "requisitos": {
         "nivel_minimo": null,
-        "habilidades": [
-          "espirito_animal"
-        ],
-        "outros": [
-          "contato_sabedoria_selvagem"
-        ]
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -11062,12 +11592,12 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
+        "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "entrelacar_conforme_voce_se_desloca",
-          "permanecendo"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -11111,7 +11641,9 @@
           "combate_tatico"
         ],
         "outros": [],
-        "texto": "Combate Tático"
+        "texto": "Combate Tático",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11158,14 +11690,14 @@
         "valor": null
       },
       "requisitos": {
-        "nivel_minimo": 5,
+        "nivel_minimo": 10,
         "habilidades": [
           "touche"
         ],
-        "outros": [
-          "habilidade_tecnica_suporte"
-        ],
-        "texto": "Nível 10, Touché"
+        "outros": [],
+        "texto": "Nível 10, Touché",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11199,7 +11731,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11232,7 +11766,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -11271,10 +11808,12 @@
         "habilidades": [
           "chamas_internas_1"
         ],
-        "outros": [
-          "vonta"
-        ],
-        "texto": "Chamas Internas 1, Vontade 5"
+        "outros": [],
+        "texto": "Chamas Internas 1, Vontade 5",
+        "atributos": {
+          "vontade": 5
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -11308,7 +11847,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11340,11 +11881,12 @@
         "texto": "Variável."
       },
       "requisitos": {
-        "nivel_minimo": 5,
-        "habilidades": [
-          "aparar_magia"
-        ],
-        "outros": []
+        "nivel_minimo": null,
+        "habilidades": [],
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -11380,7 +11922,9 @@
           "levitar"
         ],
         "outros": [],
-        "texto": "Levitar"
+        "texto": "Levitar",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11416,7 +11960,9 @@
           "teleporte_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Teleporte 1"
+        "texto": "Nível 5, Teleporte 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11452,7 +11998,9 @@
           "rajada_de_gelo"
         ],
         "outros": [],
-        "texto": "Nível 5, Rajada de Gelo"
+        "texto": "Nível 5, Rajada de Gelo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11488,7 +12036,9 @@
           "golpes_rapidos"
         ],
         "outros": [],
-        "texto": "Nível 5, Golpes Rápidos"
+        "texto": "Nível 5, Golpes Rápidos",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11519,11 +12069,12 @@
         "valor": 10
       },
       "requisitos": {
-        "nivel_minimo": 5,
+        "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "conjurar_lanca_do"
-        ]
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -11557,7 +12108,9 @@
         "nivel_minimo": null,
         "habilidades": [],
         "outros": [],
-        "texto": ""
+        "texto": "",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11592,10 +12145,10 @@
         "habilidades": [
           "defesa_agressiva"
         ],
-        "outros": [
-          "defesa_agressiva_voroso_que_motiva_todos_seus_aliados_voce"
-        ],
-        "texto": "Defesa Agressiva"
+        "outros": [],
+        "texto": "Defesa Agressiva",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11630,10 +12183,10 @@
         "habilidades": [
           "eloquente"
         ],
-        "outros": [
-          "eloquente_o_alvo_tem_sua_moral_tao_profundamente"
-        ],
-        "texto": "Nível 5, Eloquente"
+        "outros": [],
+        "texto": "Nível 5, Eloquente",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11672,10 +12225,10 @@
         "habilidades": [
           "evasao"
         ],
-        "outros": [
-          "evasao_seu_proximo_turno"
-        ],
-        "texto": "Evasão"
+        "outros": [],
+        "texto": "Evasão",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11723,7 +12276,9 @@
           "rajada_de_agua"
         ],
         "outros": [],
-        "texto": "Rajada de Água"
+        "texto": "Rajada de Água",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11758,10 +12313,12 @@
         "habilidades": [
           "furia_bestial"
         ],
-        "outros": [
-          "vontade_4"
-        ],
-        "texto": "Fúria Bestial, Vontade 4"
+        "outros": [],
+        "texto": "Fúria Bestial, Vontade 4",
+        "atributos": {
+          "vontade": 4
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -11795,7 +12352,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11839,7 +12398,9 @@
           "forma_animal_1"
         ],
         "outros": [],
-        "texto": "Forma Animal 1"
+        "texto": "Forma Animal 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11875,7 +12436,9 @@
           "vantagem_animal_1"
         ],
         "outros": [],
-        "texto": "Nível 5, Vantagem Animal 1"
+        "texto": "Nível 5, Vantagem Animal 1",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11911,7 +12474,9 @@
           "caminhada_magica"
         ],
         "outros": [],
-        "texto": "Nível 5, Caminhada Mágica"
+        "texto": "Nível 5, Caminhada Mágica",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11947,7 +12512,9 @@
           "herbalismo"
         ],
         "outros": [],
-        "texto": "Nível 5, Herbalismo"
+        "texto": "Nível 5, Herbalismo",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -11984,7 +12551,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -12017,7 +12587,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -12053,7 +12626,9 @@
           "mestre_das_notas"
         ],
         "outros": [],
-        "texto": "Nível 5, Mestre das Notas"
+        "texto": "Nível 5, Mestre das Notas",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -12086,7 +12661,10 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": []
+        "outros": [],
+        "atributos": {},
+        "condicoes": [],
+        "texto": ""
       },
       "origens": [
         {
@@ -12119,10 +12697,12 @@
       "requisitos": {
         "nivel_minimo": null,
         "habilidades": [],
-        "outros": [
-          "forca_3"
-        ],
-        "texto": "Força 3"
+        "outros": [],
+        "texto": "Força 3",
+        "atributos": {
+          "forca": 3
+        },
+        "condicoes": []
       },
       "origens": [
         {
@@ -12155,10 +12735,16 @@
       "requisitos": {
         "nivel_minimo": 5,
         "habilidades": [],
-        "outros": [
-          "pelo_menos_uma_ha"
-        ],
-        "texto": "Nível 5, pelo menos uma Habilidade de Grito"
+        "outros": [],
+        "texto": "Nível 5, pelo menos uma Habilidade de Grito",
+        "atributos": {},
+        "condicoes": [
+          {
+            "tipo": "habilidade_nome_prefixo",
+            "prefixo": "Grito",
+            "quantidade_minima": 1
+          }
+        ]
       },
       "origens": [
         {
@@ -12192,7 +12778,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -12226,7 +12814,9 @@
         "nivel_minimo": 5,
         "habilidades": [],
         "outros": [],
-        "texto": "Nível 5"
+        "texto": "Nível 5",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
@@ -12262,7 +12852,9 @@
           "codigo_da_coragem"
         ],
         "outros": [],
-        "texto": "Código da Coragem"
+        "texto": "Código da Coragem",
+        "atributos": {},
+        "condicoes": []
       },
       "origens": [
         {
